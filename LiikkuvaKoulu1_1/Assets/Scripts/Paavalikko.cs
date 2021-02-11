@@ -16,7 +16,8 @@ public class Paavalikko : MonoBehaviour
     // Update is called once per frame
     public void Saavutukset()
     {
-        SceneManager.LoadScene("");
+        SceneManager.LoadScene("SaavutusMenu");
+        Debug.Log("SaavutusMenu");
     }
     public void Top10()
     {
