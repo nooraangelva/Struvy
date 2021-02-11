@@ -21,6 +21,7 @@ public class Paavalikko : MonoBehaviour
     }
     public void Top10()
     {
+        //SceneManager.UnloadSceneAsync("PaavalikkoMenu");
         SceneManager.LoadScene("Top10Menu");
         Debug.Log("10");
     }

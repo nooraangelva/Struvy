@@ -36,11 +36,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Saavutukset.cs" />
      <Compile Include="Assets\Scripts\Paavalikko.cs" />
      <Compile Include="Assets\Scripts\Aloitusvalikko.cs" />
-     <Compile Include="Assets\Scripts\LuoTunnus.cs" />
      <Compile Include="Assets\Scripts\KirjauduSisaan.cs" />
-     <Compile Include="Assets\Scripts\Saavutukset.cs" />
+     <Compile Include="Assets\Scripts\LuoTunnus.cs" />
+     <Compile Include="Assets\Scripts\Top10.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
