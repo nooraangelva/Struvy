@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "3df8f07c",
         "name": "com.DefaultCompany.LiikkuvaKoulu1_1",
-        "processId": 20274,
+        "processId": 26673,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -36,6 +36,12 @@
             "deviceId": "3df8f07c",
             "name": "com.DefaultCompany.LiikkuvaKoulu1_1",
             "processId": 20274,
+            "exited": false
+        },
+        {
+            "deviceId": "3df8f07c",
+            "name": "com.DefaultCompany.LiikkuvaKoulu1_1",
+            "processId": 26673,
             "exited": false
         }
     ],
