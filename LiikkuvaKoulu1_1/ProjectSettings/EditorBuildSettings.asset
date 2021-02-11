@@ -4,5 +4,23 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/AloitusMenu.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/KirjauduMenu.unity
+    guid: e1742a7f0b0b3df46a715b26320e6864
+  - enabled: 1
+    path: Assets/Scenes/PaavalikkoMenu.unity
+    guid: ddcc36054f9142541a0c5e3651eea10d
+  - enabled: 1
+    path: Assets/Scenes/SaavutusMenu.unity
+    guid: 0ce2b46830a596141870a4b640d61ab8
+  - enabled: 1
+    path: Assets/Scenes/Top10Menu.unity
+    guid: d99d8a376d0c9b84595bda135b9b496e
+  - enabled: 1
+    path: Assets/Scenes/TunnusMenu.unity
+    guid: 26794799117d8ff42ad5b8712d54d697
   m_configObjects: {}

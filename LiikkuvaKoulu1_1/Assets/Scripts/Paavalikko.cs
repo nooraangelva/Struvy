@@ -21,7 +21,8 @@ public class Paavalikko : MonoBehaviour
     }
     public void Top10()
     {
-        SceneManager.LoadScene("");
+        SceneManager.LoadScene("Top10Menu");
+        Debug.Log("10");
     }
     public void LopetaPeli()
     {
