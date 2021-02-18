@@ -10,7 +10,7 @@ public class Top10 : MonoBehaviour
     public void Paavalikko()
     {
         //SceneManager.UnloadSceneAsync("Top10Menu");
-        SceneManager.LoadScene("PaavalikkoMenu");
+        SceneManager.LoadScene(2);
         Debug.Log("Päävalikkoon");
     }
     void Update()

@@ -9,7 +9,7 @@ public class Saavutukset : MonoBehaviour
 {
     public void Paavalikkoon()
     {
-        SceneManager.LoadScene("PaavalikkoMenu");
+        SceneManager.LoadScene(2);
         Debug.Log("päävalikkoon");
     }
 

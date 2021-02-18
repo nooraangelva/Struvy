@@ -16,13 +16,13 @@ public class Paavalikko : MonoBehaviour
     // Update is called once per frame
     public void Saavutukset()
     {
-        SceneManager.LoadScene("SaavutusMenu");
+        SceneManager.LoadScene(3);
         Debug.Log("SaavutusMenu");
     }
     public void Top10()
     {
         //SceneManager.UnloadSceneAsync("PaavalikkoMenu");
-        SceneManager.LoadScene("Top10Menu");
+        SceneManager.LoadScene(4);
         Debug.Log("10");
     }
     public void LopetaPeli()
