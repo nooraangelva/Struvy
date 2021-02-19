@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/PaavalikkoMenu.unity
+- path: Assets/Scenes/KirjauduMenu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
