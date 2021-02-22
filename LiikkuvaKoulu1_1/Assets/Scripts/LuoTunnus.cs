@@ -6,19 +6,21 @@ using UnityEngine.SceneManagement;
 
 public class LuoTunnus : MonoBehaviour
 {
+    PutHaku p_haku;
+    
     GameObject info;
     GameObject u_info;
+
     Text u_kt;
     Text u_ss;
     Text u_ss2;
+
     private int response;
-    PutHaku p_haku;
     private string[] value;
-    // Start is called before the first frame update
+
     
-    void Start()
+    void Start() //Määrittelee componentit
     {
-        //u_info = GameObject.Find("TunnusVirhe").GetComponent<Text>();
         u_kt = GameObject.Find("Kayttajatunnus").GetComponent<Text>();
         u_ss = GameObject.Find("Salasana").GetComponent<Text>();
         u_ss2 = GameObject.Find("VarmistaSalasana").GetComponent<Text>();
@@ -28,8 +30,7 @@ public class LuoTunnus : MonoBehaviour
         value = new string[2];
     }
 
-    // Update is called once per frame
-    public void TunnusLuo()
+    public void TunnusLuo() //lähettää käskyn luoda tunnukset
     {
         if(u_ss == u_ss2)
         {
@@ -39,6 +40,7 @@ public class LuoTunnus : MonoBehaviour
             p_haku.data = value;
             p_haku.id = 2;
             p_haku.siirtyma = "Paavalikko";
+            
             p_haku.StartCoroutine("LocationHandler");
 
         }
@@ -46,16 +48,8 @@ public class LuoTunnus : MonoBehaviour
         {
             u_info.SetActive(true);
         }
-        /*if(response == 0)
-        {
-
-            SceneManager.LoadScene("Paavalikko");
-        }
-        else
-        {
-            u_info.SetActive(true);
-        }*/
     }
+
        void Update()
        {
 

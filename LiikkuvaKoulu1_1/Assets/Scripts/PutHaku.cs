@@ -23,39 +23,40 @@ public class PutHaku : MonoBehaviour
     public int id;
 
 
-    // Start is called before the first frame update
     void Start()
     { 
-    /*TESTI
-        
-    */
+        DontDestroyOnLoad(this);// Ei tuhoudu vaikka scene vaihtuu
     }
 
-    IEnumerator LocationHandler()
+    IEnumerator LocationHandler()// Datan lähetys, rakennus ja visualisointi "Pomo"
     {
         yield return new WaitForSeconds(1f);
 
-            //putin rakennus ja lähetys
-            Luokkatieto serveri = new Luokkatieto();
+            //putin rakennus
+            LuokkatietoPut serveri = new LuokkatietoPut();
             serveri.l_data = data;
             serveri.l_id = id;
             string jsonMessage = JsonUtility.ToJson(serveri);
 
-
+            //putin lähetys
             using (UnityWebRequest www = UnityWebRequest.Put("http://54.160.118.215/struvy/PutHaku.php", jsonMessage))
             {
                 www.SetRequestHeader("Accept", "application/json");
                 yield return www.SendWebRequest();
 
-                if (www.isNetworkError || www.isHttpError)
+                if (www.isNetworkError || www.isHttpError) //Ei onnistunut
                 {
                     Debug.Log(www.error);
 
                 }
-                else
+                else //Onnistui
                 {
                     Debug.Log("Form upload complete!");
-                    SceneManager.LoadScene(siirtyma);
+
+                    if(id == 2) //Käyttäjä luotu
+                    {
+                        SceneManager.LoadScene(siirtyma);
+                    }
                 }
             }    
         

@@ -7,31 +7,24 @@ using UnityEngine.SceneManagement;
 
 public class KirjauduSisaan : MonoBehaviour
 {
-    
+    GetHaku haku;
     GameObject info;
+
     Text kt;
     Text ss;
+
     private int response;
-    GetHaku haku;
     private string[] value;
 
-    // Start is called before the first frame update
-    void Start()
+    void Start() //Määritellään componentit
     {
-        //info = GameObject.Find("KirjauduVirhe");
         kt = GameObject.Find("Kayttajatunnus").GetComponent<Text>();
         ss = GameObject.Find("Salasana").GetComponent<Text>();
         haku = GameObject.Find("Lahettaja").GetComponent<GetHaku>();
         value = new string[1];
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    public void Kirjaudu()
+    public void Kirjaudu() //Lähettää käskyn tarkistaa tunnukset
     {
 
         value[0] = (string)kt.text;
@@ -39,18 +32,13 @@ public class KirjauduSisaan : MonoBehaviour
         haku.data = value;
         haku.id = 1;
         haku.siirtyma = "Paavalikko";
+        
         haku.info = GameObject.Find("KirjauduVirhe");
         haku.StartCoroutine("LocationHandler");
+    }
 
+    void Update()
+    {
         
-       /* if(response == 0)
-        {
-
-            SceneManager.LoadScene("Paavalikko");
-        }
-        else
-        {
-            info.SetActive(true);
-        }*/
     }
 }

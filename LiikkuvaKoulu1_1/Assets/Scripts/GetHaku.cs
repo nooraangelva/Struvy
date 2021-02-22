@@ -16,49 +16,65 @@ public class Luokkatieto
 
 public class GetHaku : MonoBehaviour
 {
+    public GameObject saavutukset;
     public GameObject info;
+
     public string siirtyma;
     public string[] data;
     public int id;
-   
-
-    // Start is called before the first frame update
+    public int r_id;
+    
     void Start()
     { 
-        DontDestroyOnLoad(this);
+        DontDestroyOnLoad(this);// Ei tuhoudu vaikka scene vaihtuu
     }
 
     IEnumerator LocationHandler()
     {
         yield return new WaitForSeconds(1f);
 
-            //getin rakennus ja lähetys
+            //getin rakennus
             Luokkatieto serveri = new Luokkatieto();
             serveri.l_data = data;
             serveri.l_id = id;
             string jsonMessage = JsonUtility.ToJson(serveri);
 
-
+            // getin lähetys
             using (UnityWebRequest www = UnityWebRequest.Get("http://54.160.118.215/struvy/GetHaku.php?"+ jsonMessage))
             {
                 www.SetRequestHeader("Accept", "application/json");
                 yield return www.SendWebRequest();
 
-                if (www.isNetworkError || www.isHttpError)
+                if (www.isNetworkError || www.isHttpError) //Haku epäonnistui
                 {
                     Debug.Log(www.error);
 
                 }
-                else
+                else //Haku onnistui
                 {
                     Debug.Log("Form upload complete!");
-                    SceneManager.LoadScene(siirtyma);
+                    
+                    if(id == 1)//Kirjautuminen
+                    {
+                        //www.downloadHandler.text;
+                        SceneManager.LoadScene(siirtyma);
+                    }
+                    else if(id == 3)// Saavutuksien laitto
+                    {
+                        saavutukset = GameObject.Find("SaavutusValikko");
+                        //www.downloadHandler.text;
+                        Debug.Log(www.downloadHandler.text);
+                    }
+                    else if(id == 4) //Top10 laitto
+                    {
+                        saavutukset = GameObject.Find("TopValikko");
+                        //www.downloadHandler.text;
+                        Debug.Log(www.downloadHandler.text);
+                    }
                 }
-            }    
-        
-
+            }       
     }
-    // Update is called once per frame
+
     void Update()
     {
         
