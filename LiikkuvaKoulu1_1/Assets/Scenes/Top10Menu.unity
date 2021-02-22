@@ -537,7 +537,7 @@ GameObject:
   - component: {fileID: 1836529736}
   - component: {fileID: 1836529740}
   m_Layer: 5
-  m_Name: Aloituvalikko
+  m_Name: TopValikko
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

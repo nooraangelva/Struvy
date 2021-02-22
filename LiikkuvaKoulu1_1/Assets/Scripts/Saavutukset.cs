@@ -7,6 +7,18 @@ using UnityEngine.UI;
 
 public class Saavutukset : MonoBehaviour
 {
+    private int response;
+    GetHaku haku;
+    private string[] value;
+
+
+    void Start()
+    {
+        haku = GameObject.Find("Lahettaja").GetComponent<GetHaku>();
+        value = new string[1];
+    }
+
+
     public void Paavalikkoon()
     {
         SceneManager.LoadScene(2);

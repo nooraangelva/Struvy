@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 74614352}
   - component: {fileID: 74614356}
   m_Layer: 5
-  m_Name: Aloituvalikko
+  m_Name: SaavutusValikko
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
