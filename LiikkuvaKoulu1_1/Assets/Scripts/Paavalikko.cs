@@ -10,7 +10,8 @@ public class Paavalikko : MonoBehaviour
     // Start is called before the first frame update
     public void Peliin()
     {
-        SceneManager.LoadScene("");
+        SceneManager.LoadScene(6);
+        Debug.Log("Avataan pelinakyma");
     }
 
     // Update is called once per frame
