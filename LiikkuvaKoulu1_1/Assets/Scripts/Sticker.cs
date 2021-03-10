@@ -10,16 +10,17 @@ public class Sticker : MonoBehaviour
 
     private string[] value;
     public int r_id;
-    private int matka;
+    public int matka, k_pisteet;
 
     void Start()
     {
-
-        haku = GameObject.Find("Lahettaja").GetComponent<GetHaku>();
-        value = new string[1];
-        HakunaMatata();
-        Transform
+        //haku = GameObject.Find("Lahettaja").GetComponent<GetHaku>();
+        //value = new string[1];
+        //HakunaMatata();
+        matka = 500;
+        
     }
+
 
     public void HakunaMatata()
     {
@@ -31,34 +32,8 @@ public class Sticker : MonoBehaviour
         matka = 10;
     }
 
-    /* protected void KohdettaPain(Vector3 to)
-    {
-     Quaternion _lookRotation = Quaternion.LookRotation((to - transform.position).normalized);
-     transform.position += _lookRotation * Vector3.forward * Time.deltaTime * move_speed;
-    }
-
-    protected IEnumerator Liikkuminen()
-     {
-         for ( ;; )
-         {
-             if (destination == new Vector3(-1f,-1f,-1f)) break; // end of path
-             moveTowards(destination);
-             yield return 0;
-         }
-     }
-     protected IEnumerator Reitti()
-     {
-         for ( ;; )
-         {
-             destination = ... // Next Point
-             if (destination == new Vector3(-1f,-1f,-1f)) break; // end of path
-             
-             while (!closeEnough()) yield return 0;
-         }
-     }*/
-
     void Update()
     {
-        
+
     }
 }
