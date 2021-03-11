@@ -11,7 +11,7 @@ public class Paavalikko : MonoBehaviour
     public void Peliin()
     {
         SceneManager.LoadScene(6);
-        Debug.Log("Avataan pelinakyma");
+        Debug.Log("Avataan pelinakyma");    
     }
 
     // Update is called once per frame
