@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "struve-2021",
+  "private_key_id": "54d0ab26028fc0eceded06bea4211d7dbd8a5328",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCdxfHHIhdneId+\nfkNLQT1peYUViExlgCcnGb84cUEjgL/0sCloXMFCFXXrSlClfgC3+ubSi0kXfF52\ny+UQ/qKwFYTGwiWBwHxZp+jJ+czwxYv7vgE+d+BbuX3Y1Zvq789/5gqZ3DgP1fvJ\nKZwZlpM7R+A5Rx7/scxtYlFQ6IjqQ+L2Jt1a9BvrgKEVwo9EoPh8th+NHWK/brzW\nqV0S0qNCaf8DaHpYuj/P0tLzl3emhiZgjTJm32w88lPQiFMsJVnXXT1SUvNg5pXy\nRf8Mdj8lTVREL2/9O3zdaP8O7xoWTn7JZZv4zjk97GH0gz/Ki2TSx8fCOmj/+40k\nLh+TU0oHAgMBAAECggEABZh39bxjdhupOoxB2LvB8NQK1fOqj02slc9s9RSB3z95\nZLU8ErkkxYeQp2f6/5OTdPL6GBeGinBdF/uCmUgJVGi+98mk85AfGOhCnP82DIgF\nFJ2YL7NStWNub4VL7VjUqXrq1KrMdjX8TcB4X9PzpCjtbo/zgoAMzwhV9/eh+3pJ\n6RASoBtLbDXs4vYcjKtM4p97AVb7HEv4ZLLvckmJopk4RiUdbJirv7zVzzePOr4C\n2plB3QPGMjdVft5yPI4ni+7id8yZqDkTehV6kbM9SukbcLWhMGCVOdzHrh8wdcDX\nvgImuursMeHamw16q3h6eRC9J7JOTZjGrMEBj674WQKBgQDcaU1n1/dSS3nIbSDN\nDLaRs0r3lNyIAhhWm0zLOGLn4XMD+Ie0tD2SB8n0y0gNysRAU6c3SEoSoLNhNWEv\nKRktMeVEGB5m0AEMjlyzJsBAO/SugMfp8VjotmuMU5jeCbJYk/kYZRvO/6n1djhU\n+A4qFt+sWDNR7URL7DNJ45kYZQKBgQC3P383TM7NIXBGhD/ctnH+wCBpoefiyS/Z\nG0/HEAoLnlQGh7uhEkkFs2k3SnxyrEw0VC7OMICoSZVKsevfzIW4VG6kFoM/j8BO\nVo16ijTXD7Q+nq8D3HoZs7XfFTAiwqL1w41BC5pt02tOGvAVRJ0aQapnp+ltENWy\nWLntlYdz+wKBgQCy2XOpDtKuYXY5j2utV2KRydXMHmvwpRqQtEXVJTUEiaklkLa1\niAfqBg33aDhYkK88r2ShdDQ+9013VLQ+a2/1f2ZVIekRbjlbse1ApfIcbUo3i2Is\nz91gQB326SLDEUU5oSDgjbLJ/iUwe7RsJjiAKL1pAMzr7sabgNeBXoCtDQKBgA4X\npADstzqvR6MkqISgw0OEIvn8qYiXUEayAwCcCym5k1ytM5C/hz4Y/g5ye/+VoIal\nsrPIpxxKDGEiLbGYWPBEDf4wfQd2VqOvpFG4LzgazRHDwlHZssonN+VgC8OglEey\nMjq+WbH4gFgRWkVIcYyDYEd4cksg8E425JWQ2knhAoGARlMW7f28QK/3rO05oEza\nPSEfa/hZ01uS4DuGjb8OeonILSee6tWEoE0dBOCaPK1REUP2jUcGXHIJC+E1bvpn\n/M37cbAilzR9BXkRncjMGX/PaVs2cmpPiMCmb75sUuwlu7Ux0RMdQ9uR1wJ5wSN7\ncSHAq7HGsanJpB6VnflVnKY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "struve2021servereditor@struve-2021.iam.gserviceaccount.com",
+  "client_id": "100411184331192108936",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/struve2021servereditor%40struve-2021.iam.gserviceaccount.com"
+}
