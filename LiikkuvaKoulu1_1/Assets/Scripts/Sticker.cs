@@ -10,24 +10,18 @@ public class Sticker : MonoBehaviour
 
     private string[] value;
     public int r_id;
-    public int matka, k_pisteet;
+    public int matka;
 
     void Start()//Liikutun matkan haun alustus
-    {
-        matka = 500;
-        
-    }
-
-
-    /*public void MatkanHaku()//matkan haku
-    {
-        value[0] = r_id.ToString();
+    {/*
+        value[0] = haku.r_id.ToString();
         haku.data = value;
         haku.id = 2;
         
-        haku.StartCoroutine("GetServeri");
-        matka = 10;
-    }*/
+        haku.StartCoroutine("GetServeri");*/
+        matka = 5;
+        
+    }
 
     void Update()
     {

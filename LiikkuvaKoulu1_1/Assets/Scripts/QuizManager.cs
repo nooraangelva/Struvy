@@ -28,7 +28,6 @@ public class QuizManager : MonoBehaviour
         haku.id = 1;
         
         //haku.StartCoroutine("GetServeri");
-        //vastaus = JsonUtility.FromJson<Response>(haku.vastaus);
     }
 
     public void correct()//kyssarin poisto ja pelin jatkuminen
@@ -53,7 +52,8 @@ public class QuizManager : MonoBehaviour
 
     void generateQuestion()//kyssarin haku
     {
-        /*currentQuestion = vastaus.kysymys;
+        /*vastaus = JsonUtility.FromJson<Response>(haku.vastaus);
+        currentQuestion = vastaus.kysymys;
         vastaukset = vastaus.vastaukset.Split("|");
         oikein = vastaus.oikein.Split("|");
 

@@ -1720,7 +1720,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 935151493}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1256, y: -1689, z: 0}
+  m_LocalPosition: {x: 1045, y: -1801, z: 0}
   m_LocalScale: {x: 77.38545, y: 76.13334, z: 117.020195}
   m_Children: []
   m_Father: {fileID: 1366345593}
@@ -1999,14 +1999,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   saavutukset: {fileID: 0}
   info: {fileID: 0}
-  siirtyma: 
-  data: []
-  id: 0
-  r_id: 0
   vastausMatka:
     matka: 
     streak: 
     pisteet: 
+  vastausKysymys:
+    kysymys: 
+    vastaukset: 
+    oikein: 
+  vastausTunnus:
+    r_id: 
+  matkaTop:
+    nimi: 
+    km: 
+  streakTop:
+    nimi: 
+    streak: 
+  siirtyma: 
+  data: []
+  id: 0
+  r_id: 0
   vastaus: 
 --- !u!4 &1124213157
 Transform:
@@ -2511,7 +2523,6 @@ GameObject:
   - component: {fileID: 1422416986}
   - component: {fileID: 1422416985}
   - component: {fileID: 1422416988}
-  - component: {fileID: 1422416987}
   m_Layer: 5
   m_Name: Sticker
   m_TagString: Untagged
@@ -2536,7 +2547,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 260, y: 260}
+  m_SizeDelta: {x: 220, y: 220}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1422416985
 MonoBehaviour:
@@ -2576,21 +2587,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1422416983}
   m_CullTransparentMesh: 1
---- !u!114 &1422416987
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1422416983}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 044e6b0594a322145bacc8beecddb706, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  r_id: 0
-  matka: 0
-  k_pisteet: 0
 --- !u!114 &1422416988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2604,8 +2600,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   r_id: 0
-  matka: 0
-  k_pisteet: 0
+  matka: 5
 --- !u!1 &1453166269
 GameObject:
   m_ObjectHideFlags: 0

@@ -36,14 +36,12 @@ public class KirjauduSisaan : MonoBehaviour
         value[1] = (string)ss.text;
         haku.data = value;
         haku.id = 1;
-        haku.siirtyma = "Paavalikko";
+        haku.siirtyma = "PaavalikkoMenu";
         
         haku.StartCoroutine("GetServeri");
 
-        if(!haku.vastaus.Contains(""))
+        if(!haku.vastausTunnus.r_id.Contains(""))
         {
-            r_id = haku.r_id;
-            SceneManager.LoadScene("PaavalikkoMenu");
             Debug.Log("Paavalikkoon");
         }
         else

@@ -7,7 +7,6 @@ using UnityEngine.SceneManagement;
 public class LuoTunnus : MonoBehaviour
 {
     PutHaku p_haku;
-    
     GameObject info;
     GameObject u_info;
     GameObject u_info2;
@@ -41,12 +40,13 @@ public class LuoTunnus : MonoBehaviour
             value[2] = (string)u_ss2.text;
             p_haku.data = value;
             p_haku.id = 2;
-            p_haku.siirtyma = "Paavalikko";
+            p_haku.siirtyma = "KirjauduMenu";
             
             p_haku.StartCoroutine("PutServeri");
+            
             if(!p_haku.vastaus.Contains(""))
             {
-                SceneManager.LoadScene("PaavalikkoMenu");
+                Debug.Log("kirjautumine");
             }
             else
             {

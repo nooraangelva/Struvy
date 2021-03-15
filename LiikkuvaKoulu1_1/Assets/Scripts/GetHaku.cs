@@ -24,11 +24,31 @@ public class GameResponse
 }
 
 [Serializable]
-public class ResponseVastaus
+public class TopMResponse
 {
-    public int kysymys;
-    public int vastaukset;
-    public int oikein;
+    public string nimi;
+    public string km;
+}
+
+[Serializable]
+public class TopSResponse
+{
+    public string nimi;
+    public string streak;
+}
+
+[Serializable]
+public class QuestionResponse
+{
+    public string kysymys;
+    public string vastaukset;
+    public string oikein;
+}
+
+[Serializable]
+public class TunnusResponse
+{
+    public string r_id;
 }
 
 public class GetHaku : MonoBehaviour
@@ -36,11 +56,16 @@ public class GetHaku : MonoBehaviour
     public GameObject saavutukset;
     public GameObject info;
 
+    public GameResponse vastausMatka;
+    public QuestionResponse vastausKysymys;
+    public TunnusResponse vastausTunnus;
+    public TopMResponse matkaTop;
+    public TopSResponse streakTop;
+
     public string siirtyma;
     public string[] data;
     public int id;
     public int r_id;
-    public GameResponse vastausMatka;
     public string vastaus;
     
     void Start()
@@ -76,18 +101,25 @@ public class GetHaku : MonoBehaviour
                     switch (id)
                     {
                         case 1: //Kirjautuminen
-                            vastaus = www.downloadHandler.text;
+                            vastausTunnus = JsonUtility.FromJson<TunnusResponse>(www.downloadHandler.text);
+                            r_id = int.Parse(vastausTunnus.r_id);
                             SceneManager.LoadScene(siirtyma);
                             break;
 
-                        case 4: // Top10 Laitto
+                        case 4: // Top10 matka ja streak Laitto
                             saavutukset = GameObject.Find("TopValikko");
-                            vastaus = www.downloadHandler.text;
+                            matkaTop = JsonUtility.FromJson<TopMResponse>(www.downloadHandler.text);
+                            Debug.Log(www.downloadHandler.text);
+                            streakTop = JsonUtility.FromJson<TopSResponse>(www.downloadHandler.text);
                             Debug.Log(www.downloadHandler.text);
                             break;
 
                         case 5: //Matka Haku
                             vastausMatka = JsonUtility.FromJson<GameResponse>(www.downloadHandler.text);
+                            break;
+
+                        case 6: //kysymys haku
+                            vastausKysymys = JsonUtility.FromJson<QuestionResponse>(www.downloadHandler.text);
                             break;
 
                         /*case 3;
@@ -96,24 +128,7 @@ public class GetHaku : MonoBehaviour
                             Debug.Log(www.downloadHandler.text);
                             break; */
                     }
-                    /*
-                    if(id == 1)//Kirjautuminen
-                    {
-                        //www.downloadHandler.text;
-                        SceneManager.LoadScene(siirtyma);
-                    }
-                    /*else if(id == 3)// Saavutuksien laitto
-                    {
-                        saavutukset = GameObject.Find("SaavutusValikko");
-                        //www.downloadHandler.text;
-                        Debug.Log(www.downloadHandler.text);
-                    }
-                    else if(id == 4) //Top10 laitto
-                    {
-                        saavutukset = GameObject.Find("TopValikko");
-                        //www.downloadHandler.text;
-                        Debug.Log(www.downloadHandler.text);
-                    }*/
+               
                 }
             }       
     }

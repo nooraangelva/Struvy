@@ -8,16 +8,17 @@ public class Top10 : MonoBehaviour
 {
     GetHaku haku;
 
-    private int response;
+    //private int response;
     private string[] value;
 
     void Start() //Lähetetään käsky hakea ja luoda Top10 jutut
     {
         haku = GameObject.Find("Lahettaja").GetComponent<GetHaku>();
-        value = new string[0];
+        value[0] = haku.r_id.ToString();
+        haku.data = value;
         haku.id = 4;
         
-        haku.StartCoroutine("LocationHandler");
+        haku.StartCoroutine("GetServeri");
     }
 
     public void Paavalikko() //Takaisin päävalikkoon nappi
@@ -25,9 +26,9 @@ public class Top10 : MonoBehaviour
         SceneManager.LoadScene(2);
         Debug.Log("Päävalikkoon");
     }
-    
+
     void Update()
     {
-        
+        //laatikoiden taytto, ja streak nakyma
     }
 }
