@@ -7,26 +7,27 @@ using UnityEngine.UI;
 
 public class Paavalikko : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public void Peliin()
+    
+    public void Peliin()//nappi, lataa peli scene 
     {
         SceneManager.LoadScene(6);
         Debug.Log("Avataan pelinakyma");    
     }
 
-    // Update is called once per frame
-    public void Saavutukset()
+    /*public void Saavutukset()//nappi, lataa 
     {
         SceneManager.LoadScene(3);
         Debug.Log("SaavutusMenu");
-    }
-    public void Top10()
+    }*/
+
+    public void Top10()//nappi, lataa top-listat scene
     {
         //SceneManager.UnloadSceneAsync("PaavalikkoMenu");
         SceneManager.LoadScene(4);
         Debug.Log("10");
     }
-    public void LopetaPeli()
+
+    public void LopetaPeli()//nappi, lopeta peli
     {
         Application.Quit();
         Debug.Log("kukkuu");

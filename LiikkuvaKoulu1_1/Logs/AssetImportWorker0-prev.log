@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.2/staging' branch; Version is '2020.2.3f1 (8ff31bc5bf5b) revision 9433883'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 18363.1379; Version 1909; 64bit' Language: 'en' Physical Memory: 16244 MB
+OS: 'Windows 10 Home; OS build 18363.1379; Version 1909; 64bit' Language: 'en' Physical Memory: 16075 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,312 +11,368 @@ C:\Program Files\Unity\Hub\Editor\2020.2.3f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/monon/OneDrive/Documents/GitHub/struvy/LiikkuvaKoulu1_1
+C:/Users/noora/Documents/StruvyProject/struvy/LiikkuvaKoulu1_1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52148
-Successfully changed project path to: C:/Users/monon/OneDrive/Documents/GitHub/struvy/LiikkuvaKoulu1_1
-C:/Users/monon/OneDrive/Documents/GitHub/struvy/LiikkuvaKoulu1_1
+62950
+Successfully changed project path to: C:/Users/noora/Documents/StruvyProject/struvy/LiikkuvaKoulu1_1
+C:/Users/noora/Documents/StruvyProject/struvy/LiikkuvaKoulu1_1
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 28.06 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 35.48 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.3f1 (8ff31bc5bf5b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/monon/OneDrive/Documents/GitHub/struvy/LiikkuvaKoulu1_1/Assets
+[Subsystems] Discovering subsystems at path C:/Users/noora/Documents/StruvyProject/struvy/LiikkuvaKoulu1_1/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Renderer: Intel(R) Iris(R) Plus Graphics (ID=0x8a52)
     Vendor:   
-    VRAM:     8122 MB
-    Driver:   27.20.100.8477
+    VRAM:     8037 MB
+    Driver:   27.20.100.8681
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002328 seconds.
+Registered in 0.002396 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 23.90 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 28.68 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.929 seconds
+- Completed reload, in  2.189 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000831 seconds.
+Registered in 0.000842 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.782 seconds
+- Completed reload, in  0.851 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1210 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.5 MB.
-System memory in use after: 59.6 MB.
+System memory in use before: 59.6 MB.
+System memory in use after: 59.7 MB.
 
 Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 1640.
-Total: 2.522000 ms (FindLiveObjects: 0.180500 ms CreateObjectMapping: 0.035400 ms MarkObjects: 2.218600 ms  DeleteObjects: 0.086400 ms)
+Total: 2.117300 ms (FindLiveObjects: 0.181100 ms CreateObjectMapping: 0.033400 ms MarkObjects: 1.732000 ms  DeleteObjects: 0.169400 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Koiratarra.png
-  artifactKey: Guid(c734c611591d0864a8ee971ac73ec87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Koiratarra.png using Guid(c734c611591d0864a8ee971ac73ec87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1fbaceed6e49d00170622e18847ec2f') in 0.170886 seconds
-  Import took 0.173178 seconds .
+  path: Assets/IMG_20200909_173715 1.png
+  artifactKey: Guid(4280403f1fc367446992d2e570086c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMG_20200909_173715 1.png using Guid(4280403f1fc367446992d2e570086c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ab307d1c37ba404962683caeb4b865') in 0.301464 seconds
+  Import took 0.304017 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000346 seconds.
+  Time since last request: 0.001735 seconds.
   path: Assets/Koiravalikkopainike.png
   artifactKey: Guid(270efa1ac04d00f478beea4b72b7923e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Koiravalikkopainike.png using Guid(270efa1ac04d00f478beea4b72b7923e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f63d52d12b2fcd8d5da1eb6201b4ed3') in 0.051901 seconds
-  Import took 0.054044 seconds .
+Start importing Assets/Koiravalikkopainike.png using Guid(270efa1ac04d00f478beea4b72b7923e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c8431a41b057313e4b60e7d1166b699') in 0.068784 seconds
+  Import took 0.071238 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000303 seconds.
+  Time since last request: 0.000474 seconds.
   path: Assets/Suomikarttareittiharmaalla.png
   artifactKey: Guid(7ef433006507e21459edb25577409576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suomikarttareittiharmaalla.png using Guid(7ef433006507e21459edb25577409576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69086199ddc47a90a5ee8d3a90432c5a') in 0.040714 seconds
-  Import took 0.042780 seconds .
+Start importing Assets/Suomikarttareittiharmaalla.png using Guid(7ef433006507e21459edb25577409576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5917f1888a5d36153475205ebb1428c2') in 0.114802 seconds
+  Import took 0.117335 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.155211 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(f7b66c42ee145314083f073e99178630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(f7b66c42ee145314083f073e99178630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372dbf1eb722462a81cb503539a77248') in 0.030809 seconds
-  Import took 0.033539 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.342982 seconds.
-  path: Assets/Scenes/Aavasaksa.unity
-  artifactKey: Guid(af099d652082d2b4b91f3363a82b6365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Aavasaksa.unity using Guid(af099d652082d2b4b91f3363a82b6365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef085f9f758bed7360d363e7dc1312c') in 0.029544 seconds
-  Import took 0.031683 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 323.429428 seconds.
-  path: Assets/StruveAavasaksa2.blend
-  artifactKey: Guid(d8258cd3ee70e4e42bbe8f90fc9b4a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StruveAavasaksa2.blend using Guid(d8258cd3ee70e4e42bbe8f90fc9b4a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a01a2825f3fca192e14211dc9a4521d') in 0.138671 seconds
-  Import took 0.141616 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 303.343524 seconds.
-  path: Assets/Struve/enoorto.png
-  artifactKey: Guid(85e978c3e41309f41aeaa6b50f9b3217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Struve/enoorto.png using Guid(85e978c3e41309f41aeaa6b50f9b3217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b0593728835316c698f1d84312fc20') in 0.037463 seconds
-  Import took 0.039860 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Struve/karttaaavasaksaorto.png
-  artifactKey: Guid(c578156d15d2c9844949c9e244ce1a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Struve/karttaaavasaksaorto.png using Guid(c578156d15d2c9844949c9e244ce1a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339d739bd0749abcee24efe6f27835fc') in 0.038929 seconds
-  Import took 0.040967 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Struve/StruveAavasaksa.blend
-  artifactKey: Guid(ac883b8ef7f1a1e47b4ed447e9f826dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Struve/StruveAavasaksa.blend using Guid(ac883b8ef7f1a1e47b4ed447e9f826dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6746a84c60600ee5c58c197ccea5dbd') in 0.073169 seconds
-  Import took 0.075775 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Struve/pyhtää2.png
-  artifactKey: Guid(0e5e7f52884a8d74c8d53fc790cd2986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Struve/pyhtää2.png using Guid(0e5e7f52884a8d74c8d53fc790cd2986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981c712fc4a00ed87c645c0bd76fb138') in 0.041684 seconds
-  Import took 0.043762 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/Struve/StruveAavasaksa2.blend
-  artifactKey: Guid(fae4ef43587170847bca1196af611e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Struve/StruveAavasaksa2.blend using Guid(fae4ef43587170847bca1196af611e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0348e87242c28015250322c104c696a5') in 0.088908 seconds
-  Import took 0.091242 seconds .
+  Time since last request: 0.000398 seconds.
+  path: Assets/Koiravalikkopainike.png
+  artifactKey: Guid(270efa1ac04d00f478beea4b72b7923e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Koiravalikkopainike.png using Guid(270efa1ac04d00f478beea4b72b7923e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c8431a41b057313e4b60e7d1166b699') in 0.037254 seconds
+  Import took 0.039286 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000313 seconds.
-  path: Assets/Struve/StruveEnontekio.blend
-  artifactKey: Guid(70516fd75a533644fbfc6c431bc3b2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Struve/StruveEnontekio.blend using Guid(70516fd75a533644fbfc6c431bc3b2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb9d37873d6d2d26095562097d46454') in 0.080203 seconds
-  Import took 0.082380 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1840.628815 seconds.
-  path: Assets/Struve/WP_20150710_058.jpg
-  artifactKey: Guid(858cd9e1dfa99384db982717420e4250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Struve/WP_20150710_058.jpg using Guid(858cd9e1dfa99384db982717420e4250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc3b6d7dcec1e15a0ef89f50c5ae61f') in 0.077077 seconds
-  Import took 0.080465 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 43.949613 seconds.
-  path: Assets/Struve/WP_20150710_058.jpg
-  artifactKey: Guid(858cd9e1dfa99384db982717420e4250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Struve/WP_20150710_058.jpg using Guid(858cd9e1dfa99384db982717420e4250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5c20043d7378fef33350857df07134') in 0.074537 seconds
-  Import took 0.077926 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1779.210508 seconds.
-  path: Assets/Struve/AavasaksaTausta.jpg
-  artifactKey: Guid(858cd9e1dfa99384db982717420e4250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Struve/AavasaksaTausta.jpg using Guid(858cd9e1dfa99384db982717420e4250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee0703d7f1db317f23e80737fe16ca31') in 0.044413 seconds
-  Import took 0.047440 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 95.706759 seconds.
-  path: Assets/Scenes/Pyhtaa.unity
-  artifactKey: Guid(ed77bec9c88e7a3479c312fd6b5946d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Pyhtaa.unity using Guid(ed77bec9c88e7a3479c312fd6b5946d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15257694104cb2624fb89c5328bee2a') in 0.030151 seconds
-  Import took 0.032522 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.326760 seconds.
-  path: Assets/Scripts/Enontekio.unity
-  artifactKey: Guid(b2fa66d708be73c4a9702d2d038c5cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Enontekio.unity using Guid(b2fa66d708be73c4a9702d2d038c5cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241550ded248163b4219989a64e042bb') in 0.028418 seconds
-  Import took 0.030513 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.736829 seconds.
-  path: Assets/Scenes/Enontekio.unity
-  artifactKey: Guid(c15ff29b9c591cf45b9b7c8f17ee309f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Enontekio.unity using Guid(c15ff29b9c591cf45b9b7c8f17ee309f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e919ac68ab033c67d7e3819002d6020a') in 0.026179 seconds
-  Import took 0.028263 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 55.172297 seconds.
-  path: Assets/Scenes/Aavasaksa.unity
-  artifactKey: Guid(af099d652082d2b4b91f3363a82b6365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Aavasaksa.unity using Guid(af099d652082d2b4b91f3363a82b6365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc322fdb437d57e969bd8a5e77da8bbe') in 0.027472 seconds
-  Import took 0.029749 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.787738 seconds.
-  path: Assets/Scenes/Enontekio.unity
-  artifactKey: Guid(c15ff29b9c591cf45b9b7c8f17ee309f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Enontekio.unity using Guid(c15ff29b9c591cf45b9b7c8f17ee309f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4273645f960c23b8c38d0b2e428639') in 0.029686 seconds
-  Import took 0.032799 seconds .
+  path: Assets/Suomikarttareittiharmaalla.png
+  artifactKey: Guid(7ef433006507e21459edb25577409576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suomikarttareittiharmaalla.png using Guid(7ef433006507e21459edb25577409576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5917f1888a5d36153475205ebb1428c2') in 0.036871 seconds
+  Import took 0.039339 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000843 seconds.
+Registered in 0.001241 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.018 seconds
+- Completed reload, in  0.886 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1204 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 63.0 MB.
-System memory in use after: 63.1 MB.
+System memory in use before: 62.6 MB.
+System memory in use after: 62.7 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1695.
-Total: 1.761900 ms (FindLiveObjects: 0.216700 ms CreateObjectMapping: 0.057100 ms MarkObjects: 1.462400 ms  DeleteObjects: 0.024500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 376.334670 seconds.
-  path: Assets/Struve/enontekio.jpg
-  artifactKey: Guid(32ba0b671b0ecaf44a2be8aa7aeb4764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Struve/enontekio.jpg using Guid(32ba0b671b0ecaf44a2be8aa7aeb4764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ce9078b525dd77f4e72721cfa5f2f5') in 0.061054 seconds
-  Import took 0.064157 seconds .
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1652.
+Total: 2.941700 ms (FindLiveObjects: 0.159100 ms CreateObjectMapping: 0.032600 ms MarkObjects: 2.692300 ms  DeleteObjects: 0.056200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 88.134970 seconds.
-  path: Assets/Struve/enontekio.jpg
-  artifactKey: Guid(32ba0b671b0ecaf44a2be8aa7aeb4764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Struve/enontekio.jpg using Guid(32ba0b671b0ecaf44a2be8aa7aeb4764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f72cd3044843772fc1ae11d1fd186b') in 0.063722 seconds
-  Import took 0.066117 seconds .
+  Time since last request: 38.903057 seconds.
+  path: Assets/Struve
+  artifactKey: Guid(54df0b355b7604c459ab5865ff4751f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Struve using Guid(54df0b355b7604c459ab5865ff4751f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ccc8021408a0e310efba70adacc5f3') in 0.010941 seconds
+  Import took 0.013031 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 42.498555 seconds.
-  path: Assets/Struve/enontekio2.jpeg
-  artifactKey: Guid(e22818c8ba2ab7546aaca9320a38dbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Struve/enontekio2.jpeg using Guid(e22818c8ba2ab7546aaca9320a38dbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974e2d511b41b590956fc8f2f77f1169') in 0.046411 seconds
-  Import took 0.049381 seconds .
+  Time since last request: 0.010100 seconds.
+  path: Assets/Struve
+  artifactKey: Guid(54df0b355b7604c459ab5865ff4751f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Struve using Guid(54df0b355b7604c459ab5865ff4751f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ccc8021408a0e310efba70adacc5f3') in 0.006290 seconds
+  Import took 0.009415 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.129484 seconds.
-  path: Assets/Struve/enontekio2.jpeg
-  artifactKey: Guid(e22818c8ba2ab7546aaca9320a38dbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Struve/enontekio2.jpeg using Guid(e22818c8ba2ab7546aaca9320a38dbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5c565066cad8ab4884df3e7d475e4c') in 0.045113 seconds
-  Import took 0.047704 seconds .
+  Time since last request: 0.028404 seconds.
+  path: Assets/Struve/AavasaksaTausta.jpg
+  artifactKey: Guid(858cd9e1dfa99384db982717420e4250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Struve/AavasaksaTausta.jpg using Guid(858cd9e1dfa99384db982717420e4250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c857f46e5898adfac71a5570b97bfb') in 0.086213 seconds
+  Import took 0.088673 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 659.741997 seconds.
+  Time since last request: 0.000616 seconds.
+  path: Assets/Struve/enoorto.png
+  artifactKey: Guid(85e978c3e41309f41aeaa6b50f9b3217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Struve/enoorto.png using Guid(85e978c3e41309f41aeaa6b50f9b3217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d0548d3d5d1a72836ee1455df9ed06') in 0.031061 seconds
+  Import took 0.033732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/Struve/karttaaavasaksaorto.png
+  artifactKey: Guid(c578156d15d2c9844949c9e244ce1a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Struve/karttaaavasaksaorto.png using Guid(c578156d15d2c9844949c9e244ce1a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7aed1668bcb92716277f40973c0a8b4') in 0.034710 seconds
+  Import took 0.038823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
   path: Assets/Struve/pyhtaa2.png
   artifactKey: Guid(42b6a5c90bfd1a24585d12c16152f5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Struve/pyhtaa2.png using Guid(42b6a5c90bfd1a24585d12c16152f5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa671198fea77f5adc8ae71093185dcb') in 0.050630 seconds
-  Import took 0.054735 seconds .
+Start importing Assets/Struve/pyhtaa2.png using Guid(42b6a5c90bfd1a24585d12c16152f5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a44a673674e383af372a108c8b121c') in 0.032694 seconds
+  Import took 0.035096 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 92.914615 seconds.
-  path: Assets/Struve/Pyhtaa1.0.blend
-  artifactKey: Guid(21281dbbb50185546914f49b5fa13085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Struve/Pyhtaa1.0.blend using Guid(21281dbbb50185546914f49b5fa13085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9cd242d3bd8b6496cfd4188f2562b3') in 0.155958 seconds
-  Import took 0.160576 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 524.539782 seconds.
+  Time since last request: 0.000349 seconds.
   path: Assets/Struve/Pyhtaa.jpg
   artifactKey: Guid(9f0e8adaa3c4f9f4da00c751a8d01b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Struve/Pyhtaa.jpg using Guid(9f0e8adaa3c4f9f4da00c751a8d01b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48771d6b0b9eb0ca9257b8002a6dc5f') in 0.044508 seconds
-  Import took 0.047406 seconds .
+Start importing Assets/Struve/Pyhtaa.jpg using Guid(9f0e8adaa3c4f9f4da00c751a8d01b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d68f096bb42b14a0773b4eebd9a13f0') in 0.058269 seconds
+  Import took 0.060856 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.597504 seconds.
-  path: Assets/Struve/Pyhtaa.jpg
-  artifactKey: Guid(9f0e8adaa3c4f9f4da00c751a8d01b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Struve/Pyhtaa.jpg using Guid(9f0e8adaa3c4f9f4da00c751a8d01b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0ea2cfac4f12d012cf1ec30b284174') in 0.061446 seconds
-  Import took 0.063995 seconds .
+  Time since last request: 0.000315 seconds.
+  path: Assets/Struve/enontekio.jpg
+  artifactKey: Guid(32ba0b671b0ecaf44a2be8aa7aeb4764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Struve/enontekio.jpg using Guid(32ba0b671b0ecaf44a2be8aa7aeb4764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '852cbb6f2a6d20a9f47b2c9561251ed3') in 0.031740 seconds
+  Import took 0.034517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Struve/pyhtää2.png
+  artifactKey: Guid(0e5e7f52884a8d74c8d53fc790cd2986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Struve/pyhtää2.png using Guid(0e5e7f52884a8d74c8d53fc790cd2986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4426d9c2d9831cba4dc0587b5c69dc4a') in 0.031258 seconds
+  Import took 0.034347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Struve/enontekio2.jpeg
+  artifactKey: Guid(e22818c8ba2ab7546aaca9320a38dbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Struve/enontekio2.jpeg using Guid(e22818c8ba2ab7546aaca9320a38dbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1f003d06fbb61a2a9f3acd590df74a') in 0.035834 seconds
+  Import took 0.038395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 317.036913 seconds.
+  path: Assets/Struve/Pyhtaa1.0.fbx
+  artifactKey: Guid(4d07fb7543721c848b6a87762771cf31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Struve/Pyhtaa1.0.fbx using Guid(4d07fb7543721c848b6a87762771cf31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c498dcef1a73e18f736c17b8779a366') in 0.240372 seconds
+  Import took 0.244390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000537 seconds.
+  path: Assets/Struve/StruveAavasaksa.fbx
+  artifactKey: Guid(0228e03bdbf510d4b82e78397b097802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Struve/StruveAavasaksa.fbx using Guid(0228e03bdbf510d4b82e78397b097802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa9e85c4d1ff65754c2ca2dd1216cdf') in 0.084538 seconds
+  Import took 0.086734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000514 seconds.
+  path: Assets/Struve/StruveEnontekio.fbx
+  artifactKey: Guid(5323865850b907e48b033ab4afd2e786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Struve/StruveEnontekio.fbx using Guid(5323865850b907e48b033ab4afd2e786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d524337699f312fa4d7ef9faf1df769') in 0.089391 seconds
+  Import took 0.092813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.762407 seconds.
+  path: Assets/Struve/StruveAavasaksa2.fbx
+  artifactKey: Guid(0e57e70252e06bf4fa262a5cfffe89a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Struve/StruveAavasaksa2.fbx using Guid(0e57e70252e06bf4fa262a5cfffe89a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ae48425998d996a85e43ae0a1e9f18') in 0.086857 seconds
+  Import took 0.090743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.579056 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(3f6fbfbbf06e5c64fa19d6604aa2b261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(3f6fbfbbf06e5c64fa19d6604aa2b261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd275a296da35b4f516abfb850d7e6c73') in 0.015879 seconds
+  Import took 0.022603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.375620 seconds.
+  path: Assets/Scripts/Pathfollower.cs
+  artifactKey: Guid(e81cf501bf3f67945b9f32b465ea4436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Pathfollower.cs using Guid(e81cf501bf3f67945b9f32b465ea4436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '396b2c99ee9bfaa9cf2b61b2da6cbea0') in 0.026530 seconds
+  Import took 0.029385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024219 seconds.
+  path: Assets/Scripts/Pathfollower.cs
+  artifactKey: Guid(e81cf501bf3f67945b9f32b465ea4436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Pathfollower.cs using Guid(e81cf501bf3f67945b9f32b465ea4436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '396b2c99ee9bfaa9cf2b61b2da6cbea0') in 0.004519 seconds
+  Import took 0.008710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1656.736295 seconds.
+  path: Assets/Scripts/Pathfollower.cs
+  artifactKey: Guid(e81cf501bf3f67945b9f32b465ea4436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Pathfollower.cs using Guid(e81cf501bf3f67945b9f32b465ea4436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6ca10771737529005be1d92b9bab1c') in 0.008366 seconds
+  Import took 0.012284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.118429 seconds.
+  path: Assets/Scripts/QuizManager.cs
+  artifactKey: Guid(ca6761e23a4f1de4bacbd85a56b1debf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QuizManager.cs using Guid(ca6761e23a4f1de4bacbd85a56b1debf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77df1bd7c39460ac04c7a133f77eeb4a') in 0.011220 seconds
+  Import took 0.013595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.475530 seconds.
+  path: Assets/Scripts/Pathfollower.cs
+  artifactKey: Guid(e81cf501bf3f67945b9f32b465ea4436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Pathfollower.cs using Guid(e81cf501bf3f67945b9f32b465ea4436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2290080051a894c76502e3a25ecf39') in 0.007865 seconds
+  Import took 0.011862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.564022 seconds.
+  path: Assets/Scripts/Pathfollower.cs
+  artifactKey: Guid(e81cf501bf3f67945b9f32b465ea4436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Pathfollower.cs using Guid(e81cf501bf3f67945b9f32b465ea4436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6c7790a3f29cf1d82c19492673384c') in 0.005627 seconds
+  Import took 0.009630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.208489 seconds.
+  path: Assets/Scripts/Pathfollower.cs
+  artifactKey: Guid(e81cf501bf3f67945b9f32b465ea4436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Pathfollower.cs using Guid(e81cf501bf3f67945b9f32b465ea4436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c504d751e5f609312c22f7e24ccfc4') in 0.007895 seconds
+  Import took 0.011486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.587294 seconds.
+  path: Assets/Scripts/Pathfollower.cs
+  artifactKey: Guid(e81cf501bf3f67945b9f32b465ea4436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Pathfollower.cs using Guid(e81cf501bf3f67945b9f32b465ea4436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b1a80fb75007e70ec60b0d00ec2cd2') in 0.007396 seconds
+  Import took 0.010166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.610372 seconds.
+  path: Assets/Scripts/QuizManager.cs
+  artifactKey: Guid(ca6761e23a4f1de4bacbd85a56b1debf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QuizManager.cs using Guid(ca6761e23a4f1de4bacbd85a56b1debf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124494872771276a668e9cd7abb169d5') in 0.005968 seconds
+  Import took 0.009188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.867900 seconds.
+  path: Assets/Scripts/QuestionsAndAnswers.cs
+  artifactKey: Guid(2b3badcffe0e0b54793880d6d9f2b5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QuestionsAndAnswers.cs using Guid(2b3badcffe0e0b54793880d6d9f2b5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93fa47ea475fed7aeefee8c2f658897') in 0.011922 seconds
+  Import took 0.015028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002318 seconds.
+  path: Assets/Scripts/QuestionsAndAnswers.cs
+  artifactKey: Guid(2b3badcffe0e0b54793880d6d9f2b5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QuestionsAndAnswers.cs using Guid(2b3badcffe0e0b54793880d6d9f2b5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93fa47ea475fed7aeefee8c2f658897') in 0.008579 seconds
+  Import took 0.011067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.091459 seconds.
+  path: Assets/Scripts/AnswerScript.cs
+  artifactKey: Guid(3d9d6f52258c5d14ca1a5f0c31dcd87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AnswerScript.cs using Guid(3d9d6f52258c5d14ca1a5f0c31dcd87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f295df6c0134c772108ba68c173f5c8') in 0.016178 seconds
+  Import took 0.019069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003767 seconds.
+  path: Assets/Scripts/AnswerScript.cs
+  artifactKey: Guid(3d9d6f52258c5d14ca1a5f0c31dcd87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AnswerScript.cs using Guid(3d9d6f52258c5d14ca1a5f0c31dcd87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f295df6c0134c772108ba68c173f5c8') in 0.006499 seconds
+  Import took 0.009273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.187090 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(f7b66c42ee145314083f073e99178630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(f7b66c42ee145314083f073e99178630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0a4b72a4a79face87f396c88f3bba9') in 0.019145 seconds
+  Import took 0.022761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.303519 seconds.
+  path: Assets/Scenes/Pelinakyma.unity
+  artifactKey: Guid(3026c451a326b3c4194e1045574e09fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pelinakyma.unity using Guid(3026c451a326b3c4194e1045574e09fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c29a0f1baacd5c00bf2a84bfe08d79f') in 0.016231 seconds
+  Import took 0.019310 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

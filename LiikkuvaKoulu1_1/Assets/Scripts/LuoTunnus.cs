@@ -10,6 +10,7 @@ public class LuoTunnus : MonoBehaviour
     
     GameObject info;
     GameObject u_info;
+    GameObject u_info2;
 
     Text u_kt;
     Text u_ss;
@@ -27,6 +28,7 @@ public class LuoTunnus : MonoBehaviour
         p_haku = GameObject.Find("Lahettaja").GetComponent<PutHaku>();
         info = GameObject.Find("Lahettaja");
         u_info = GameObject.Find("TunnusVirhe");
+        u_info2 = GameObject.Find("TunnusVarattu");
         value = new string[2];
     }
 
@@ -41,13 +43,22 @@ public class LuoTunnus : MonoBehaviour
             p_haku.id = 2;
             p_haku.siirtyma = "Paavalikko";
             
-            p_haku.StartCoroutine("LocationHandler");
-
+            p_haku.StartCoroutine("PutServeri");
+            if(!p_haku.vastaus.Contains(""))
+            {
+                SceneManager.LoadScene("PaavalikkoMenu");
+            }
+            else
+            {
+                u_info2.SetActive(true);
+            }
         }
+
         else
         {
             u_info.SetActive(true);
         }
+
     }
 
        void Update()

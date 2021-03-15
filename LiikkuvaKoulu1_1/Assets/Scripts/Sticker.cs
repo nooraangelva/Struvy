@@ -12,25 +12,22 @@ public class Sticker : MonoBehaviour
     public int r_id;
     public int matka, k_pisteet;
 
-    void Start()
+    void Start()//Liikutun matkan haun alustus
     {
-        //haku = GameObject.Find("Lahettaja").GetComponent<GetHaku>();
-        //value = new string[1];
-        //HakunaMatata();
         matka = 500;
         
     }
 
 
-    public void HakunaMatata()
+    /*public void MatkanHaku()//matkan haku
     {
         value[0] = r_id.ToString();
         haku.data = value;
         haku.id = 2;
         
-        haku.StartCoroutine("LocationHandler");
+        haku.StartCoroutine("GetServeri");
         matka = 10;
-    }
+    }*/
 
     void Update()
     {

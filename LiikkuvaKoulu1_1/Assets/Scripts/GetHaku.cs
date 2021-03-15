@@ -7,11 +7,28 @@ using UnityEngine.SceneManagement;
 #if PLATFORM_ANDROID
 using UnityEngine.Android;
 #endif
+using System;
 
 public class Luokkatieto
 {
     public string[] l_data;
     public int l_id;
+}
+
+[Serializable]
+public class GameResponse
+{
+    public string matka;
+    public string streak;
+    public string pisteet;
+}
+
+[Serializable]
+public class ResponseVastaus
+{
+    public int kysymys;
+    public int vastaukset;
+    public int oikein;
 }
 
 public class GetHaku : MonoBehaviour
@@ -23,13 +40,15 @@ public class GetHaku : MonoBehaviour
     public string[] data;
     public int id;
     public int r_id;
+    public GameResponse vastausMatka;
+    public string vastaus;
     
     void Start()
     { 
         DontDestroyOnLoad(this);// Ei tuhoudu vaikka scene vaihtuu
     }
 
-    IEnumerator LocationHandler()
+    IEnumerator GetServeri()//get haku serverille (main boss kaikille geteille)
     {
         yield return new WaitForSeconds(1f);
 
@@ -54,12 +73,36 @@ public class GetHaku : MonoBehaviour
                 {
                     Debug.Log("Form upload complete!");
                     
+                    switch (id)
+                    {
+                        case 1: //Kirjautuminen
+                            vastaus = www.downloadHandler.text;
+                            SceneManager.LoadScene(siirtyma);
+                            break;
+
+                        case 4: // Top10 Laitto
+                            saavutukset = GameObject.Find("TopValikko");
+                            vastaus = www.downloadHandler.text;
+                            Debug.Log(www.downloadHandler.text);
+                            break;
+
+                        case 5: //Matka Haku
+                            vastausMatka = JsonUtility.FromJson<GameResponse>(www.downloadHandler.text);
+                            break;
+
+                        /*case 3;
+                            saavutukset = GameObject.Find("SaavutusValikko");
+                            //www.downloadHandler.text;
+                            Debug.Log(www.downloadHandler.text);
+                            break; */
+                    }
+                    /*
                     if(id == 1)//Kirjautuminen
                     {
                         //www.downloadHandler.text;
                         SceneManager.LoadScene(siirtyma);
                     }
-                    else if(id == 3)// Saavutuksien laitto
+                    /*else if(id == 3)// Saavutuksien laitto
                     {
                         saavutukset = GameObject.Find("SaavutusValikko");
                         //www.downloadHandler.text;
@@ -70,7 +113,7 @@ public class GetHaku : MonoBehaviour
                         saavutukset = GameObject.Find("TopValikko");
                         //www.downloadHandler.text;
                         Debug.Log(www.downloadHandler.text);
-                    }
+                    }*/
                 }
             }       
     }

@@ -7,16 +7,17 @@ public class AnswerScript : MonoBehaviour
 {
     public bool isCorrect = false;
     public QuizManager quizManager;
-    public void Answer()
+
+    public void Answer()//ilmoittaa meniko vastaus oikein vai vaarin
     {
         if(isCorrect)
         {
-            Debug.Log("Vastaus meni oikein");
+            Debug.Log("Vastauksesi oli oikein.");
             quizManager.correct();
         }
         else
         {
-            Debug.Log("Olet tyhmä mene kämpille");
+            Debug.Log("Vastauksesi oli väärin.");
             quizManager.correct();
         }
     }

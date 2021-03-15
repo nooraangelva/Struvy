@@ -21,6 +21,7 @@ public class PutHaku : MonoBehaviour
     public string siirtyma;
     public string[] data;
     public int id;
+    public string vastaus;
 
 
     void Start()
@@ -28,7 +29,7 @@ public class PutHaku : MonoBehaviour
         DontDestroyOnLoad(this);// Ei tuhoudu vaikka scene vaihtuu
     }
 
-    IEnumerator LocationHandler()// Datan lähetys, rakennus ja visualisointi "Pomo"
+    IEnumerator PutServeri()// Datan lähetys, rakennus ja visualisointi "Pomo"
     {
         yield return new WaitForSeconds(1f);
 

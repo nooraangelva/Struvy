@@ -1550,7 +1550,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Tunnus jo k\xE4yt\xF6ss\xE4"
+  m_Text: "Tunnus jo k\xE4yt\xF6ss\xE4 tai virheellinen"
 --- !u!222 &1747041229
 CanvasRenderer:
   m_ObjectHideFlags: 0

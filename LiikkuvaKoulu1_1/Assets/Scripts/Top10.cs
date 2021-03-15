@@ -25,6 +25,7 @@ public class Top10 : MonoBehaviour
         SceneManager.LoadScene(2);
         Debug.Log("Päävalikkoon");
     }
+    
     void Update()
     {
         

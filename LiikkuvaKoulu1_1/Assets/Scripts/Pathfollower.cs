@@ -9,64 +9,84 @@ public class Pathfollower : MonoBehaviour
 
     Sticker koodi;
     QuizManager kyssari;
+    GetHaku haku;
+
     float Timer;
-    static Vector3 CurrentPositionHolder;
+    Vector3 CurrentPositionHolder;
+    Vector3 previouspositionHolder;
     int CurrentNode;
-    int x;
+    int matkaIndeksi;
     int y;
     int z;
-    int[] pisteet = {10, 76, 171, 247, 297, 382, 458, 538, 614, 644, 754, 830, 880, 980};
+    float siirtyma;
+    int[] pisteet = {0, 10, 76, 171, 247, 297, 382, 458, 538, 614, 644, 754, 830, 880, 980};
+    string[] value;
 
-    void Start()
+    
+
+    void Start()// alustetaan quiz ja stickkerin liike
     {
         kyssari = GameObject.Find("QuizManager").GetComponent<QuizManager>();
         sticker = GameObject.Find("Sticker");
         koodi = sticker.GetComponent<Sticker>();
         PathNode = GetComponentsInChildren<Node>();
-        CheckNode();
-        x = 0;
+        haku = GameObject.Find("Lahettaja").GetComponent<GetHaku>();
+        previouspositionHolder = PathNode[0].transform.position;
+        CurrentPositionHolder = PathNode[1].transform.position;
+
+        value[0] = haku.r_id.ToString();
+        haku.data = value;
+        haku.id = 1;
+        
+        haku.StartCoroutine("GetServeri");
+       
+
+        //CheckNode();
+        matkaIndeksi = 1;
         y = 2;// haettu tietokannasta käydyt pisteet - kesken
 
-        for(z = 0; z < y; z++)
+        //for(z = 0; z < vastaus.pisteet; z++)//poistetaan kaydyt pisteet
+        for(z = 0; z < y; z++)//poistetaan kaydyt pisteet
         {
-           // pisteet.RemoveAt(y);
+           // pisteet.RemoveAt(z);
         }
         
     }
-
-    void CheckNode()
+/*
+    void CheckNode()//pisteen vaihto
     {
         Timer = 0;
         CurrentPositionHolder = PathNode[CurrentNode].transform.position;
     }
-
-    void Update()
+*/
+    void Update()//liike ja kyssarin kaynnistys jos osuu kohalle
     {
-        if (x < koodi.matka)
+        if (pisteet[matkaIndeksi] < koodi.matka)//ryhman etenemisen verran liikutaan
         {
-            if(IndexOf(pisteet, x))
-            {
-                kyssari.generateQuestion();
-                Time.timescale = 0;
-            }
+            matkaIndeksi++;
 
-            //Timer += Time.deltaTime * 0.00771f;
-            Timer += 0.5f;
-            if(sticker.transform.position != CurrentPositionHolder)
+            //kyssari.generateQuestion(); //muista public
+            Time.timeScale = 0;//pause
+            
+
+            /*if(sticker.transform.position != CurrentPositionHolder)//jos ei oo vielä pisteeseen paassy sticker
             {
-                sticker.transform.position = Vector3.Lerp(sticker.transform.position, CurrentPositionHolder, Timer);
+                
                 Debug.Log(Timer+"="+Time.deltaTime+"*"+0.00771f);
             }
-            else
+            else// jos on pisteen kohalla, pisteen vaihto
             {
-                if (CurrentNode < PathNode.Length -1)
+                if (CurrentNode < PathNode.Length -1)//tahtays pisteen vaihto
                 {
                         CurrentNode++;
                         CheckNode();
-                        Debug.Log("kakkaa3");
+                       // Debug.Log("kakkaa3");
                 }
-            }
+            }*/
         }
-        x++;
+
+        siirtyma = 10 / pisteet[matkaIndeksi];
+        sticker.transform.position = Vector3.Lerp(previouspositionHolder, CurrentPositionHolder, siirtyma);
+
     }
 }
