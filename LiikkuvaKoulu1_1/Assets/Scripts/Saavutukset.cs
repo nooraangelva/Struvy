@@ -10,17 +10,20 @@ public class Saavutukset : MonoBehaviour
     GetHaku haku;
 
     private int response;
-    private string[] value;
+    public string[] value;
     public int r_id;
 
 
     void Start() //Lähetetään käsky hakea ja luoda saavutukset
     {
         haku = GameObject.Find("Lahettaja").GetComponent<GetHaku>();
-        value = new string[0];
+
         haku.id = 3;
-        value[1] = haku.r_id.ToString();
-        
+        value[0] = haku.r_id.ToString();
+        haku.StartCoroutine("LocationHandler");
+
+        haku.id = 2;
+        value[0] = haku.r_id.ToString();
         haku.StartCoroutine("LocationHandler");
     }
 

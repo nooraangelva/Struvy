@@ -52,11 +52,24 @@ public class PutHaku : MonoBehaviour
                 }
                 else //Onnistui
                 {
-                    Debug.Log("Form upload complete!");
-
+                    
                     if(id == 2) //Käyttäjä luotu
                     {
                         SceneManager.LoadScene(siirtyma);
+                    }
+                    switch (id)
+                    {
+                        case 2: //tilin luonti
+                            SceneManager.LoadScene(siirtyma);
+                            break;
+
+                        case 3: // kysymyksen merkkaus kysytyksi
+                            Debug.Log(www.downloadHandler.text);
+                            break;
+
+                        case 4: // lisa pisteiden laitto
+                            Debug.Log(www.downloadHandler.text);
+                            break;
                     }
                 }
             }    

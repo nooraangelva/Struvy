@@ -20,7 +20,6 @@ public class GameResponse
 {
     public string matka;
     public string streak;
-    public string pisteet;
 }
 
 [Serializable]
@@ -40,6 +39,7 @@ public class TopSResponse
 [Serializable]
 public class QuestionResponse
 {
+    public string id;
     public string kysymys;
     public string vastaukset;
     public string oikein;
@@ -106,19 +106,23 @@ public class GetHaku : MonoBehaviour
                             SceneManager.LoadScene(siirtyma);
                             break;
 
-                        case 4: // Top10 matka ja streak Laitto
+                        case 3: // Top10 streak Laitto
                             saavutukset = GameObject.Find("TopValikko");
-                            matkaTop = JsonUtility.FromJson<TopMResponse>(www.downloadHandler.text);
-                            Debug.Log(www.downloadHandler.text);
                             streakTop = JsonUtility.FromJson<TopSResponse>(www.downloadHandler.text);
                             Debug.Log(www.downloadHandler.text);
                             break;
 
-                        case 5: //Matka Haku
+                        case 4: // Top10 matka
+                            saavutukset = GameObject.Find("TopValikko");
+                            matkaTop = JsonUtility.FromJson<TopMResponse>(www.downloadHandler.text);
+                            Debug.Log(www.downloadHandler.text);
+                            break;
+
+                        case 2: //Matka Haku
                             vastausMatka = JsonUtility.FromJson<GameResponse>(www.downloadHandler.text);
                             break;
 
-                        case 6: //kysymys haku
+                        case 5: //kysymys haku
                             vastausKysymys = JsonUtility.FromJson<QuestionResponse>(www.downloadHandler.text);
                             break;
 

@@ -8,7 +8,7 @@ public class Sticker : MonoBehaviour
 {
     GetHaku haku;
 
-    private string[] value;
+    public string[] value;
     public int r_id;
     public int matka;
 
