@@ -19,7 +19,7 @@ public class Sticker : MonoBehaviour
         haku.id = 2;
         
         haku.StartCoroutine("GetServeri");*/
-        matka = 5;
+        matka = 20;
         
     }
 
