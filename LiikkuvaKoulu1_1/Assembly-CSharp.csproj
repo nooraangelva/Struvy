@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\Top10.cs" />
      <Compile Include="Assets\Scripts\LuoTunnus.cs" />
      <Compile Include="Assets\Scripts\QuizManager.cs" />
+     <Compile Include="Assets\Scripts\Unesco.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
