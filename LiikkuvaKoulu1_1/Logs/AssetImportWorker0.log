@@ -15,11 +15,11 @@ C:/Users/noora/Documents/StruvyProject/struvy/LiikkuvaKoulu1_1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62087
+52088
 Successfully changed project path to: C:/Users/noora/Documents/StruvyProject/struvy/LiikkuvaKoulu1_1
 C:/Users/noora/Documents/StruvyProject/struvy/LiikkuvaKoulu1_1
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 70.68 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 31.82 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.3f1 (8ff31bc5bf5b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/Resources/UnitySubsystems
@@ -35,53 +35,125 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56248
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56084
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004282 seconds.
+Registered in 0.001907 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 59.29 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 27.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.663 seconds
+- Completed reload, in  1.993 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001788 seconds.
+Registered in 0.000699 seconds.
 Begin MonoManager ReloadAssembly
 Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 
 Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
 
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.851 seconds
+- Completed reload, in  0.884 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1211 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 59.9 MB.
+System memory in use before: 60.0 MB.
 System memory in use after: 60.0 MB.
 
 Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 1642.
-Total: 3.796300 ms (FindLiveObjects: 0.434800 ms CreateObjectMapping: 0.111600 ms MarkObjects: 3.061300 ms  DeleteObjects: 0.186000 ms)
+Total: 1.820600 ms (FindLiveObjects: 0.167000 ms CreateObjectMapping: 0.038600 ms MarkObjects: 1.518200 ms  DeleteObjects: 0.095500 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Pelinakyma.unity
-  artifactKey: Guid(3026c451a326b3c4194e1045574e09fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Pelinakyma.unity using Guid(3026c451a326b3c4194e1045574e09fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea32786da468f0030abe44713d101832') in 0.039699 seconds
-  Import took 0.044687 seconds .
+  path: Assets/Scenes/Aavasaksa.unity
+  artifactKey: Guid(af099d652082d2b4b91f3363a82b6365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aavasaksa.unity using Guid(af099d652082d2b4b91f3363a82b6365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83a9dfa3caff80433418444eed03331') in 0.022582 seconds
+  Import took 0.025120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.953404 seconds.
+  path: Assets/Struve/AavasaksaTausta.jpg
+  artifactKey: Guid(858cd9e1dfa99384db982717420e4250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Struve/AavasaksaTausta.jpg using Guid(858cd9e1dfa99384db982717420e4250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f09912b4854e16e2c798d1fa16c22b2') in 0.180374 seconds
+  Import took 0.182768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Struve/enoorto.png
+  artifactKey: Guid(85e978c3e41309f41aeaa6b50f9b3217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Struve/enoorto.png using Guid(85e978c3e41309f41aeaa6b50f9b3217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3447b0b65ead25c6113d539f0ae844f9') in 0.072632 seconds
+  Import took 0.075050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Struve/karttaaavasaksaorto.png
+  artifactKey: Guid(c578156d15d2c9844949c9e244ce1a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Struve/karttaaavasaksaorto.png using Guid(c578156d15d2c9844949c9e244ce1a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66ee923e1f68c355ab174bdb3d229b6') in 0.066438 seconds
+  Import took 0.069750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Struve/pyhtaa2.png
+  artifactKey: Guid(42b6a5c90bfd1a24585d12c16152f5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Struve/pyhtaa2.png using Guid(42b6a5c90bfd1a24585d12c16152f5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cfd4c192092df31e93a7dc3f7d13b18') in 0.060376 seconds
+  Import took 0.062813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Struve/Pyhtaa.jpg
+  artifactKey: Guid(9f0e8adaa3c4f9f4da00c751a8d01b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Struve/Pyhtaa.jpg using Guid(9f0e8adaa3c4f9f4da00c751a8d01b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6992a7310db3a0b830e0a95d398b4488') in 0.068698 seconds
+  Import took 0.071782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Struve/enontekio.jpg
+  artifactKey: Guid(32ba0b671b0ecaf44a2be8aa7aeb4764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Struve/enontekio.jpg using Guid(32ba0b671b0ecaf44a2be8aa7aeb4764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d9f8ba2e7aa7087f2da34dd6b6b0599') in 0.064222 seconds
+  Import took 0.066143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Struve/pyhtää2.png
+  artifactKey: Guid(0e5e7f52884a8d74c8d53fc790cd2986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Struve/pyhtää2.png using Guid(0e5e7f52884a8d74c8d53fc790cd2986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b402738442522fa41c12086c5cdb08f') in 0.056776 seconds
+  Import took 0.059895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000574 seconds.
+  path: Assets/Struve/enontekio2.jpeg
+  artifactKey: Guid(e22818c8ba2ab7546aaca9320a38dbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Struve/enontekio2.jpeg using Guid(e22818c8ba2ab7546aaca9320a38dbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '699bae9e855012ea641e60d0850e926b') in 0.063237 seconds
+  Import took 0.065271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.693790 seconds.
+  path: Assets/Scenes/Enontekio.unity
+  artifactKey: Guid(c15ff29b9c591cf45b9b7c8f17ee309f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Enontekio.unity using Guid(c15ff29b9c591cf45b9b7c8f17ee309f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8172fc1c4b4e42bc159007abe4eec441') in 0.014470 seconds
+  Import took 0.017721 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
