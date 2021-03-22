@@ -44,7 +44,7 @@ public class Pathfollower : MonoBehaviour
         //videon pyorityksen alustus
         videoPlayer = camera.GetComponent<VideoPlayer>();
         videoPlayer.playOnAwake = false;
-        videoPlayer.renderMode = UnityEngine.Video.VideoRenderMode.CameraNearPlane;
+        //videoPlayer.renderMode = UnityEngine.Video.VideoRenderMode.CameraNearPlane;
         //videoPlayer.targetCameraAlpha = 0.5F;// This will cause our Scene to be visible through the video being played.
         videoPlayer.url = "Assets/video/wtp1.mp4";
         videoPlayer.isLooping = true;
@@ -60,17 +60,19 @@ public class Pathfollower : MonoBehaviour
             switch (pisteet[matkaIndeksi]) 
             {
             case 703:
-                canvas.SetActive(false);
+                //canvas.SetActive(false);
                 StartCoroutine(AsyncScene("Aavasaksa"));
                 matkaIndeksi++;
                 previouspositionHolder = PathNode[matkaIndeksi-1].transform.position;
                 CurrentPositionHolder = PathNode[matkaIndeksi].transform.position;
                 Debug.Log(matkaIndeksi);
                 //SetInt(string haku.r_id.ToString(), int pisteet[matkaIndeksi]);
+                
                 videoPlayer.Play();
+
                 break;
             case 10:
-                canvas.SetActive(false);
+                //canvas.SetActive(false);
                 //StartCoroutine(AsyncScene("Pyhtaa"));
                 matkaIndeksi++;
                 previouspositionHolder = PathNode[matkaIndeksi-1].transform.position;
@@ -80,7 +82,7 @@ public class Pathfollower : MonoBehaviour
                 videoPlayer.Play();
                 break;
             case 962:
-                canvas.SetActive(false);
+                //canvas.SetActive(false);
                 StartCoroutine(AsyncScene("Enontekio"));
                 matkaIndeksi++;
                 previouspositionHolder = PathNode[matkaIndeksi-1].transform.position;

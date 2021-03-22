@@ -13,7 +13,7 @@ public class Top10 : MonoBehaviour
 
     void Start() //Lähetetään käsky hakea ja luoda Top10 jutut
     {
-        haku = GameObject.Find("Lahettaja").GetComponent<GetHaku>();
+        /*haku = GameObject.Find("Lahettaja").GetComponent<GetHaku>();
 
         value[0] = haku.r_id.ToString();
         haku.data = value;
@@ -23,7 +23,7 @@ public class Top10 : MonoBehaviour
         value[0] = haku.r_id.ToString();
         haku.data = value;
         haku.id = 4;
-        haku.StartCoroutine("GetServeri");
+        haku.StartCoroutine("GetServeri");*/
     }
 
     public void Paavalikko() //Takaisin päävalikkoon nappi
