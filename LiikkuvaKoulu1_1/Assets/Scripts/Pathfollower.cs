@@ -14,9 +14,9 @@ public class Pathfollower : MonoBehaviour
     GetHaku haku;
     VideoPlayer videoPlayer;
     GameObject canvas;
-
     Vector3 CurrentPositionHolder;
     Vector3 previouspositionHolder;
+
     int CurrentNode;
     int matkaIndeksi;
     int y;
@@ -24,6 +24,7 @@ public class Pathfollower : MonoBehaviour
     float siirtyma;
     int[] pisteet = {0, 10, 76, 171, 247, 297, 382, 458, 538, 614, 644, 703, 754, 830, 880, 962, 980};
     string[] value;
+    string unesco;
     
 
     void Start()// alustetaan quiz ja stickkerin liike ja camera
@@ -36,19 +37,9 @@ public class Pathfollower : MonoBehaviour
         haku = GameObject.Find("Lahettaja").GetComponent<GetHaku>();
         previouspositionHolder = PathNode[0].transform.position;
         CurrentPositionHolder = PathNode[1].transform.position;
-        GameObject camera = GameObject.Find("Main Camera");
-       
-        matkaIndeksi = 1;
+        
+        matkaIndeksi = 1; //testi
         //matkaIndeksi = Getint(string KeyName);
-
-        //videon pyorityksen alustus
-        videoPlayer = camera.GetComponent<VideoPlayer>();
-        videoPlayer.playOnAwake = false;
-        //videoPlayer.renderMode = UnityEngine.Video.VideoRenderMode.CameraNearPlane;
-        //videoPlayer.targetCameraAlpha = 0.5F;// This will cause our Scene to be visible through the video being played.
-        videoPlayer.url = "Assets/video/wtp1.mp4";
-        videoPlayer.isLooping = true;
-        videoPlayer.Prepare();
 
     }
 
@@ -60,36 +51,31 @@ public class Pathfollower : MonoBehaviour
             switch (pisteet[matkaIndeksi]) 
             {
             case 703:
-                //canvas.SetActive(false);
-                StartCoroutine(AsyncScene("Aavasaksa"));
+                unesco = "Aavasaksa";
+                StartCoroutine(ExampleCoroutine());
                 matkaIndeksi++;
                 previouspositionHolder = PathNode[matkaIndeksi-1].transform.position;
                 CurrentPositionHolder = PathNode[matkaIndeksi].transform.position;
                 Debug.Log(matkaIndeksi);
                 //SetInt(string haku.r_id.ToString(), int pisteet[matkaIndeksi]);
-                
-                videoPlayer.Play();
-
                 break;
             case 10:
-                //canvas.SetActive(false);
-                //StartCoroutine(AsyncScene("Pyhtaa"));
+                unesco = "Pyhtaa";
+                StartCoroutine(ExampleCoroutine());
                 matkaIndeksi++;
                 previouspositionHolder = PathNode[matkaIndeksi-1].transform.position;
                 CurrentPositionHolder = PathNode[matkaIndeksi].transform.position;
                 Debug.Log(matkaIndeksi);
                 //SetInt(string haku.r_id.ToString(), int pisteet[matkaIndeksi]);
-                videoPlayer.Play();
                 break;
             case 962:
-                //canvas.SetActive(false);
-                StartCoroutine(AsyncScene("Enontekio"));
+                unesco = "Enontekio";
+                StartCoroutine(ExampleCoroutine());
                 matkaIndeksi++;
                 previouspositionHolder = PathNode[matkaIndeksi-1].transform.position;
                 CurrentPositionHolder = PathNode[matkaIndeksi].transform.position;
                 Debug.Log(matkaIndeksi);
                 //SetInt(string haku.r_id.ToString(), int pisteet[matkaIndeksi]);
-                videoPlayer.Play();
                 break;
             default:
                 matkaIndeksi++;
@@ -118,19 +104,20 @@ public class Pathfollower : MonoBehaviour
         return PlayerPrefs.GetInt(KeyName);
     }
 
-    IEnumerator AsyncScene(string scene)
+    
+       IEnumerator ExampleCoroutine()
     {
-        // The Application loads the Scene in the background as the current Scene runs.
-        // This is particularly good for creating loading screens.
-        // You could also load the Scene by using sceneBuildIndex. In this case Scene2 has
-        // a sceneBuildIndex of 1 as shown in Build Settings.
+        //Print the time of when the function is first called.
+        Debug.Log("Started Coroutine at timestamp : " + Time.time);
 
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(scene);
-
-        // Wait until the asynchronous scene fully loads
-        while (!asyncLoad.isDone)
-        {
-            yield return null;
-        }
+        //yield on a new YieldInstruction that waits for 5 seconds.
+        yield return new WaitForSeconds(10);
+        Debug.Log(unesco);
+        SceneManager.LoadScene(unesco);
+        //After we have waited 5 seconds print the time again.
+        Debug.Log("Finished Coroutine at timestamp : " + Time.time);
     }
+    
+
+    
 }

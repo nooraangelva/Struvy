@@ -10,7 +10,7 @@ public class Paavalikko : MonoBehaviour
     
     public void Peliin()//nappi, lataa peli scene 
     {
-        SceneManager.LoadScene(6);
+        SceneManager.LoadScene(5);
         Debug.Log("Avataan pelinakyma");    
     }
 

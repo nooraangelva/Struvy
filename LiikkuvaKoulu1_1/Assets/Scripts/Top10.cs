@@ -7,6 +7,13 @@ using UnityEngine.UI;
 public class Top10 : MonoBehaviour
 {
     GetHaku haku;
+    GameObject top10Paneeli;
+    GameObject topStreak;
+
+    Text pelaajanNimi;
+    Text pelaajanStreak;
+
+
 
     //private int response;
     public string[] value;
@@ -24,6 +31,15 @@ public class Top10 : MonoBehaviour
         haku.data = value;
         haku.id = 4;
         haku.StartCoroutine("GetServeri");*/
+
+        top10Paneeli = GameObject.Find("Top10Paneeli");
+        pelaajanNimi = GameObject.Find("PelaajanNimi").GetComponent<Text>();
+
+        topStreak = GameObject.Find("TopStreak");
+        pelaajanStreak = GameObject.Find("PelaajanStreak").GetComponent<Text>();
+
+        topStreak.SetActive(false);
+
     }
 
     public void Paavalikko() //Takaisin päävalikkoon nappi
@@ -32,8 +48,15 @@ public class Top10 : MonoBehaviour
         Debug.Log("Päävalikkoon");
     }
 
+    public void CanvasVaihto()
+    {
+        topStreak.SetActive(true);
+        top10Paneeli.SetActive(false);
+    }
+
     void Update()
     {
         //laatikoiden taytto, ja streak nakyma
+
     }
 }

@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using System;
 using UnityEngine.UI;
+using UnityEngine.Video;
 
 public class Unesco : MonoBehaviour
 {
@@ -15,10 +16,13 @@ public class Unesco : MonoBehaviour
     Quaternion rotation;
     QuizManager kyssari;
     Quaternion target;
+    VideoPlayer videoPlayer;
 
     public int info;
     float smooth = 0.3f;
     float angle = 15.0f;
+    public double time;
+    public double currentTime;
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +33,7 @@ public class Unesco : MonoBehaviour
         unescoPiste = GameObject.Find("UnescoPiste");
         unescoPiste.SetActive(false);
         info = 0;
+        VideoPlayer();
         
     }
 
@@ -36,44 +41,65 @@ public class Unesco : MonoBehaviour
     void Update()
     {
 
-        target = Quaternion.Euler(0, angle, 0);
-        // Dampen towards the target rotation
-        Camera.main.transform.rotation = Quaternion.Slerp(Camera.main.transform.rotation, target,  Time.deltaTime * smooth);
-        if(Quaternion.Euler(Camera.main.transform.localEulerAngles) == target){
+        currentTime = videoPlayer.time;
+        if (currentTime >= time) {
+            Debug.Log ("//do Stuff");
 
-            if(info == 0){
+            //videon poisto - kesken
+        
+            target = Quaternion.Euler(0, angle, 0);
+            // Dampen towards the target rotation
+            Camera.main.transform.rotation = Quaternion.Slerp(Camera.main.transform.rotation, target,  Time.deltaTime * smooth);
+            if(Quaternion.Euler(Camera.main.transform.localEulerAngles) == target){
 
-                switch (SceneManager.GetActiveScene().name) 
-                {
-                case "Aavasaksa":
-                    unescoInfo.SetActive(true);
-                    infoText.text = "Aavasaksa";
-                    info = 1;
-                    Camera.main.transform.localEulerAngles = new Vector3(0,-40,0);
-                    Time.timeScale = 0;//pause
-                    break;
-                case "Pyhtaa":
-                    unescoInfo.SetActive(true);
-                    infoText.text = "Pyhtää";
-                    info = 1;
-                    Camera.main.transform.localEulerAngles = new Vector3(0,0,0);
-                    Time.timeScale = 0;//pause
-                    break;
-                case "Enontekio":
-                    unescoInfo.SetActive(true);
-                    infoText.text = "Enontekio";
-                    info = 1;
-                    Camera.main.transform.localEulerAngles = new Vector3(0,0,0);
-                    Time.timeScale = 0;//pause
-                    break;
+                if(info == 0){
+
+                    switch (SceneManager.GetActiveScene().name) 
+                    {
+                    case "Aavasaksa":
+                        unescoInfo.SetActive(true);
+                        infoText.text = "Aavasaksa";
+                        info = 1;
+                        Camera.main.transform.localEulerAngles = new Vector3(0,-40,0);
+                        Time.timeScale = 0;//pause
+                        break;
+                    case "Pyhtaa":
+                        unescoInfo.SetActive(true);
+                        infoText.text = "Pyhtää";
+                        info = 1;
+                        Camera.main.transform.localEulerAngles = new Vector3(0,0,0);
+                        Time.timeScale = 0;//pause
+                        break;
+                    case "Enontekio":
+                        unescoInfo.SetActive(true);
+                        infoText.text = "Enontekio";
+                        info = 1;
+                        Camera.main.transform.localEulerAngles = new Vector3(0,0,0);
+                        Time.timeScale = 0;//pause
+                        break;
+                    }
                 }
-            }
-            else if(info == 1){
-                unescoPiste.SetActive(true);
-                kyssari = unescoPiste.GetComponent<QuizManager>();
-                //kyssari.generateQuestion(); 
+                else if(info == 1){
+                    unescoPiste.SetActive(true);
+                    kyssari = unescoPiste.GetComponent<QuizManager>();
+                    //kyssari.generateQuestion(); 
+                }
             }
         }
            
+    }
+
+    public void VideoPlayer(){
+
+        //videon pyorityksen alustus
+        videoPlayer = GameObject.Find("Main Camera").AddComponent<VideoPlayer>();
+        videoPlayer.playOnAwake = false;
+        videoPlayer.renderMode = UnityEngine.Video.VideoRenderMode.CameraNearPlane;
+        //videoPlayer.targetCameraAlpha = 0.5F;// This will cause our Scene to be visible through the video being played.
+        videoPlayer.url = "Assets/video/wtp1.mp4";
+        videoPlayer.isLooping = false;
+        videoPlayer.Prepare();
+        time = videoPlayer.clip.length;
+        videoPlayer.Play();
     }
 }

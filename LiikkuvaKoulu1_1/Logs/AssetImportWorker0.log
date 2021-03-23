@@ -15,11 +15,11 @@ C:/Users/noora/Documents/StruvyProject/struvy/LiikkuvaKoulu1_1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57049
+62289
 Successfully changed project path to: C:/Users/noora/Documents/StruvyProject/struvy/LiikkuvaKoulu1_1
 C:/Users/noora/Documents/StruvyProject/struvy/LiikkuvaKoulu1_1
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 30.71 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 37.70 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.3f1 (8ff31bc5bf5b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/Resources/UnitySubsystems
@@ -35,1119 +35,149 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001766 seconds.
+Registered in 0.002652 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 26.48 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 27.10 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.651 seconds
+- Completed reload, in  1.735 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000686 seconds.
+Registered in 0.000669 seconds.
 Begin MonoManager ReloadAssembly
 Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 
 Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
 
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.750 seconds
+- Completed reload, in  0.735 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1248 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1249 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 61.4 MB.
-System memory in use after: 61.4 MB.
+System memory in use after: 61.5 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 1679.
-Total: 2.097600 ms (FindLiveObjects: 0.128400 ms CreateObjectMapping: 0.040200 ms MarkObjects: 1.717000 ms  DeleteObjects: 0.210800 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Koiratarra.png
-  artifactKey: Guid(c734c611591d0864a8ee971ac73ec87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Koiratarra.png using Guid(c734c611591d0864a8ee971ac73ec87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1c5417a78ca0a6d007328e708d426c') in 0.115788 seconds
-  Import took 0.117929 seconds .
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 1680.
+Total: 2.054100 ms (FindLiveObjects: 0.246000 ms CreateObjectMapping: 0.028100 ms MarkObjects: 1.643800 ms  DeleteObjects: 0.134300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000576 seconds.
-  path: Assets/Koiravalikkopainike.png
-  artifactKey: Guid(270efa1ac04d00f478beea4b72b7923e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Koiravalikkopainike.png using Guid(270efa1ac04d00f478beea4b72b7923e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76af081a184ff8b307204d47337c68c') in 0.054863 seconds
-  Import took 0.056844 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000392 seconds.
-  path: Assets/Suomikarttareittiharmaalla.png
-  artifactKey: Guid(7ef433006507e21459edb25577409576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suomikarttareittiharmaalla.png using Guid(7ef433006507e21459edb25577409576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d21d9e41780eaa9874debbf03066574') in 0.062098 seconds
-  Import took 0.064281 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.693338 seconds.
-  path: Assets/LeanTween
-  artifactKey: Guid(5e6a0fa47acf54892bbdae89028eaec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LeanTween using Guid(5e6a0fa47acf54892bbdae89028eaec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae109d77b6883aaeefc4c8240b65e68c') in 0.013833 seconds
-  Import took 0.016380 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001963 seconds.
-  path: Assets/LeanTween
-  artifactKey: Guid(5e6a0fa47acf54892bbdae89028eaec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LeanTween using Guid(5e6a0fa47acf54892bbdae89028eaec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae109d77b6883aaeefc4c8240b65e68c') in 0.004624 seconds
-  Import took 0.006840 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.602877 seconds.
-  path: Assets/Icons UI
-  artifactKey: Guid(b4905299777a8dc4784544e0b7a81c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Icons UI using Guid(b4905299777a8dc4784544e0b7a81c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29df708d7c87f27a22a0457796d22092') in 0.011385 seconds
-  Import took 0.013759 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001043 seconds.
-  path: Assets/Icons UI
-  artifactKey: Guid(b4905299777a8dc4784544e0b7a81c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Icons UI using Guid(b4905299777a8dc4784544e0b7a81c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29df708d7c87f27a22a0457796d22092') in 0.006645 seconds
-  Import took 0.009752 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.441705 seconds.
-  path: Assets/UI
-  artifactKey: Guid(b7ec7ab64ebbca24dbf530f90c594862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI using Guid(b7ec7ab64ebbca24dbf530f90c594862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f51ba8e364490259fe877d968f5f65c') in 0.012456 seconds
-  Import took 0.016306 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000738 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-
-Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.820 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1244 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.2 MB.
-System memory in use after: 64.3 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1691.
-Total: 2.976800 ms (FindLiveObjects: 0.186800 ms CreateObjectMapping: 0.079000 ms MarkObjects: 2.644000 ms  DeleteObjects: 0.065500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 16.571316 seconds.
-  path: Assets/UI/harmaa.jpg
-  artifactKey: Guid(56661c612b24e0f409153052a69aee94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/harmaa.jpg using Guid(56661c612b24e0f409153052a69aee94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef95234806ebed1ba660969f704c721') in 0.071943 seconds
-  Import took 0.074705 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.269797 seconds.
-  path: Assets/Scenes/PaavalikkoMenu.unity
-  artifactKey: Guid(ddcc36054f9142541a0c5e3651eea10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/PaavalikkoMenu.unity using Guid(ddcc36054f9142541a0c5e3651eea10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1da9a25c9ca4fe6ea1881c487be7e3d') in 0.015390 seconds
-  Import took 0.018798 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.920422 seconds.
-  path: Assets/UI/harmaa.jpg
-  artifactKey: Guid(56661c612b24e0f409153052a69aee94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/harmaa.jpg using Guid(56661c612b24e0f409153052a69aee94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa27082333f34b646657443416309cc') in 0.044311 seconds
-  Import took 0.047320 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 37.070408 seconds.
   path: Assets/Scenes/Top10Menu.unity
   artifactKey: Guid(d99d8a376d0c9b84595bda135b9b496e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Top10Menu.unity using Guid(d99d8a376d0c9b84595bda135b9b496e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fcaf753513802f74864d0d437166e39') in 0.016505 seconds
-  Import took 0.019372 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.232322 seconds.
-  path: Assets/Scenes/SaavutusMenu.unity
-  artifactKey: Guid(0ce2b46830a596141870a4b640d61ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SaavutusMenu.unity using Guid(0ce2b46830a596141870a4b640d61ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68523c92a2132e4f08c7dad715d8c397') in 0.012259 seconds
-  Import took 0.015807 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 36.962557 seconds.
-  path: Assets/Scenes/Pelinakyma.unity
-  artifactKey: Guid(3026c451a326b3c4194e1045574e09fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Pelinakyma.unity using Guid(3026c451a326b3c4194e1045574e09fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '929ab46541c1c9b19d383d046da0d906') in 0.011687 seconds
-  Import took 0.014006 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000755 seconds.
-  path: Assets/Scenes/Pelinakyma.unity
-  artifactKey: Guid(3026c451a326b3c4194e1045574e09fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Pelinakyma.unity using Guid(3026c451a326b3c4194e1045574e09fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '929ab46541c1c9b19d383d046da0d906') in 0.006844 seconds
-  Import took 0.009402 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 111.552175 seconds.
-  path: Assets/Scripts/PyllyPainike.cs
-  artifactKey: Guid(14f4f053eee6a124c82c0524b52d3eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PyllyPainike.cs using Guid(14f4f053eee6a124c82c0524b52d3eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a337fb9092047fd4964af71b2afe22ec') in 0.023961 seconds
-  Import took 0.027688 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.152415 seconds.
-  path: Assets/Scripts/Top10.cs
-  artifactKey: Guid(a1676e6d1ab8a964c9c587116ed3dc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Top10.cs using Guid(a1676e6d1ab8a964c9c587116ed3dc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7100c45f9c1f6da3b11f63508e4258') in 0.013439 seconds
-  Import took 0.016834 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004786 seconds.
-  path: Assets/Scripts/Top10.cs
-  artifactKey: Guid(a1676e6d1ab8a964c9c587116ed3dc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Top10.cs using Guid(a1676e6d1ab8a964c9c587116ed3dc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7100c45f9c1f6da3b11f63508e4258') in 0.006889 seconds
-  Import took 0.010188 seconds .
+Start importing Assets/Scenes/Top10Menu.unity using Guid(d99d8a376d0c9b84595bda135b9b496e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5bf96afa1716d473c136ac655ada81') in 0.013365 seconds
+  Import took 0.016090 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000687 seconds.
+Registered in 0.000702 seconds.
 Begin MonoManager ReloadAssembly
 Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 
 Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
 
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.790 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.2 MB.
-System memory in use after: 64.3 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1698.
-Total: 2.012800 ms (FindLiveObjects: 0.140600 ms CreateObjectMapping: 0.034900 ms MarkObjects: 1.814700 ms  DeleteObjects: 0.020800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 73.448714 seconds.
-  path: Assets/Scripts/PyllyPainike.cs
-  artifactKey: Guid(14f4f053eee6a124c82c0524b52d3eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PyllyPainike.cs using Guid(14f4f053eee6a124c82c0524b52d3eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a5cfe4307053df9d65ec416e0fb0e4e') in 0.012770 seconds
-  Import took 0.016493 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000816 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-
-Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.885 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.3 MB.
-System memory in use after: 64.4 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1700.
-Total: 3.002700 ms (FindLiveObjects: 0.283000 ms CreateObjectMapping: 0.051400 ms MarkObjects: 2.635700 ms  DeleteObjects: 0.030200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 75.972981 seconds.
-  path: Assets/Scripts/PyllyPainike.cs
-  artifactKey: Guid(14f4f053eee6a124c82c0524b52d3eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PyllyPainike.cs using Guid(14f4f053eee6a124c82c0524b52d3eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32472ebdd83ac52f49e3952a0812fb66') in 0.010757 seconds
-  Import took 0.013824 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.018213 seconds.
-  path: Assets/UI/Icons UI/Icons grayscale/1.png
-  artifactKey: Guid(293dd5c3c18641a49a0e32095defa292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Icons UI/Icons grayscale/1.png using Guid(293dd5c3c18641a49a0e32095defa292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a2fbe2259c27098c82ee55871c6b849') in 0.094989 seconds
-  Import took 0.097590 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/UI/Icons UI/Icons color/1.png
-  artifactKey: Guid(f0d6ea189fe88b941a6c7fefa35109cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Icons UI/Icons color/1.png using Guid(f0d6ea189fe88b941a6c7fefa35109cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd761b9ddbc63155fa4d79f7e0e634e03') in 0.024325 seconds
-  Import took 0.026963 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000404 seconds.
-  path: Assets/UI/Icons UI/Icons grayscale/1.png
-  artifactKey: Guid(293dd5c3c18641a49a0e32095defa292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Icons UI/Icons grayscale/1.png using Guid(293dd5c3c18641a49a0e32095defa292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a2fbe2259c27098c82ee55871c6b849') in 0.036999 seconds
-  Import took 0.040444 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/UI/Icons UI/Icons grayscale/2.png
-  artifactKey: Guid(fd80b411dd4de334dbde2c0aa8f0015b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Icons UI/Icons grayscale/2.png using Guid(fd80b411dd4de334dbde2c0aa8f0015b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a842c17dce4e27604666ec6c9e816c4b') in 0.048244 seconds
-  Import took 0.051698 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000731 seconds.
-  path: Assets/UI/Icons UI/Icons color/2.png
-  artifactKey: Guid(84b7df33d92c4584aa49802a67068d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Icons UI/Icons color/2.png using Guid(84b7df33d92c4584aa49802a67068d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d05aaf0704fb8d9cf3fb905e4e3ed3') in 0.030685 seconds
-  Import took 0.033990 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.367850 seconds.
-  path: Assets/UI/LeanTween/Examples/Models/2dText.fbx
-  artifactKey: Guid(c0f35ff1d23074af5bcd82d9caa31ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/LeanTween/Examples/Models/2dText.fbx using Guid(c0f35ff1d23074af5bcd82d9caa31ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5d2d661fc3f17e7191516c7623b947') in 0.499778 seconds
-  Import took 0.502374 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/UI/Icons UI/Icons grayscale/4.png
-  artifactKey: Guid(e2212ecc4e5b19b4792174aa3ad2e8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Icons UI/Icons grayscale/4.png using Guid(e2212ecc4e5b19b4792174aa3ad2e8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b09d114a68ae8522ffcfa6f63ad440') in 0.028562 seconds
-  Import took 0.031119 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000717 seconds.
-  path: Assets/UI/Icons UI/Icons grayscale/3.png
-  artifactKey: Guid(00ce93b50278b944f87d22a82c4c5afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Icons UI/Icons grayscale/3.png using Guid(00ce93b50278b944f87d22a82c4c5afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd960b8797b49c57ebb0620f46c130de4') in 0.034330 seconds
-  Import took 0.038535 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/UI/Icons UI/Icons color/3.png
-  artifactKey: Guid(a5b4189af3bc18f49bf108392ac887d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Icons UI/Icons color/3.png using Guid(a5b4189af3bc18f49bf108392ac887d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55a169f7dd90834de8efe52867dffa1') in 0.030312 seconds
-  Import took 0.032767 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000449 seconds.
-  path: Assets/UI/Icons UI/Icons color/4.png
-  artifactKey: Guid(eba4ccfe53daaf547aa3be123ddbc586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Icons UI/Icons color/4.png using Guid(eba4ccfe53daaf547aa3be123ddbc586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6bc3ea2e523d035c44cad5ff66d49f') in 0.027912 seconds
-  Import took 0.030999 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.029211 seconds.
-  path: Assets/UI/Icons UI/Icons color/5.png
-  artifactKey: Guid(50184b2450c81e14d8b857ab76cb68b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Icons UI/Icons color/5.png using Guid(50184b2450c81e14d8b857ab76cb68b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c38a6784ddd946a4da3b28eff0d00b') in 0.052975 seconds
-  Import took 0.055877 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000455 seconds.
-  path: Assets/UI/Icons UI/Icons color/6.png
-  artifactKey: Guid(ad1a3a02ee4764b49b608065f61d43b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Icons UI/Icons color/6.png using Guid(ad1a3a02ee4764b49b608065f61d43b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f52cc36f600a5db5e7ce3ae41ec9ca08') in 0.030694 seconds
-  Import took 0.033608 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/UI/Icons UI/Icons grayscale/5.png
-  artifactKey: Guid(65cb870ea43ea504c9b0fc88c7efb3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Icons UI/Icons grayscale/5.png using Guid(65cb870ea43ea504c9b0fc88c7efb3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae9dba82cfb533521732248f65e2234') in 0.036430 seconds
-  Import took 0.040086 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/UI/Icons UI/Icons grayscale/6.png
-  artifactKey: Guid(e21b78d427e8380489bccaeb488c32bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Icons UI/Icons grayscale/6.png using Guid(e21b78d427e8380489bccaeb488c32bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6863a210e15d799b16dd6de0aa4aa07') in 0.039335 seconds
-  Import took 0.043000 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.101283 seconds.
-  path: Assets/UI/Icons UI/Icons grayscale/7.png
-  artifactKey: Guid(45a36722f09ffa64f99ad72b45a65d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Icons UI/Icons grayscale/7.png using Guid(45a36722f09ffa64f99ad72b45a65d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a599be56134b1a2bd15c748e3d3130') in 0.025676 seconds
-  Import took 0.028331 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000532 seconds.
-  path: Assets/UI/Icons UI/Icons color/7.png
-  artifactKey: Guid(33f26d309087acb458f72baac3989314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Icons UI/Icons color/7.png using Guid(33f26d309087acb458f72baac3989314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660569245b446af4fd76b6dde10f2b20') in 0.023584 seconds
-  Import took 0.025819 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/UI/Icons UI/Icons color/8.png
-  artifactKey: Guid(5e90de1d9a5f57f40bc1bc36cc86964e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Icons UI/Icons color/8.png using Guid(5e90de1d9a5f57f40bc1bc36cc86964e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28af26a9ce7a8ecbf940d6f80ca81efe') in 0.046488 seconds
-  Import took 0.049162 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000480 seconds.
-  path: Assets/UI/Icons UI/Icons grayscale/8.png
-  artifactKey: Guid(d17f911a37698b249b4094ff8b029ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Icons UI/Icons grayscale/8.png using Guid(d17f911a37698b249b4094ff8b029ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e119e8ff39601fd0a5a730863c4fa69f') in 0.032172 seconds
-  Import took 0.034632 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.183036 seconds.
-  path: Assets/UI/Icons UI/Icons color/9.png
-  artifactKey: Guid(a0ba6cbb66a2cd14da348d59e46d9afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Icons UI/Icons color/9.png using Guid(a0ba6cbb66a2cd14da348d59e46d9afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb2364de93ad2454b7fa19884964b76') in 0.023043 seconds
-  Import took 0.025382 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/UI/Icons UI/Icons grayscale/9.png
-  artifactKey: Guid(f38c18f2c11dd3a46b4c4f0c38eb96d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Icons UI/Icons grayscale/9.png using Guid(f38c18f2c11dd3a46b4c4f0c38eb96d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde198970eced216e0de0a71ef80611f') in 0.023930 seconds
-  Import took 0.026974 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.231945 seconds.
-  path: Assets/UI/Icons UI/Icons color/10.png
-  artifactKey: Guid(732c697a802de274e9e45e0ba7407656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Icons UI/Icons color/10.png using Guid(732c697a802de274e9e45e0ba7407656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760396dc448a2fc8baba5484ddfd2478') in 0.028314 seconds
-  Import took 0.031070 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000538 seconds.
-  path: Assets/UI/Icons UI/Icons grayscale/10.png
-  artifactKey: Guid(2f84fe0332179544aa17287c1dd27c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Icons UI/Icons grayscale/10.png using Guid(2f84fe0332179544aa17287c1dd27c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3d556e4224ec8476abc16285ba8226') in 0.028045 seconds
-  Import took 0.030364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/UI/Icons UI/Icons grayscale/11.png
-  artifactKey: Guid(6ec368cd08275214bb202762c543d5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Icons UI/Icons grayscale/11.png using Guid(6ec368cd08275214bb202762c543d5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8705fad59b88c75ae8ef80ece3bd13') in 0.040584 seconds
-  Import took 0.043560 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000525 seconds.
-  path: Assets/UI/Icons UI/Icons color/11.png
-  artifactKey: Guid(11141941eb6a7614e9d2395eda69175a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Icons UI/Icons color/11.png using Guid(11141941eb6a7614e9d2395eda69175a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d9d6f636f81f695efa1e2bede32ae0') in 0.048657 seconds
-  Import took 0.050710 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.114516 seconds.
-  path: Assets/UI/Icons UI/Icons grayscale/12.png
-  artifactKey: Guid(74a23ea97cf118444a78002b0729afbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Icons UI/Icons grayscale/12.png using Guid(74a23ea97cf118444a78002b0729afbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652eb84555b937181ce64c6ecd65dbfd') in 0.038335 seconds
-  Import took 0.040590 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.050116 seconds.
-  path: Assets/UI/Icons UI/Icons color/12.png
-  artifactKey: Guid(3cc767b5ac54d6e43815aa8342ebf307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Icons UI/Icons color/12.png using Guid(3cc767b5ac54d6e43815aa8342ebf307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7329afbe54653f6fde961653eafb9c13') in 0.027109 seconds
-  Import took 0.029786 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.161815 seconds.
-  path: Assets/UI/Icons UI/Icons color/13.png
-  artifactKey: Guid(5624528cde99a824a946362839e556e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Icons UI/Icons color/13.png using Guid(5624528cde99a824a946362839e556e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2277e67b7e61aef0e45310fb2de72cfc') in 0.030539 seconds
-  Import took 0.033044 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000376 seconds.
-  path: Assets/UI/Icons UI/Icons grayscale/13.png
-  artifactKey: Guid(b2ea68bdabac61a4a9579ad090376892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Icons UI/Icons grayscale/13.png using Guid(b2ea68bdabac61a4a9579ad090376892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900f69c0d40a49c33102a2cdc0299e32') in 0.027341 seconds
-  Import took 0.029828 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000922 seconds.
-  path: Assets/UI/Icons UI/Icons color/14.png
-  artifactKey: Guid(3355f5128c1b14343acf2bf9087df27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Icons UI/Icons color/14.png using Guid(3355f5128c1b14343acf2bf9087df27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feef957abbd474bb79ab987f7c61af06') in 0.036954 seconds
-  Import took 0.040202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.174199 seconds.
-  path: Assets/UI/Icons UI/Icons grayscale/14.png
-  artifactKey: Guid(e049c283f51e65f4b87f53e0a65fa7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Icons UI/Icons grayscale/14.png using Guid(e049c283f51e65f4b87f53e0a65fa7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a749879db934654c8b3de1886adcf38') in 0.024110 seconds
-  Import took 0.026374 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/UI/Icons UI/Icons grayscale/15.png
-  artifactKey: Guid(c17d2f7fe10015e4dbefa55ad6eff2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Icons UI/Icons grayscale/15.png using Guid(c17d2f7fe10015e4dbefa55ad6eff2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ebb7e9aa7663c93644895593943935c') in 0.032285 seconds
-  Import took 0.035101 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000918 seconds.
-  path: Assets/UI/Icons UI/Icons color/15.png
-  artifactKey: Guid(1b10cedc4326a6f448af4c12fe3b5886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Icons UI/Icons color/15.png using Guid(1b10cedc4326a6f448af4c12fe3b5886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47541382768fe7829f4b510fb189cf57') in 0.037603 seconds
-  Import took 0.040716 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000611 seconds.
-  path: Assets/UI/Icons UI/Icons grayscale/16.png
-  artifactKey: Guid(5ebdebd92887294439583f839a74e1cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Icons UI/Icons grayscale/16.png using Guid(5ebdebd92887294439583f839a74e1cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0c9f9db9d253cbb3caf55efd0a114a') in 0.032013 seconds
-  Import took 0.034531 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000485 seconds.
-  path: Assets/UI/Icons UI/Icons color/16.png
-  artifactKey: Guid(273c5baa1aa02aa4a9e0b619883ed20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Icons UI/Icons color/16.png using Guid(273c5baa1aa02aa4a9e0b619883ed20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0076300db086a5e2137c56bd87a30e9') in 0.028563 seconds
-  Import took 0.031766 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.125088 seconds.
-  path: Assets/UI/Icons UI/Icons color/17.png
-  artifactKey: Guid(d3df5771f41402740af26548ca40d3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Icons UI/Icons color/17.png using Guid(d3df5771f41402740af26548ca40d3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208adce8d2386c734815e5fada7aadd7') in 0.027859 seconds
-  Import took 0.030224 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.347780 seconds.
-  path: Assets/Struve/pyhtaa2.png
-  artifactKey: Guid(42b6a5c90bfd1a24585d12c16152f5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Struve/pyhtaa2.png using Guid(42b6a5c90bfd1a24585d12c16152f5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cfd4c192092df31e93a7dc3f7d13b18') in 0.043129 seconds
-  Import took 0.045544 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000594 seconds.
-  path: Assets/Struve/pyhtää2.png
-  artifactKey: Guid(0e5e7f52884a8d74c8d53fc790cd2986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Struve/pyhtää2.png using Guid(0e5e7f52884a8d74c8d53fc790cd2986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b402738442522fa41c12086c5cdb08f') in 0.063938 seconds
-  Import took 0.066433 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.338542 seconds.
-  path: Assets/Scenes/Top10Menu.unity
-  artifactKey: Guid(d99d8a376d0c9b84595bda135b9b496e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Top10Menu.unity using Guid(d99d8a376d0c9b84595bda135b9b496e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55dcf8b2aee7dd7f818b73d95aa3254c') in 0.008924 seconds
-  Import took 0.011487 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 37.513403 seconds.
-  path: Assets/Scenes/Pelinakyma.unity
-  artifactKey: Guid(3026c451a326b3c4194e1045574e09fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Pelinakyma.unity using Guid(3026c451a326b3c4194e1045574e09fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea90995edb9a66f36b5fbe49f4aa5a0') in 0.009218 seconds
-  Import took 0.011867 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 39.108045 seconds.
-  path: Assets/UI/LeanTween/Examples/Models/SimpleAvatar.fbx
-  artifactKey: Guid(c8c942998fe7e4845bed23e105bd031f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/LeanTween/Examples/Models/SimpleAvatar.fbx using Guid(c8c942998fe7e4845bed23e105bd031f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d776378cfbe4ae25f5dbfc273a60064') in 0.031538 seconds
-  Import took 0.033984 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.083941 seconds.
-  path: Assets/Scenes/Pelinakyma.unity
-  artifactKey: Guid(3026c451a326b3c4194e1045574e09fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Pelinakyma.unity using Guid(3026c451a326b3c4194e1045574e09fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c3dc1cee4ee900d54d474b487c0f6d') in 0.005241 seconds
-  Import took 0.008492 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001459 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-
-Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.738 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.0 MB.
-System memory in use after: 65.1 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1712.
-Total: 2.834700 ms (FindLiveObjects: 0.129100 ms CreateObjectMapping: 0.070600 ms MarkObjects: 2.610600 ms  DeleteObjects: 0.022200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 86.166194 seconds.
-  path: Assets/Scenes/Pelinakyma.unity
-  artifactKey: Guid(3026c451a326b3c4194e1045574e09fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Pelinakyma.unity using Guid(3026c451a326b3c4194e1045574e09fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f849b4a8c577a5fb563fc96edd4c20') in 0.017829 seconds
-  Import took 0.020845 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002449 seconds.
-  path: Assets/Scenes/Pelinakyma.unity
-  artifactKey: Guid(3026c451a326b3c4194e1045574e09fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Pelinakyma.unity using Guid(3026c451a326b3c4194e1045574e09fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f849b4a8c577a5fb563fc96edd4c20') in 0.005347 seconds
-  Import took 0.008602 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.521656 seconds.
-  path: Assets/Scenes/PaavalikkoMenu.unity
-  artifactKey: Guid(ddcc36054f9142541a0c5e3651eea10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/PaavalikkoMenu.unity using Guid(ddcc36054f9142541a0c5e3651eea10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c6cbb15225fab988c070c03dfb9df0') in 0.007004 seconds
-  Import took 0.009707 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001004 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-
-Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.780 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.0 MB.
-System memory in use after: 65.1 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1714.
-Total: 2.132000 ms (FindLiveObjects: 0.226300 ms CreateObjectMapping: 0.033300 ms MarkObjects: 1.848500 ms  DeleteObjects: 0.021700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000701 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-
-Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.779 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.0 MB.
-System memory in use after: 65.1 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1716.
-Total: 2.146900 ms (FindLiveObjects: 0.273800 ms CreateObjectMapping: 0.033300 ms MarkObjects: 1.817100 ms  DeleteObjects: 0.021600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000789 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-
-Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.741 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.0 MB.
-System memory in use after: 65.2 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1718.
-Total: 2.957500 ms (FindLiveObjects: 0.202000 ms CreateObjectMapping: 0.032500 ms MarkObjects: 2.653200 ms  DeleteObjects: 0.068200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000725 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-
-Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.795 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.1 MB.
-System memory in use after: 65.2 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1720.
-Total: 3.179300 ms (FindLiveObjects: 0.239100 ms CreateObjectMapping: 0.027600 ms MarkObjects: 2.890600 ms  DeleteObjects: 0.020200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000723 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-
-Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.779 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.1 MB.
-System memory in use after: 65.2 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1722.
-Total: 3.206500 ms (FindLiveObjects: 0.157900 ms CreateObjectMapping: 0.035100 ms MarkObjects: 2.993300 ms  DeleteObjects: 0.018400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000961 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-
-Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.825 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.1 MB.
-System memory in use after: 65.2 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1724.
-Total: 2.963200 ms (FindLiveObjects: 0.227300 ms CreateObjectMapping: 0.025500 ms MarkObjects: 2.657300 ms  DeleteObjects: 0.051600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000694 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-
-Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.897 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.1 MB.
-System memory in use after: 65.2 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1726.
-Total: 1.445100 ms (FindLiveObjects: 0.142500 ms CreateObjectMapping: 0.038300 ms MarkObjects: 1.240800 ms  DeleteObjects: 0.021400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000774 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-
-Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.957 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.1 MB.
-System memory in use after: 65.2 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1728.
-Total: 1.781900 ms (FindLiveObjects: 0.323100 ms CreateObjectMapping: 0.070700 ms MarkObjects: 1.360900 ms  DeleteObjects: 0.025600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000757 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-
-Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.814 seconds
+- Completed reload, in  0.761 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.1 MB.
-System memory in use after: 65.2 MB.
+System memory in use before: 61.2 MB.
+System memory in use after: 61.3 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1730.
-Total: 2.707900 ms (FindLiveObjects: 0.344100 ms CreateObjectMapping: 0.160100 ms MarkObjects: 2.155300 ms  DeleteObjects: 0.046800 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1682.
+Total: 5.015600 ms (FindLiveObjects: 0.280300 ms CreateObjectMapping: 0.080800 ms MarkObjects: 4.589900 ms  DeleteObjects: 0.063300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001073 seconds.
+Registered in 0.000978 seconds.
 Begin MonoManager ReloadAssembly
 Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 
 Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
 
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.858 seconds
+- Completed reload, in  0.761 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.1 MB.
-System memory in use after: 65.2 MB.
+System memory in use before: 61.2 MB.
+System memory in use after: 61.3 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1732.
-Total: 2.322400 ms (FindLiveObjects: 0.224600 ms CreateObjectMapping: 0.032900 ms MarkObjects: 2.023500 ms  DeleteObjects: 0.039000 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1684.
+Total: 1.990500 ms (FindLiveObjects: 0.187200 ms CreateObjectMapping: 0.064100 ms MarkObjects: 1.713200 ms  DeleteObjects: 0.024800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000727 seconds.
+Registered in 0.001021 seconds.
 Begin MonoManager ReloadAssembly
 Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 
 Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
 
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.890 seconds
+- Completed reload, in  0.766 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.1 MB.
-System memory in use after: 65.2 MB.
+System memory in use before: 61.2 MB.
+System memory in use after: 61.3 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1734.
-Total: 3.377100 ms (FindLiveObjects: 0.201600 ms CreateObjectMapping: 0.068900 ms MarkObjects: 3.078200 ms  DeleteObjects: 0.026800 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1686.
+Total: 3.008400 ms (FindLiveObjects: 0.237400 ms CreateObjectMapping: 0.077000 ms MarkObjects: 2.674200 ms  DeleteObjects: 0.018100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000684 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-
-Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.808 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.1 MB.
-System memory in use after: 65.2 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1736.
-Total: 2.448300 ms (FindLiveObjects: 0.203100 ms CreateObjectMapping: 0.048600 ms MarkObjects: 2.174600 ms  DeleteObjects: 0.020400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 4380.565429 seconds.
-  path: Assets/Scenes/Pelinakyma.unity
-  artifactKey: Guid(3026c451a326b3c4194e1045574e09fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Pelinakyma.unity using Guid(3026c451a326b3c4194e1045574e09fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1afa112eea7cad4184ab3380b14aebb0') in 0.019361 seconds
-  Import took 0.021803 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000718 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-
-Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.862 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.1 MB.
-System memory in use after: 65.2 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1738.
-Total: 2.608500 ms (FindLiveObjects: 0.228800 ms CreateObjectMapping: 0.027200 ms MarkObjects: 2.329400 ms  DeleteObjects: 0.021100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 360.772327 seconds.
-  path: Assets/Scenes/Pelinakyma.unity
-  artifactKey: Guid(3026c451a326b3c4194e1045574e09fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Pelinakyma.unity using Guid(3026c451a326b3c4194e1045574e09fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d60d770944c5e26d51456a4dbeb4e74') in 0.021812 seconds
-  Import took 0.025263 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000690 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-
-Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.883 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.1 MB.
-System memory in use after: 65.2 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1740.
-Total: 1.786700 ms (FindLiveObjects: 0.255200 ms CreateObjectMapping: 0.043700 ms MarkObjects: 1.462700 ms  DeleteObjects: 0.023800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000650 seconds.
+Registered in 0.000642 seconds.
 Begin MonoManager ReloadAssembly
 Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 
@@ -1160,324 +190,242 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.936 seconds
+- Completed reload, in  0.768 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.1 MB.
-System memory in use after: 65.2 MB.
+System memory in use before: 61.2 MB.
+System memory in use after: 61.3 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1742.
-Total: 3.069000 ms (FindLiveObjects: 0.229100 ms CreateObjectMapping: 0.245700 ms MarkObjects: 2.570500 ms  DeleteObjects: 0.021500 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1688.
+Total: 1.803700 ms (FindLiveObjects: 0.287900 ms CreateObjectMapping: 0.065700 ms MarkObjects: 1.416300 ms  DeleteObjects: 0.031700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001028 seconds.
+Registered in 0.001006 seconds.
 Begin MonoManager ReloadAssembly
 Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 
 Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
 
 Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.804 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.2 MB.
+System memory in use after: 61.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1690.
+Total: 3.396400 ms (FindLiveObjects: 0.175400 ms CreateObjectMapping: 0.036100 ms MarkObjects: 3.125000 ms  DeleteObjects: 0.058400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000667 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.777 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.2 MB.
+System memory in use after: 61.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1692.
+Total: 3.655800 ms (FindLiveObjects: 0.131200 ms CreateObjectMapping: 0.028000 ms MarkObjects: 3.472200 ms  DeleteObjects: 0.022500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001020 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.779 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.854 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.2 MB.
+System memory in use after: 61.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1694.
+Total: 3.699100 ms (FindLiveObjects: 0.232000 ms CreateObjectMapping: 0.026400 ms MarkObjects: 3.372100 ms  DeleteObjects: 0.023700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000865 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.1 MB.
-System memory in use after: 65.2 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1744.
-Total: 3.233600 ms (FindLiveObjects: 0.194200 ms CreateObjectMapping: 0.028700 ms MarkObjects: 2.985200 ms  DeleteObjects: 0.024200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001144 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-
-Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.858 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.1 MB.
-System memory in use after: 65.2 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1746.
-Total: 4.016700 ms (FindLiveObjects: 0.270400 ms CreateObjectMapping: 0.057100 ms MarkObjects: 3.611000 ms  DeleteObjects: 0.057100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000613 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-
-Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.869 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.1 MB.
-System memory in use after: 65.2 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1748.
-Total: 2.945400 ms (FindLiveObjects: 0.156700 ms CreateObjectMapping: 0.049700 ms MarkObjects: 2.715100 ms  DeleteObjects: 0.022500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001120 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-
-Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.019 seconds
+- Completed reload, in  0.821 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.1 MB.
-System memory in use after: 65.2 MB.
+System memory in use before: 61.2 MB.
+System memory in use after: 61.3 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1750.
-Total: 5.132300 ms (FindLiveObjects: 0.154100 ms CreateObjectMapping: 0.039800 ms MarkObjects: 4.873900 ms  DeleteObjects: 0.063000 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1696.
+Total: 2.455900 ms (FindLiveObjects: 0.191000 ms CreateObjectMapping: 0.105000 ms MarkObjects: 2.132500 ms  DeleteObjects: 0.025500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001479 seconds.
+Registered in 0.000754 seconds.
 Begin MonoManager ReloadAssembly
 Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 
 Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
 
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.931 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.1 MB.
-System memory in use after: 65.3 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1752.
-Total: 3.883300 ms (FindLiveObjects: 0.246200 ms CreateObjectMapping: 0.058200 ms MarkObjects: 3.527200 ms  DeleteObjects: 0.050500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000705 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-
-Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.928 seconds
+- Completed reload, in  0.785 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.2 MB.
-System memory in use after: 65.3 MB.
+System memory in use before: 61.2 MB.
+System memory in use after: 61.4 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1754.
-Total: 2.837900 ms (FindLiveObjects: 0.186400 ms CreateObjectMapping: 0.027400 ms MarkObjects: 2.603700 ms  DeleteObjects: 0.018700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001433 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-
-Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.936 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.2 MB.
-System memory in use after: 65.3 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1756.
-Total: 3.084500 ms (FindLiveObjects: 0.195100 ms CreateObjectMapping: 0.071900 ms MarkObjects: 2.765200 ms  DeleteObjects: 0.050800 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1698.
+Total: 1.861300 ms (FindLiveObjects: 0.224500 ms CreateObjectMapping: 0.042400 ms MarkObjects: 1.561500 ms  DeleteObjects: 0.031000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001065 seconds.
+Registered in 0.001015 seconds.
 Begin MonoManager ReloadAssembly
 Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 
 Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
 
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.902 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.2 MB.
-System memory in use after: 65.3 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1758.
-Total: 3.489200 ms (FindLiveObjects: 0.179000 ms CreateObjectMapping: 0.052000 ms MarkObjects: 3.235200 ms  DeleteObjects: 0.021600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001072 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-
-Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.957 seconds
+- Completed reload, in  0.859 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.2 MB.
-System memory in use after: 65.3 MB.
+System memory in use before: 61.3 MB.
+System memory in use after: 61.4 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1760.
-Total: 2.658800 ms (FindLiveObjects: 0.178700 ms CreateObjectMapping: 0.035200 ms MarkObjects: 2.413700 ms  DeleteObjects: 0.029100 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1700.
+Total: 1.806500 ms (FindLiveObjects: 0.193300 ms CreateObjectMapping: 0.040000 ms MarkObjects: 1.548500 ms  DeleteObjects: 0.023100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
+Received Import Request.
+  Time since last request: 1739.008634 seconds.
+  path: Assets/Scenes/Top10Menu.unity
+  artifactKey: Guid(d99d8a376d0c9b84595bda135b9b496e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Top10Menu.unity using Guid(d99d8a376d0c9b84595bda135b9b496e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3239f88a1554d0bfd634a3b4b68fc1') in 0.021947 seconds
+  Import took 0.025345 seconds .
+
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001345 seconds.
+Registered in 0.000788 seconds.
 Begin MonoManager ReloadAssembly
 Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 
 Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
 
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.060 seconds
+- Completed reload, in  0.837 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.2 MB.
-System memory in use after: 65.3 MB.
+System memory in use before: 61.3 MB.
+System memory in use after: 61.4 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1762.
-Total: 3.436600 ms (FindLiveObjects: 0.147900 ms CreateObjectMapping: 0.049000 ms MarkObjects: 3.215500 ms  DeleteObjects: 0.022000 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1702.
+Total: 3.279400 ms (FindLiveObjects: 0.169900 ms CreateObjectMapping: 0.025700 ms MarkObjects: 3.031100 ms  DeleteObjects: 0.050700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002882 seconds.
+Registered in 0.000721 seconds.
 Begin MonoManager ReloadAssembly
 Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 
@@ -1490,287 +438,17 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.446 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.2 MB.
-System memory in use after: 65.3 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1764.
-Total: 3.031900 ms (FindLiveObjects: 0.283500 ms CreateObjectMapping: 0.192200 ms MarkObjects: 2.529400 ms  DeleteObjects: 0.024900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001089 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-
-Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.921 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.2 MB.
-System memory in use after: 65.3 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1766.
-Total: 1.795200 ms (FindLiveObjects: 0.231100 ms CreateObjectMapping: 0.035300 ms MarkObjects: 1.507700 ms  DeleteObjects: 0.019900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001267 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-
-Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.142 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.2 MB.
-System memory in use after: 65.3 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1768.
-Total: 2.126200 ms (FindLiveObjects: 0.478200 ms CreateObjectMapping: 0.134700 ms MarkObjects: 1.490500 ms  DeleteObjects: 0.021400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000743 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-
-Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.977 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.2 MB.
-System memory in use after: 65.3 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1770.
-Total: 3.535200 ms (FindLiveObjects: 0.252700 ms CreateObjectMapping: 0.035800 ms MarkObjects: 3.219900 ms  DeleteObjects: 0.024900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001003 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-
-Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.933 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.2 MB.
-System memory in use after: 65.3 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1772.
-Total: 2.621400 ms (FindLiveObjects: 0.174100 ms CreateObjectMapping: 0.063400 ms MarkObjects: 2.359600 ms  DeleteObjects: 0.023100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000755 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-
-Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.972 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.2 MB.
-System memory in use after: 65.3 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1774.
-Total: 3.256900 ms (FindLiveObjects: 0.255200 ms CreateObjectMapping: 0.074100 ms MarkObjects: 2.907600 ms  DeleteObjects: 0.018500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001461 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-
-Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.039 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.2 MB.
-System memory in use after: 65.3 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1776.
-Total: 3.654300 ms (FindLiveObjects: 0.182900 ms CreateObjectMapping: 0.085500 ms MarkObjects: 3.313900 ms  DeleteObjects: 0.070900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000765 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-
-Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.015 seconds
+- Completed reload, in  0.840 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.2 MB.
-System memory in use after: 65.3 MB.
+System memory in use before: 61.3 MB.
+System memory in use after: 61.4 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1778.
-Total: 2.378400 ms (FindLiveObjects: 0.211900 ms CreateObjectMapping: 0.030800 ms MarkObjects: 2.113600 ms  DeleteObjects: 0.020600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000975 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-
-Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.981 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.2 MB.
-System memory in use after: 65.3 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1780.
-Total: 3.375300 ms (FindLiveObjects: 0.280000 ms CreateObjectMapping: 0.059700 ms MarkObjects: 2.970500 ms  DeleteObjects: 0.063900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001454 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-
-Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.979 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1245 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.2 MB.
-System memory in use after: 65.3 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1782.
-Total: 3.074100 ms (FindLiveObjects: 0.144400 ms CreateObjectMapping: 0.035400 ms MarkObjects: 2.872400 ms  DeleteObjects: 0.020500 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1704.
+Total: 1.623700 ms (FindLiveObjects: 0.226600 ms CreateObjectMapping: 0.050000 ms MarkObjects: 1.314100 ms  DeleteObjects: 0.031900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000

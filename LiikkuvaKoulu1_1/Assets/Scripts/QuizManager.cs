@@ -28,7 +28,7 @@ public class QuizManager : MonoBehaviour
         haku = GameObject.Find("Lahettaja").GetComponent<GetHaku>();
         insertti = GameObject.Find("Lahettaja").GetComponent<PutHaku>();
 
-        value[0] = haku.r_id.ToString();
+//        value[0] = haku.r_id.ToString();
         haku.data = value;
         haku.id = 5;
         
