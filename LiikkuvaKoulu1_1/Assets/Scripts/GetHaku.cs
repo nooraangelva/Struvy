@@ -1,3 +1,6 @@
+// Scriptin toiminta: Tietokanta Gethaku ja datan rakennus luettavaksi
+// Luodaan aloitusvalikossa eikä tuhota
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,6 +11,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.Android;
 #endif
 using System;
+
 
 public class Luokkatieto
 {

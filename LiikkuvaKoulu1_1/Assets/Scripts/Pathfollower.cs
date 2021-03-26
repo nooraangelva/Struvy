@@ -1,3 +1,7 @@
+//Scene: Pelinakyma
+
+// Toiminta: Kaiken hallinta scenessä. Big Boss :)
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -27,7 +31,7 @@ public class Pathfollower : MonoBehaviour
     string unesco;
     
 
-    void Start()// alustetaan quiz ja stickkerin liike ja camera
+    void Start()// alustetaan quiz ja stickerin liike
     {
         kyssari = GameObject.Find("QuizManager").GetComponent<QuizManager>();
         sticker = GameObject.Find("Sticker");
@@ -107,14 +111,13 @@ public class Pathfollower : MonoBehaviour
     
        IEnumerator ExampleCoroutine()
     {
-        //Print the time of when the function is first called.
         Debug.Log("Started Coroutine at timestamp : " + Time.time);
 
-        //yield on a new YieldInstruction that waits for 5 seconds.
+        // odottaa 10 sec
         yield return new WaitForSeconds(10);
         Debug.Log(unesco);
         SceneManager.LoadScene(unesco);
-        //After we have waited 5 seconds print the time again.
+ 
         Debug.Log("Finished Coroutine at timestamp : " + Time.time);
     }
     

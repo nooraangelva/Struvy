@@ -1,3 +1,6 @@
+//Scene: Pelinakyma
+//Toiminta: Stickerin liikkuminen
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -43,8 +46,7 @@ public class Sticker : MonoBehaviour
                 Debug.Log(unescolle +"="+pisteet[x]+"-"+matka);
                 break;
             }
-        }
-        
+        } 
     }
 
     void Update()

@@ -1,3 +1,5 @@
+//Scene: Pelinakyma
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,13 +8,13 @@ using UnityEngine.UI;
 
 public class PyllyPainike : MonoBehaviour
 {
-    // Start is called before the first frame update
+ 
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+
     void Update()
     {
         

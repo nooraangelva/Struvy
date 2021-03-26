@@ -1,3 +1,6 @@
+// Scene: Kaikissa pelisceneissä
+// Toiminta: Kaikkiin kysymyksiin. KysymysBoss
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,8 +10,8 @@ using UnityEngine.SceneManagement;
 
 public class QuizManager : MonoBehaviour
 {
-    //public List<QuestionsAndAnswers> QnA; 
     public GameObject[] options;
+    GameObject quisManager;
     PutHaku insertti;
     GetHaku haku;
 
@@ -21,12 +24,11 @@ public class QuizManager : MonoBehaviour
     string[] value;
 
 
-
-
     private void Start()//kyssarin haun alustus
     {
         haku = GameObject.Find("Lahettaja").GetComponent<GetHaku>();
         insertti = GameObject.Find("Lahettaja").GetComponent<PutHaku>();
+        quisManager = GameObject.Find("QuizManager");
 
 //        value[0] = haku.r_id.ToString();
         haku.data = value;
@@ -47,8 +49,10 @@ public class QuizManager : MonoBehaviour
         switch (SceneManager.GetActiveScene().name) 
         {
             case "Pelinakyma":
-                //tuhoa tai jotai...
+                quisManager.SetActive(false);
+                Time.timeScale = 1;
                 break;
+
             default:
                 if(moneskoK < 2)
                 {
@@ -63,12 +67,9 @@ public class QuizManager : MonoBehaviour
                 }
                 break;
         }
-        
-
-
     }
 
-    void SetAnswers()// asettaa vastaukset kysymykselle
+    public void SetAnswers()// asettaa vastaukset kysymykselle
     {
         for (int i = 0; i < vastaukset.Length; i++)
         {
@@ -82,7 +83,7 @@ public class QuizManager : MonoBehaviour
         }
     }
 
-    void generateQuestion()//kyssarin haku
+    public void generateQuestion()//kyssarin haku
     {
         moneskoK++;
         vastaukset = haku.vastausKysymys.vastaukset.Split(char.Parse("|"));

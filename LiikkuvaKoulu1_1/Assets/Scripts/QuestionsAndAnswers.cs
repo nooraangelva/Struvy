@@ -1,3 +1,5 @@
+//Toiminta: Objektin rakenne
+
 using UnityEngine.UI;
 [System.Serializable]
 public class QuestionsAndAnswers
