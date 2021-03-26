@@ -58,7 +58,7 @@ public class Top10 : MonoBehaviour
                 GameObject tekstiMatka = new GameObject("TextKM"+x);
                 tekstiMatka.transform.parent = top10Paneeli.transform;
                 RectTransform transKM = tekstiMatka.AddComponent<RectTransform>();
-                transKM.anchoredPosition = new Vector2(0, (350-(x*80)));//sijainti - arvot laskuna
+                transKM.anchoredPosition = new Vector2(0, (450-(x*80)));//sijainti - arvot laskuna
                 transKM.sizeDelta = new Vector2 (400, 137);
                 transKM.localScale = new Vector3(1f,1f,1f);
                 Text textKM = tekstiMatka.AddComponent<Text>();
@@ -73,7 +73,7 @@ public class Top10 : MonoBehaviour
                 GameObject tekstiS = new GameObject("TextS"+x);
                 tekstiS.transform.parent = topStreak.transform;
                 RectTransform transS = tekstiS.AddComponent<RectTransform>();
-                transS.anchoredPosition = new Vector2(0,371);//sijainti - arvot laskuna
+                transS.anchoredPosition = new Vector2(0, (450-(x*80)));//sijainti - arvot laskuna
                 transS.sizeDelta = new Vector2 (167, 137);
                 transS.localScale = new Vector3(1f,1f,1f);
                 Text textS = tekstiS.AddComponent<Text>();
@@ -82,6 +82,7 @@ public class Top10 : MonoBehaviour
                 textS.text = ""+x;
                 textS.fontSize = 40;
                 textS.color = Color.black;
+                textS.alignment = TextAnchor.MiddleCenter;
                 textS.font = Resources.GetBuiltinResource(typeof(Font), "Arial.ttf") as Font;
             }
         }
