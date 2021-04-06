@@ -64,7 +64,7 @@ public class Pathfollower : MonoBehaviour
                 //SetInt(string haku.r_id.ToString(), int pisteet[matkaIndeksi]);
                 break;
             case 10:
-                unesco = "Pyhtaa";
+                unesco = "Aavasaksa";
                 StartCoroutine(ExampleCoroutine());
                 matkaIndeksi++;
                 previouspositionHolder = PathNode[matkaIndeksi-1].transform.position;

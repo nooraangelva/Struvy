@@ -898,7 +898,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 50
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
     m_MaxSize: 300
@@ -908,7 +908,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "T\xE4h\xE4n tulee kysymys"
+  m_Text: "Kuinka pitk\xE4 on Struven ketjun osuus Suomessa?\n"
 --- !u!222 &598921958
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1084,8 +1084,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -30}
-  m_SizeDelta: {x: 0, y: 20}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: -20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &694324799
 MonoBehaviour:
@@ -1120,9 +1120,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'A
-
-'
+  m_Text: 635 km
 --- !u!222 &694324800
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1165,8 +1163,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -28}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: -28}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &722251509
 MonoBehaviour:
@@ -1201,9 +1199,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'D
-
-'
+  m_Text: 980 km
 --- !u!222 &722251510
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1629,7 +1625,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5662856, y: 0.31564167}
   m_AnchorMax: {x: 0.5662856, y: 0.31564167}
-  m_AnchoredPosition: {x: -317.5295, y: -226}
+  m_AnchoredPosition: {x: -317.53, y: -226}
   m_SizeDelta: {x: 460, y: 155}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &934196743
@@ -2520,7 +2516,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: B
+  m_Text: 3460 km
 --- !u!222 &1404251303
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3114,8 +3110,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -31}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: -31}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1815338726
 MonoBehaviour:
@@ -3150,9 +3146,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'C
-
-'
+  m_Text: 1080 km
 --- !u!222 &1815338727
 CanvasRenderer:
   m_ObjectHideFlags: 0
