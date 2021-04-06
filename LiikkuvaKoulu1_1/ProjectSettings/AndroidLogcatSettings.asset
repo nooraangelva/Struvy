@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "3df8f07c",
         "name": "com.DefaultCompany.LiikkuvaKoulu1_1",
-        "processId": 9679,
+        "processId": 6636,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -60,6 +60,36 @@
             "deviceId": "3df8f07c",
             "name": "com.DefaultCompany.LiikkuvaKoulu1_1",
             "processId": 9679,
+            "exited": false
+        },
+        {
+            "deviceId": "3df8f07c",
+            "name": "com.DefaultCompany.LiikkuvaKoulu1_1",
+            "processId": 22434,
+            "exited": false
+        },
+        {
+            "deviceId": "3df8f07c",
+            "name": "com.DefaultCompany.LiikkuvaKoulu1_1",
+            "processId": 25696,
+            "exited": false
+        },
+        {
+            "deviceId": "3df8f07c",
+            "name": "com.DefaultCompany.LiikkuvaKoulu1_1",
+            "processId": 3824,
+            "exited": true
+        },
+        {
+            "deviceId": "3df8f07c",
+            "name": "com.DefaultCompany.LiikkuvaKoulu1_1",
+            "processId": 5330,
+            "exited": false
+        },
+        {
+            "deviceId": "3df8f07c",
+            "name": "com.DefaultCompany.LiikkuvaKoulu1_1",
+            "processId": 6636,
             "exited": false
         }
     ],
