@@ -10,20 +10,17 @@ public class AnswerScript : MonoBehaviour
 {
     public bool isCorrect = false;
     public QuizManager quizManager;
-    GameObject oikein;
-    GameObject vaarin;
+    //GameObject oikein;
+    //GameObject vaarin;
     GetHaku haku;
+    public Unesco boss;
 
     string[] value;
 
 
     public void Start()
     {
-        oikein = GameObject.Find("Oikein");
-        vaarin = GameObject.Find("Vaarin");
 
-        vaarin.SetActive(false);
-        oikein.SetActive(false);
     }
 
     public void Answer()//ilmoittaa meniko vastaus oikein vai vaarin
@@ -38,7 +35,7 @@ public class AnswerScript : MonoBehaviour
             value[1] = "5";
             haku.data = value;
             haku.id = 4;
-            oikein.SetActive(true);
+            boss.oikeinCanvas.SetActive(true);
             
             //haku.StartCoroutine("PutServeri");
             quizManager.correct();
@@ -48,7 +45,7 @@ public class AnswerScript : MonoBehaviour
         {
             Debug.Log("Vastauksesi oli väärin.");
             quizManager.correct();
-            vaarin.SetActive(true);
+            boss.vaarinCanvas.SetActive(true);
         }
     }
 
@@ -56,7 +53,7 @@ public class AnswerScript : MonoBehaviour
     {
         if(SceneManager.GetActiveScene().name == "Pelinakyma")
         {
-            vaarin.SetActive(false);
+            boss.vaarinCanvas.SetActive(false);
         }
         else
         {

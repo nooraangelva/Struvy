@@ -54,17 +54,7 @@ public class QuizManager : MonoBehaviour
                 break;
 
             default:
-                if(moneskoK < 2)
-                {
-                    value[0] = haku.r_id.ToString();
-                    haku.data = value;
-                    haku.id = 5;
-                    //haku.StartCoroutine("GetServeri");
-                    //generateQuestion();
-                }
-                else{
                     SceneManager.LoadScene(6);
-                }
                 break;
         }
     }

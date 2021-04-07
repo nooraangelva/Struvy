@@ -152,6 +152,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5c45f13f87aaf14dbd87a90e5a3674a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  vaarinCanvas: {fileID: 0}
+  oikeinCanvas: {fileID: 0}
   info: 0
   time: 0
   currentTime: 0
@@ -310,6 +312,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isCorrect: 0
   quizManager: {fileID: 0}
+  boss: {fileID: 0}
 --- !u!114 &116793757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1239,6 +1242,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isCorrect: 0
   quizManager: {fileID: 0}
+  boss: {fileID: 0}
 --- !u!114 &391479753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1746,7 +1750,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &762903346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1761,6 +1765,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isCorrect: 0
   quizManager: {fileID: 0}
+  boss: {fileID: 0}
 --- !u!114 &762903347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3044,7 +3049,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1788810766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3192,6 +3197,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isCorrect: 0
   quizManager: {fileID: 0}
+  boss: {fileID: 0}
 --- !u!114 &1817698185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3362,13 +3368,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2022026638}
-  m_LocalRotation: {x: -0, y: -0.34396446, z: -0, w: 0.93898267}
+  m_LocalRotation: {x: 0, y: -0.3420201, z: 0, w: 0.9396927}
   m_LocalPosition: {x: -3.2, y: -1.648, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: -40.237, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -40, z: 0}
 --- !u!1 &2029784116
 GameObject:
   m_ObjectHideFlags: 0
@@ -3423,6 +3429,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isCorrect: 0
   quizManager: {fileID: 0}
+  boss: {fileID: 0}
 --- !u!114 &2029784119
 MonoBehaviour:
   m_ObjectHideFlags: 0

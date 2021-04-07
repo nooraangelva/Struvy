@@ -12,6 +12,9 @@ public class Pathfollower : MonoBehaviour
 {
     Node[] PathNode;
     public GameObject sticker;
+    public GameObject vaarinCanvas;
+    public GameObject oikeinCanvas;
+    GameObject quissari;
 
     Sticker koodi;
     QuizManager kyssari;
@@ -33,9 +36,12 @@ public class Pathfollower : MonoBehaviour
 
     void Start()// alustetaan quiz ja stickerin liike
     {
-        kyssari = GameObject.Find("QuizManager").GetComponent<QuizManager>();
+        //kyssari = GameObject.Find("QuizManager").GetComponent<QuizManager>();
+        //quissari = GameObject.Find("QuizManager");
         sticker = GameObject.Find("Sticker");
         canvas = GameObject.Find("Canvas");
+        vaarinCanvas = GameObject.Find("Vaarin");
+        oikeinCanvas = GameObject.Find("Oikein");
         koodi = sticker.GetComponent<Sticker>();
         PathNode = GetComponentsInChildren<Node>();
         haku = GameObject.Find("Lahettaja").GetComponent<GetHaku>();
@@ -44,6 +50,9 @@ public class Pathfollower : MonoBehaviour
         
         matkaIndeksi = 1; //testi
         //matkaIndeksi = Getint(string KeyName);
+        oikeinCanvas.SetActive(false);
+        vaarinCanvas.SetActive(false);
+        //quissari.SetActive(false);
 
     }
 
@@ -64,7 +73,7 @@ public class Pathfollower : MonoBehaviour
                 //SetInt(string haku.r_id.ToString(), int pisteet[matkaIndeksi]);
                 break;
             case 10:
-                unesco = "Aavasaksa";
+                unesco = "Pyhtaa";
                 StartCoroutine(ExampleCoroutine());
                 matkaIndeksi++;
                 previouspositionHolder = PathNode[matkaIndeksi-1].transform.position;
@@ -83,6 +92,7 @@ public class Pathfollower : MonoBehaviour
                 break;
             default:
                 matkaIndeksi++;
+                //quissari.SetActive(true);
                 //kyssari.generateQuestion(); //muista public
                 Time.timeScale = 0;//pause
                 previouspositionHolder = PathNode[matkaIndeksi-1].transform.position;
