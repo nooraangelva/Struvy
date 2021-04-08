@@ -15,6 +15,7 @@ using System;
 
 public class Luokkatieto
 {
+    public string turvakoodi;
     public string[] l_data;
     public int l_id;
 }
@@ -83,6 +84,7 @@ public class GetHaku : MonoBehaviour
 
             //getin rakennus
             Luokkatieto serveri = new Luokkatieto();
+            serveri.turvakoodi = "Saani_159";
             serveri.l_data = data;
             serveri.l_id = id;
             string jsonMessage = JsonUtility.ToJson(serveri);
@@ -90,7 +92,7 @@ public class GetHaku : MonoBehaviour
             Debug.Log("Haun lahetys.");
 
             // getin lähetys
-            using (UnityWebRequest www = UnityWebRequest.Get("http://54.160.112.59/struvy/GetHaku.php?"+ jsonMessage))
+            using (UnityWebRequest www = UnityWebRequest.Get("http://54.160.112.59/LiikkuvaKoulu_Struvy/Get.php?"+ jsonMessage))
             {
                 www.SetRequestHeader("Accept", "application/json");
                 yield return www.SendWebRequest();

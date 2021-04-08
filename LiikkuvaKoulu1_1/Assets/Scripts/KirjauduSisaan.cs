@@ -32,7 +32,7 @@ public class KirjauduSisaan : MonoBehaviour
 
     public void Kirjaudu() //Lähettää käskyn tarkistaa tunnukset
     {
-        string[] value = {kt.text.ToString(), ss.text.ToString()};
+        string[] value = {"Testi1", "TestiSalasana"};
         //value[0] = kt.text.ToString();
         //value[1] = ss.text.ToString();
 
