@@ -16,8 +16,7 @@ public class KirjauduSisaan : MonoBehaviour
     Text kt;
     Text ss;
 
-    private int response;
-    private string[] value;
+    public int response;
     public int r_id;
 
 
@@ -26,21 +25,44 @@ public class KirjauduSisaan : MonoBehaviour
         kt = GameObject.Find("Kayttajatunnus").GetComponent<Text>();
         ss = GameObject.Find("Salasana").GetComponent<Text>();
         haku = GameObject.Find("Lahettaja").GetComponent<GetHaku>();
-        value = new string[1];
         info = GameObject.Find("KirjauduVirhe");
+        info.SetActive(false);
 
     }
 
     public void Kirjaudu() //Lähettää käskyn tarkistaa tunnukset
     {
+        string[] value = {kt.text.ToString(), ss.text.ToString()};
+        //value[0] = kt.text.ToString();
+        //value[1] = ss.text.ToString();
 
-        value[0] = (string)kt.text;
-        value[1] = (string)ss.text;
+
         haku.data = value;
         haku.id = 1;
         haku.siirtyma = "PaavalikkoMenu";
         
         haku.StartCoroutine("GetServeri");
+        StartCoroutine(Odotus());
+
+        Debug.Log("Tarkistus");
+
+        
+    }
+
+    void Update()
+    {
+        
+    }
+
+       IEnumerator Odotus()
+    {
+        Debug.Log("Started Coroutine at timestamp : " + Time.time);
+
+        // odottaa 2 sec
+        yield return new WaitForSeconds(2);
+        
+ 
+        Debug.Log("Finished Coroutine at timestamp : " + Time.time);
 
         if(!haku.vastausTunnus.r_id.Contains(""))
         {
@@ -48,12 +70,8 @@ public class KirjauduSisaan : MonoBehaviour
         }
         else
         {
-            haku.info.SetActive(true);
+            info.SetActive(true);
         }
     }
-
-    void Update()
-    {
-        
-    }
+    
 }

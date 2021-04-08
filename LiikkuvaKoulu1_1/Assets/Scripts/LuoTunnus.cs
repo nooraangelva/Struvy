@@ -18,7 +18,6 @@ public class LuoTunnus : MonoBehaviour
     Text u_ss2;
 
     private int response;
-    private string[] value;
 
     
     void Start() //Määrittelee componentit
@@ -30,30 +29,25 @@ public class LuoTunnus : MonoBehaviour
         info = GameObject.Find("Lahettaja");
         u_info = GameObject.Find("TunnusVirhe");
         u_info2 = GameObject.Find("TunnusVarattu");
-        value = new string[2];
+
+        u_info.SetActive(false);
+        u_info2.SetActive(false);
+   
     }
 
     public void TunnusLuo() //lähettää käskyn luoda tunnukset
     {
-        if(u_ss == u_ss2)
+        if(u_ss.text == u_ss2.text)
         {
-            value[0] = (string)u_kt.text;
-            value[1] = (string)u_ss.text;
-            value[2] = (string)u_ss2.text;
+            string[] value = {u_kt.text.ToString(), u_ss.text.ToString()};
             p_haku.data = value;
             p_haku.id = 2;
             p_haku.siirtyma = "KirjauduMenu";
             
             p_haku.StartCoroutine("PutServeri");
+            StartCoroutine(Odotus());
             
-            if(!p_haku.vastaus.Contains(""))
-            {
-                Debug.Log("kirjautumine");
-            }
-            else
-            {
-                u_info2.SetActive(true);
-            }
+            
         }
 
         else
@@ -67,4 +61,25 @@ public class LuoTunnus : MonoBehaviour
        {
 
        }
+
+    IEnumerator Odotus()
+    {
+        Debug.Log("Started Coroutine at timestamp : " + Time.time);
+
+        // odottaa 2 sec
+        yield return new WaitForSeconds(2);
+        
+ 
+        Debug.Log("Finished Coroutine at timestamp : " + Time.time);
+
+        if(!p_haku.vastaus.Contains(""))
+        {
+            Debug.Log("kirjautumine");
+        }
+
+        else
+        {
+            u_info2.SetActive(true);
+        }
+    }
 }

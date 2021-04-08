@@ -4131,6 +4131,8 @@ MonoBehaviour:
   sticker: {fileID: 0}
   vaarinCanvas: {fileID: 0}
   oikeinCanvas: {fileID: 0}
+  quissari: {fileID: 0}
+  quizCanvas: {fileID: 0}
 --- !u!1 &1389674292
 GameObject:
   m_ObjectHideFlags: 0

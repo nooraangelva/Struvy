@@ -21,7 +21,6 @@ public class QuizManager : MonoBehaviour
     int oikein;
     int moneskoK = 0;
     string[] vastaukset;
-    string[] value;
 
 
     private void Start()//kyssarin haun alustus
@@ -30,33 +29,33 @@ public class QuizManager : MonoBehaviour
         insertti = GameObject.Find("Lahettaja").GetComponent<PutHaku>();
         quisManager = GameObject.Find("QuizManager");
 
-//        value[0] = haku.r_id.ToString();
+        string[] value = {haku.r_id.ToString()};
         haku.data = value;
         haku.id = 5;
         
-        //haku.StartCoroutine("GetServeri");
+        haku.StartCoroutine("GetServeri");
     }
 
     public void correct()//kyssarin poisto ja pelin jatkuminen
-    {
-        value = new string[1];
-        value[0] = haku.r_id.ToString();
+    {/*
+        string[] value = {haku.r_id.ToString()};
         haku.data = value;
         haku.id = 3;
         
-        //haku.StartCoroutine("PutServeri");
+        haku.StartCoroutine("PutServeri");
 
         switch (SceneManager.GetActiveScene().name) 
         {
             case "Pelinakyma":
                 quisManager.SetActive(false);
+                quizCanvas.SetActive(false);
                 Time.timeScale = 1;
                 break;
 
             default:
-                    SceneManager.LoadScene(6);
+                SceneManager.LoadScene("Pelinakyma");
                 break;
-        }
+        }*/
     }
 
     public void SetAnswers()// asettaa vastaukset kysymykselle

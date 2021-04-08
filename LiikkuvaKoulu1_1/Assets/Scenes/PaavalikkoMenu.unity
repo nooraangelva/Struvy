@@ -969,7 +969,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1363343720}
         m_TargetAssemblyTypeName: Paavalikko, Assembly-CSharp
-        m_MethodName: Top10
+        m_MethodName: Info
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

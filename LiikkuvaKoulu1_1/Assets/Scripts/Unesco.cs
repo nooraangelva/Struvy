@@ -44,8 +44,8 @@ public class Unesco : MonoBehaviour
             laAngle = 180;
             break;
         case "Enontekio":
-            loAngle =  15;
-            laAngle = 0;     
+            loAngle =  -145;
+            laAngle = -220;     
             break;
         }
         

@@ -12,20 +12,20 @@ public class Paavalikko : MonoBehaviour
     
     public void Peliin()//nappi, lataa peli scene 
     {
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene("Pelinakyma");
         Debug.Log("Avataan pelinakyma");    
     }
 
-    /*public void Saavutukset()//nappi, lataa 
+    public void Info()//nappi, lataa 
     {
-        SceneManager.LoadScene(3);
-        Debug.Log("SaavutusMenu");
-    }*/
+        SceneManager.LoadScene("Info");
+        Debug.Log("info");
+    }
 
     public void Top10()//nappi, lataa top-listat scene
     {
         //SceneManager.UnloadSceneAsync("PaavalikkoMenu");
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene("top10Menu");
         Debug.Log("10");
     }
 

@@ -14,7 +14,8 @@ public class Pathfollower : MonoBehaviour
     public GameObject sticker;
     public GameObject vaarinCanvas;
     public GameObject oikeinCanvas;
-    GameObject quissari;
+    public GameObject quissari;
+    public GameObject quizCanvas;
 
     Sticker koodi;
     QuizManager kyssari;
@@ -36,8 +37,9 @@ public class Pathfollower : MonoBehaviour
 
     void Start()// alustetaan quiz ja stickerin liike
     {
-        //kyssari = GameObject.Find("QuizManager").GetComponent<QuizManager>();
-        //quissari = GameObject.Find("QuizManager");
+        kyssari = GameObject.Find("QuizManager").GetComponent<QuizManager>();
+        quissari = GameObject.Find("QuizManager");
+        quizCanvas = GameObject.Find("PikkuPiste");
         sticker = GameObject.Find("Sticker");
         canvas = GameObject.Find("Canvas");
         vaarinCanvas = GameObject.Find("Vaarin");
@@ -52,7 +54,8 @@ public class Pathfollower : MonoBehaviour
         //matkaIndeksi = Getint(string KeyName);
         oikeinCanvas.SetActive(false);
         vaarinCanvas.SetActive(false);
-        //quissari.SetActive(false);
+        quissari.SetActive(false);
+        quizCanvas.SetActive(false);
 
     }
 
@@ -92,8 +95,9 @@ public class Pathfollower : MonoBehaviour
                 break;
             default:
                 matkaIndeksi++;
-                //quissari.SetActive(true);
-                //kyssari.generateQuestion(); //muista public
+                quizCanvas.SetActive(true);
+                quissari.SetActive(true);
+                kyssari.generateQuestion(); //muista public
                 Time.timeScale = 0;//pause
                 previouspositionHolder = PathNode[matkaIndeksi-1].transform.position;
                 CurrentPositionHolder = PathNode[matkaIndeksi].transform.position;

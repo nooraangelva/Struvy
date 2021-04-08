@@ -10,8 +10,6 @@ public class AnswerScript : MonoBehaviour
 {
     public bool isCorrect = false;
     public QuizManager quizManager;
-    //GameObject oikein;
-    //GameObject vaarin;
     GetHaku haku;
     public Unesco boss;
 
@@ -37,7 +35,7 @@ public class AnswerScript : MonoBehaviour
             haku.id = 4;
             boss.oikeinCanvas.SetActive(true);
             
-            //haku.StartCoroutine("PutServeri");
+            haku.StartCoroutine("PutServeri");
             quizManager.correct();
 
         }
@@ -51,13 +49,20 @@ public class AnswerScript : MonoBehaviour
 
     public void nappi()
     {
-        if(SceneManager.GetActiveScene().name == "Pelinakyma")
+        switch (SceneManager.GetActiveScene().name) 
         {
-            boss.vaarinCanvas.SetActive(false);
+            case "Pelinakyma":
+                boss.vaarinCanvas.SetActive(false);
+                //quisManager.SetActive(false);
+                //quizCanvas.SetActive(false);
+                Time.timeScale = 1;
+                break;
+
+            default:
+                SceneManager.LoadScene("Pelinakyma");
+                break;
         }
-        else
-        {
-            SceneManager.LoadScene("Pelinakyma");
-        }
+       
     }
 }
+

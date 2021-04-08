@@ -11,8 +11,9 @@ public class Aloitusvalikko : MonoBehaviour
 {
     public void KirjauduSisaan()//scenen lataus, kirjaudu
     {
-        //SceneManager.LoadScene("KirjauduMenu");
-        SceneManager.LoadScene("Pelinakyma");
+        SceneManager.LoadScene("KirjauduMenu");
+        //testi
+        //SceneManager.LoadScene("Pelinakyma");
         Debug.Log("Kirjaudu");
     }
 

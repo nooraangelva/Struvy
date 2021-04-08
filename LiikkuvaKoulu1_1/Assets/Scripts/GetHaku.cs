@@ -87,8 +87,10 @@ public class GetHaku : MonoBehaviour
             serveri.l_id = id;
             string jsonMessage = JsonUtility.ToJson(serveri);
 
+            Debug.Log("Haun lahetys.");
+
             // getin lähetys
-            using (UnityWebRequest www = UnityWebRequest.Get("http://54.160.118.215/struvy/GetHaku.php?"+ jsonMessage))
+            using (UnityWebRequest www = UnityWebRequest.Get("http://54.160.112.59/struvy/GetHaku.php?"+ jsonMessage))
             {
                 www.SetRequestHeader("Accept", "application/json");
                 yield return www.SendWebRequest();
@@ -100,12 +102,13 @@ public class GetHaku : MonoBehaviour
                 }
                 else //Haku onnistui
                 {
-                    Debug.Log("Form upload complete!");
+                    Debug.Log("Haku complete!");
                     
                     switch (id)
                     {
                         case 1: //Kirjautuminen
                             vastausTunnus = JsonUtility.FromJson<TunnusResponse>(www.downloadHandler.text);
+                            Debug.Log(vastausTunnus);
                             r_id = int.Parse(vastausTunnus.r_id);
                             SceneManager.LoadScene(siirtyma);
                             break;
