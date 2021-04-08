@@ -22,7 +22,13 @@ public class PyllyPainike : MonoBehaviour
 
     public void Paavalikko() //Takaisin päävalikkoon nappi
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("Paavalikko");
         Debug.Log("Päävalikkoon");
+    }
+
+    public void Aloitusmenu() //Takaisin päävalikkoon nappi
+    {
+        SceneManager.LoadScene("AloitusMenu");
+        Debug.Log("Aloitusmenuun");
     }
 }

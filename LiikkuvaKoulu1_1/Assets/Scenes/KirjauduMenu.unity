@@ -510,7 +510,7 @@ RectTransform:
   m_LocalScale: {x: 1.7563704, y: 1.7563704, z: 1.7563704}
   m_Children: []
   m_Father: {fileID: 1076939958}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1045,6 +1045,7 @@ GameObject:
   - component: {fileID: 1076939956}
   - component: {fileID: 1076939955}
   - component: {fileID: 1076939959}
+  - component: {fileID: 1076939960}
   m_Layer: 5
   m_Name: KirjauduValikko
   m_TagString: Untagged
@@ -1125,6 +1126,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1314628580}
+  - {fileID: 1641814308}
   - {fileID: 1779903420}
   - {fileID: 183331974}
   - {fileID: 1622324006}
@@ -1153,6 +1155,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   response: 0
   r_id: 0
+--- !u!114 &1076939960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076939954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14f4f053eee6a124c82c0524b52d3eff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1083691945
 GameObject:
   m_ObjectHideFlags: 0
@@ -1345,7 +1359,7 @@ RectTransform:
   m_LocalScale: {x: 2.837605, y: 3.0149553, z: 2.837605}
   m_Children: []
   m_Father: {fileID: 1076939958}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1567,7 +1581,7 @@ RectTransform:
   m_LocalScale: {x: 2.986, y: 2.986, z: 2.986}
   m_Children: []
   m_Father: {fileID: 1076939958}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1646,7 +1660,7 @@ RectTransform:
   m_LocalScale: {x: 1.8544445, y: 1.8544445, z: 1.8544445}
   m_Children: []
   m_Father: {fileID: 1076939958}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1754,9 +1768,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1076939960}
         m_TargetAssemblyTypeName: PyllyPainike, Assembly-CSharp
-        m_MethodName: Paavalikko
+        m_MethodName: Aloitusmenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1813,15 +1827,15 @@ RectTransform:
   m_GameObject: {fileID: 1641814304}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7407408, y: 0.7407408, z: 0.7407408}
   m_Children:
   - {fileID: 1657785668}
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 1076939958}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 512.5909, y: 1617.2843}
+  m_AnchoredPosition: {x: -20.30304, y: 353.54395}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1657785667
@@ -1929,7 +1943,7 @@ RectTransform:
   m_LocalScale: {x: 3.0108, y: 3.0108, z: 3.0108}
   m_Children: []
   m_Father: {fileID: 1076939958}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2087,7 +2101,7 @@ RectTransform:
   m_LocalScale: {x: 2.986, y: 2.986, z: 2.986}
   m_Children: []
   m_Father: {fileID: 1076939958}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}

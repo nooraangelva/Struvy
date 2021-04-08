@@ -89,7 +89,7 @@ public class GetHaku : MonoBehaviour
             serveri.l_id = id;
             string jsonMessage = JsonUtility.ToJson(serveri);
 
-            Debug.Log("Haun lahetys.");
+            Debug.Log("http://54.160.112.59/LiikkuvaKoulu_Struvy/Get.php?"+ jsonMessage);
 
             // getin lähetys
             using (UnityWebRequest www = UnityWebRequest.Get("http://54.160.112.59/LiikkuvaKoulu_Struvy/Get.php?"+ jsonMessage))
@@ -109,6 +109,7 @@ public class GetHaku : MonoBehaviour
                     switch (id)
                     {
                         case 1: //Kirjautuminen
+                            Debug.Log(www.downloadHandler.text);
                             vastausTunnus = JsonUtility.FromJson<TunnusResponse>(www.downloadHandler.text);
                             Debug.Log(vastausTunnus);
                             r_id = int.Parse(vastausTunnus.r_id);
