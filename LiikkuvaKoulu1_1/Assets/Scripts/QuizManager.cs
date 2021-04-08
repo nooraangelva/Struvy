@@ -33,12 +33,12 @@ public class QuizManager : MonoBehaviour
         haku.data = value;
         haku.id = 5;
         
-        haku.StartCoroutine("GetServeri");
+        //haku.StartCoroutine("GetServeri");
     }
 
     public void correct()//kyssarin poisto ja pelin jatkuminen
-    {/*
-        string[] value = {haku.r_id.ToString()};
+    {
+        var value = new string[] {haku.r_id.ToString()}; 
         haku.data = value;
         haku.id = 3;
         
@@ -48,14 +48,14 @@ public class QuizManager : MonoBehaviour
         {
             case "Pelinakyma":
                 quisManager.SetActive(false);
-                quizCanvas.SetActive(false);
+                //quizCanvas.SetActive(false);
                 Time.timeScale = 1;
                 break;
 
             default:
                 SceneManager.LoadScene("Pelinakyma");
                 break;
-        }*/
+        }
     }
 
     public void SetAnswers()// asettaa vastaukset kysymykselle

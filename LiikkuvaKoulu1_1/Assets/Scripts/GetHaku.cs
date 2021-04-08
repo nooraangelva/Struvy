@@ -89,10 +89,10 @@ public class GetHaku : MonoBehaviour
             serveri.l_id = id;
             string jsonMessage = JsonUtility.ToJson(serveri);
 
-            Debug.Log("http://54.160.112.59/LiikkuvaKoulu_Struvy/Get.php?"+ jsonMessage);
+            Debug.Log("http://54.160.112.59/LiikkuvaKoulu_Struvy/Get.php,"+ jsonMessage);
 
             // getin lähetys
-            using (UnityWebRequest www = UnityWebRequest.Get("http://54.160.112.59/LiikkuvaKoulu_Struvy/Get.php?"+ jsonMessage))
+            using (UnityWebRequest www = UnityWebRequest.Put("http://54.160.112.59/LiikkuvaKoulu_Struvy/Get.php", jsonMessage))
             {
                 www.SetRequestHeader("Accept", "application/json");
                 yield return www.SendWebRequest();
@@ -111,28 +111,32 @@ public class GetHaku : MonoBehaviour
                         case 1: //Kirjautuminen
                             Debug.Log(www.downloadHandler.text);
                             vastausTunnus = JsonUtility.FromJson<TunnusResponse>(www.downloadHandler.text);
-                            Debug.Log(vastausTunnus);
+                            Debug.Log(vastausTunnus.r_id);
                             r_id = int.Parse(vastausTunnus.r_id);
                             SceneManager.LoadScene(siirtyma);
                             break;
 
                         case 3: // Top10 streak Laitto
+                            Debug.Log(www.downloadHandler.text);
                             saavutukset = GameObject.Find("TopValikko");
                             streakTop = JsonUtility.FromJson<TopSResponse>(www.downloadHandler.text);
                             Debug.Log(www.downloadHandler.text);
                             break;
 
                         case 4: // Top10 matka
+                            Debug.Log(www.downloadHandler.text);
                             saavutukset = GameObject.Find("TopValikko");
                             matkaTop = JsonUtility.FromJson<TopMResponse>(www.downloadHandler.text);
                             Debug.Log(www.downloadHandler.text);
                             break;
 
                         case 2: //Matka Haku
+                            Debug.Log(www.downloadHandler.text);
                             vastausMatka = JsonUtility.FromJson<GameResponse>(www.downloadHandler.text);
                             break;
 
                         case 5: //kysymys haku
+                            Debug.Log(www.downloadHandler.text);
                             vastausKysymys = JsonUtility.FromJson<QuestionResponse>(www.downloadHandler.text);
                             break;
 

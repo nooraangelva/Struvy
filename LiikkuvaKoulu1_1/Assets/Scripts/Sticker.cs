@@ -14,7 +14,6 @@ public class Sticker : MonoBehaviour
     Text matkaUnescoon;
     Text streak;
 
-    public string[] value;
     public int r_id;
     public int matka;
     int x;
@@ -25,16 +24,18 @@ public class Sticker : MonoBehaviour
     int[] pisteet = {10,703,962};
 
     void Start()//Liikutun matkan haun alustus
-    {/*
-        value[0] = haku.r_id.ToString();
+    {
+        haku = GameObject.Find("Lahettaja").GetComponent<GetHaku>();
+        var value = new string[] {haku.r_id.ToString()}; 
         haku.data = value;
         haku.id = 2;
         
-        haku.StartCoroutine("GetServeri");*/
+        haku.StartCoroutine("GetServeri");
         kokonaisMatka = GameObject.Find("Kilometrit").GetComponent<Text>();
         matkaUnescoon = GameObject.Find("MUKilometrit").GetComponent<Text>();
         streak = GameObject.Find("Luku").GetComponent<Text>();
         
+        //testi
         matka = 20;
         streakpisteet = 2;
 

@@ -33,8 +33,7 @@ public class KirjauduSisaan : MonoBehaviour
     public void Kirjaudu() //Lähettää käskyn tarkistaa tunnukset
     {
         string[] value = {"Testi1", "TestiSalasana"};
-        //value[0] = kt.text.ToString();
-        //value[1] = ss.text.ToString();
+        //string[] value = {kt.text, ss.text};
 
 
         haku.data = value;
@@ -42,7 +41,7 @@ public class KirjauduSisaan : MonoBehaviour
         haku.siirtyma = "PaavalikkoMenu";
         
         haku.StartCoroutine("GetServeri");
-        StartCoroutine(Odotus());
+        //StartCoroutine(Odotus());
 
         Debug.Log("Tarkistus");
 
