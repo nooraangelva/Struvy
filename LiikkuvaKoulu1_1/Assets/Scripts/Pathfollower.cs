@@ -55,8 +55,6 @@ public class Pathfollower : MonoBehaviour
         oikeinCanvas.SetActive(false);
         vaarinCanvas.SetActive(false);
         quissari.SetActive(false);
-        quizCanvas.SetActive(false);
-
     }
 
     void Update()//liike ja kyssarin kaynnistys jos osuu kohalle
@@ -95,7 +93,6 @@ public class Pathfollower : MonoBehaviour
                 break;
             default:
                 matkaIndeksi++;
-                quizCanvas.SetActive(true);
                 quissari.SetActive(true);
                 kyssari.generateQuestion(); //muista public
                 Time.timeScale = 0;//pause

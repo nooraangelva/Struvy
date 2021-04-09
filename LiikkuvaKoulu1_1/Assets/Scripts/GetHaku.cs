@@ -92,7 +92,7 @@ public class GetHaku : MonoBehaviour
             Debug.Log("http://54.160.112.59/LiikkuvaKoulu_Struvy/Get.php,"+ jsonMessage);
 
             // getin lähetys
-            using (UnityWebRequest www = UnityWebRequest.Put("http://54.160.112.59/LiikkuvaKoulu_Struvy/Get.php", jsonMessage))
+            using (UnityWebRequest www = UnityWebRequest.Put("http://100.26.161.252/LiikkuvaKoulu_Struvy/Get.php", jsonMessage))
             {
                 www.SetRequestHeader("Accept", "application/json");
                 yield return www.SendWebRequest();

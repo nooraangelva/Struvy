@@ -1293,9 +1293,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 477427822}
-        m_TargetAssemblyTypeName: AnswerScript, Assembly-CSharp
-        m_MethodName: nappi
+      - m_Target: {fileID: 1605172392}
+        m_TargetAssemblyTypeName: QuizManager, Assembly-CSharp
+        m_MethodName: Oikeinnappi
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1901,9 +1901,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 477427822}
-        m_TargetAssemblyTypeName: AnswerScript, Assembly-CSharp
-        m_MethodName: nappi
+      - m_Target: {fileID: 1605172392}
+        m_TargetAssemblyTypeName: QuizManager, Assembly-CSharp
+        m_MethodName: Vaarinnappi
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2558,8 +2558,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5c45f13f87aaf14dbd87a90e5a3674a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vaarinCanvas: {fileID: 0}
-  oikeinCanvas: {fileID: 0}
+  quizG: {fileID: 1605172391}
+  qTausta: {fileID: 1326075588}
+  vaarinCanvas: {fileID: 1918818813}
+  oikeinCanvas: {fileID: 1326499587}
   info: 0
   time: 0
   currentTime: 0
@@ -2848,11 +2850,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   options:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  QuestionTxt: {fileID: 0}
+  - {fileID: 263455871}
+  - {fileID: 1793467994}
+  - {fileID: 934196741}
+  - {fileID: 1341988664}
+  boss: {fileID: 0}
+  quizCanvas: {fileID: 477427817}
+  QuestionTxt: {fileID: 598921957}
   currentQuestion: 0
 --- !u!4 &1605172393
 Transform:

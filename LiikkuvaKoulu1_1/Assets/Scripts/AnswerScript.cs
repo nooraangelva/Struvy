@@ -9,7 +9,8 @@ using UnityEngine.SceneManagement;
 public class AnswerScript : MonoBehaviour
 {
     public bool isCorrect = false;
-    public QuizManager quizManager;
+    QuizManager quizManager;
+    PutHaku insertti;
     GetHaku haku;
     public Unesco boss;
 
@@ -18,7 +19,9 @@ public class AnswerScript : MonoBehaviour
 
     public void Start()
     {
-
+        haku = GameObject.Find("Lahettaja").GetComponent<GetHaku>();
+        insertti = GameObject.Find("Lahettaja").GetComponent<PutHaku>();
+        quizManager = GameObject.Find("Lahettaja").GetComponent<QuizManager>();
     }
 
     public void Answer()//ilmoittaa meniko vastaus oikein vai vaarin
@@ -31,38 +34,19 @@ public class AnswerScript : MonoBehaviour
             value = new string[1];
             value[0] = haku.r_id.ToString();
             value[1] = "5";
-            haku.data = value;
-            haku.id = 4;
+            insertti.data = value;
+            insertti.id = 4;
             boss.oikeinCanvas.SetActive(true);
-            
-            haku.StartCoroutine("PutServeri");
+            insertti.StartCoroutine("PutServeri");
             quizManager.correct();
 
         }
         else
         {
-            Debug.Log("Vastauksesi oli väärin.");
             quizManager.correct();
             boss.vaarinCanvas.SetActive(true);
+            Debug.Log("Vastauksesi oli väärin.");
         }
-    }
-
-    public void nappi()
-    {
-        switch (SceneManager.GetActiveScene().name) 
-        {
-            case "Pelinakyma":
-                boss.vaarinCanvas.SetActive(false);
-                //quisManager.SetActive(false);
-                //quizCanvas.SetActive(false);
-                Time.timeScale = 1;
-                break;
-
-            default:
-                SceneManager.LoadScene("Pelinakyma");
-                break;
-        }
-       
     }
 }
 

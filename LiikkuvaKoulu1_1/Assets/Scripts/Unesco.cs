@@ -15,7 +15,9 @@ public class Unesco : MonoBehaviour
     GetHaku haku;
     GameObject unescoInfo;
     GameObject unescoPiste;
+    public GameObject quizG;
     Text infoText;
+    public GameObject qTausta;
     Quaternion rotation;
     QuizManager kyssari;
     Quaternion target;
@@ -51,12 +53,14 @@ public class Unesco : MonoBehaviour
         
         vaarinCanvas = GameObject.Find("Vaarin");
         oikeinCanvas = GameObject.Find("Oikein");
-
         unescoInfo = GameObject.Find("UnescoInfo");
+        //quizG = GameObject.Find("GuizManager");
         infoText = GameObject.Find("InfoText").GetComponent<Text>();
         GameObject.Find("UnescoInfo").SetActive(false);
         unescoPiste = GameObject.Find("UnescoPiste");
-        unescoPiste.SetActive(false);
+        oikeinCanvas.SetActive(false);
+        vaarinCanvas.SetActive(false);
+        qTausta.SetActive(false);
         info = 0;
         VideoPlayer();   
     }
@@ -77,7 +81,7 @@ public class Unesco : MonoBehaviour
         
             target = Quaternion.Euler(0, loAngle, 0);
             Camera.main.transform.rotation = Quaternion.Slerp(Camera.main.transform.rotation, target,  Time.deltaTime * smooth);
-            Debug.Log (target + "---"+ Camera.main.transform.rotation);
+            //Debug.Log (target + "---"+ Camera.main.transform.rotation);
 
             if(Quaternion.Euler(Camera.main.transform.localEulerAngles) == target){
 
@@ -109,13 +113,14 @@ public class Unesco : MonoBehaviour
                     }
                 }
                 else if(info == 1){
-                    unescoPiste.SetActive(true);
-                    kyssari = unescoPiste.GetComponent<QuizManager>();
-                    kyssari.generateQuestion(); 
+                    qTausta.SetActive(true);
+                    quizG.GetComponent<QuizManager>().generateQuestion();
                 }
             }
         }     
     }
+
+    
 
     public void VideoPlayer(){
 

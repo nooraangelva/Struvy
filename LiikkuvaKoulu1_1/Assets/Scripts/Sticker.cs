@@ -52,7 +52,7 @@ public class Sticker : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(unescolle);
+        //Debug.Log(unescolle);
         kokonaisMatka.text = matka+"/1000 km";
         matkaUnescoon.text = unescolle+"km";
         streak.text = streakpisteet.ToString();

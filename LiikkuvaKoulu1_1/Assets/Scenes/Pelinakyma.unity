@@ -4052,6 +4052,8 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  boss: {fileID: 0}
+  quizCanvas: {fileID: 876317175}
   QuestionTxt: {fileID: 0}
   currentQuestion: 0
 --- !u!4 &1340421371
@@ -4445,7 +4447,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 044e6b0594a322145bacc8beecddb706, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: []
   r_id: 0
   matka: 5
   unescolle: 0

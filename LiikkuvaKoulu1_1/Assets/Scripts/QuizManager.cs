@@ -11,7 +11,9 @@ using UnityEngine.SceneManagement;
 public class QuizManager : MonoBehaviour
 {
     public GameObject[] options;
+    public Unesco boss;
     GameObject quisManager;
+    public GameObject quizCanvas;
     PutHaku insertti;
     GetHaku haku;
 
@@ -21,10 +23,14 @@ public class QuizManager : MonoBehaviour
     int oikein;
     int moneskoK = 0;
     string[] vastaukset;
+    string qCanvasNimi;
 
 
     private void Start()//kyssarin haun alustus
     {
+
+        quizCanvas.SetActive(false);
+
         haku = GameObject.Find("Lahettaja").GetComponent<GetHaku>();
         insertti = GameObject.Find("Lahettaja").GetComponent<PutHaku>();
         quisManager = GameObject.Find("QuizManager");
@@ -38,24 +44,8 @@ public class QuizManager : MonoBehaviour
 
     public void correct()//kyssarin poisto ja pelin jatkuminen
     {
-        var value = new string[] {haku.r_id.ToString()}; 
-        haku.data = value;
-        haku.id = 3;
+        boss.qTausta.SetActive(false);
         
-        haku.StartCoroutine("PutServeri");
-
-        switch (SceneManager.GetActiveScene().name) 
-        {
-            case "Pelinakyma":
-                quisManager.SetActive(false);
-                //quizCanvas.SetActive(false);
-                Time.timeScale = 1;
-                break;
-
-            default:
-                SceneManager.LoadScene("Pelinakyma");
-                break;
-        }
     }
 
     public void SetAnswers()// asettaa vastaukset kysymykselle
@@ -74,11 +64,46 @@ public class QuizManager : MonoBehaviour
 
     public void generateQuestion()//kyssarin haku
     {
-        moneskoK++;
+        quizCanvas.SetActive(true);
         vastaukset = haku.vastausKysymys.vastaukset.Split(char.Parse("|"));
         oikein = System.Array.IndexOf(haku.vastausKysymys.oikein.Split(char.Parse("|")), "1");
-        QuestionTxt.text = haku.vastausKysymys.kysymys;
-        SetAnswers();
+        //QuestionTxt.text = haku.vastausKysymys.kysymys;
+        //SetAnswers();
+    }
 
+    public void Vaarinnappi()
+    {
+        switch (SceneManager.GetActiveScene().name) 
+        {
+            case "Pelinakyma":
+                boss.vaarinCanvas.SetActive(false);
+                quisManager.SetActive(false);
+                quizCanvas.SetActive(false);
+                Time.timeScale = 1;
+                break;
+
+            default:
+                SceneManager.LoadScene("Pelinakyma");
+                break;
+        }
+       
+    }
+
+    public void Oikeinnappi()
+    {
+        switch (SceneManager.GetActiveScene().name) 
+        {
+            case "Pelinakyma":
+                boss.oikeinCanvas.SetActive(false);
+                quisManager.SetActive(false);
+                quizCanvas.SetActive(false);
+                Time.timeScale = 1;
+                break;
+
+            default:
+                SceneManager.LoadScene("Pelinakyma");
+                break;
+        }
+       
     }
 }
