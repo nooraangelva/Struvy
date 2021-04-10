@@ -30,7 +30,7 @@ public class Sticker : MonoBehaviour
         haku.data = value;
         haku.id = 2;
         
-        haku.StartCoroutine("GetServeri");
+        //haku.StartCoroutine("GetServeri");
         kokonaisMatka = GameObject.Find("Kilometrit").GetComponent<Text>();
         matkaUnescoon = GameObject.Find("MUKilometrit").GetComponent<Text>();
         streak = GameObject.Find("Luku").GetComponent<Text>();

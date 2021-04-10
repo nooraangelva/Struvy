@@ -206,9 +206,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: AnswerScript, Assembly-CSharp
-        m_MethodName: nappi
+      - m_Target: {fileID: 1340421370}
+        m_TargetAssemblyTypeName: QuizManager, Assembly-CSharp
+        m_MethodName: Oikeinnappi
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1579,8 +1579,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
-  quizManager: {fileID: 0}
   boss: {fileID: 0}
+  oikeinCanvas: {fileID: 1299097013}
+  vaarinCanvas: {fileID: 1476427485}
 --- !u!114 &735514387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1728,8 +1729,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
-  quizManager: {fileID: 0}
   boss: {fileID: 0}
+  oikeinCanvas: {fileID: 1299097013}
+  vaarinCanvas: {fileID: 1476427485}
 --- !u!114 &737370562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1944,7 +1946,7 @@ GameObject:
   - component: {fileID: 782718356}
   - component: {fileID: 782718355}
   m_Layer: 5
-  m_Name: Tausta
+  m_Name: SiniTausta
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2497,6 +2499,7 @@ GameObject:
   - component: {fileID: 876317179}
   - component: {fileID: 876317178}
   - component: {fileID: 876317177}
+  - component: {fileID: 876317180}
   m_Layer: 5
   m_Name: PikkuPiste
   m_TagString: Untagged
@@ -2585,6 +2588,22 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &876317180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 876317175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d9d6f52258c5d14ca1a5f0c31dcd87d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isCorrect: 0
+  boss: {fileID: 0}
+  oikeinCanvas: {fileID: 1299097013}
+  vaarinCanvas: {fileID: 1476427485}
 --- !u!1 &891157304
 GameObject:
   m_ObjectHideFlags: 0
@@ -2668,9 +2687,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: AnswerScript, Assembly-CSharp
-        m_MethodName: nappi
+      - m_Target: {fileID: 1340421370}
+        m_TargetAssemblyTypeName: QuizManager, Assembly-CSharp
+        m_MethodName: Vaarinnappi
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2770,9 +2789,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d9d6f52258c5d14ca1a5f0c31dcd87d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 0
-  quizManager: {fileID: 0}
+  isCorrect: 1
   boss: {fileID: 0}
+  oikeinCanvas: {fileID: 1299097013}
+  vaarinCanvas: {fileID: 1476427485}
 --- !u!114 &933149955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4048,14 +4068,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   options:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 735514384}
+  - {fileID: 737370559}
+  - {fileID: 933149952}
+  - {fileID: 1418554908}
   boss: {fileID: 0}
-  quizCanvas: {fileID: 876317175}
-  QuestionTxt: {fileID: 0}
-  currentQuestion: 0
+  quizCanvas: {fileID: 300440035}
+  vaarinCanvas: {fileID: 1476427485}
+  oikeinCanvas: {fileID: 1299097013}
+  QuestionTxt: {fileID: 1170394139}
 --- !u!4 &1340421371
 Transform:
   m_ObjectHideFlags: 0
@@ -4131,8 +4152,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sticker: {fileID: 0}
-  vaarinCanvas: {fileID: 0}
-  oikeinCanvas: {fileID: 0}
+  vaarinCanvas: {fileID: 1476427485}
+  oikeinCanvas: {fileID: 1299097013}
   quissari: {fileID: 0}
   quizCanvas: {fileID: 0}
 --- !u!1 &1389674292
@@ -4263,8 +4284,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
-  quizManager: {fileID: 0}
   boss: {fileID: 0}
+  oikeinCanvas: {fileID: 1299097013}
+  vaarinCanvas: {fileID: 1476427485}
 --- !u!114 &1418554911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4394,7 +4416,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -1010}
   m_SizeDelta: {x: 220, y: 220}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1422416985
@@ -5084,8 +5106,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
-  quizManager: {fileID: 0}
   boss: {fileID: 0}
+  oikeinCanvas: {fileID: 0}
+  vaarinCanvas: {fileID: 0}
 --- !u!1 &1718512383
 GameObject:
   m_ObjectHideFlags: 0

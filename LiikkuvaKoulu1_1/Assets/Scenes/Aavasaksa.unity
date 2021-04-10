@@ -152,8 +152,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5c45f13f87aaf14dbd87a90e5a3674a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vaarinCanvas: {fileID: 0}
-  oikeinCanvas: {fileID: 0}
+  quizG: {fileID: 1101557173}
+  qTausta: {fileID: 897424665}
+  vaarinCanvas: {fileID: 300236277}
+  oikeinCanvas: {fileID: 360682314}
   info: 0
   time: 0
   currentTime: 0
@@ -311,8 +313,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
-  quizManager: {fileID: 0}
   boss: {fileID: 0}
+  oikeinCanvas: {fileID: 360682314}
+  vaarinCanvas: {fileID: 300236277}
 --- !u!114 &116793757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1241,8 +1244,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
-  quizManager: {fileID: 0}
   boss: {fileID: 0}
+  oikeinCanvas: {fileID: 360682314}
+  vaarinCanvas: {fileID: 300236277}
 --- !u!114 &391479753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1764,8 +1768,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
-  quizManager: {fileID: 0}
   boss: {fileID: 0}
+  oikeinCanvas: {fileID: 360682314}
+  vaarinCanvas: {fileID: 300236277}
 --- !u!114 &762903347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2324,12 +2329,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   options:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  QuestionTxt: {fileID: 0}
-  currentQuestion: 0
+  - {fileID: 116793754}
+  - {fileID: 391479750}
+  - {fileID: 1817698182}
+  - {fileID: 2029784116}
+  boss: {fileID: 0}
+  quizCanvas: {fileID: 897424665}
+  QuestionTxt: {fileID: 538582282}
 --- !u!4 &1101557175
 Transform:
   m_ObjectHideFlags: 0
@@ -3195,9 +3201,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d9d6f52258c5d14ca1a5f0c31dcd87d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 0
-  quizManager: {fileID: 0}
+  isCorrect: 1
   boss: {fileID: 0}
+  oikeinCanvas: {fileID: 360682314}
+  vaarinCanvas: {fileID: 300236277}
 --- !u!114 &1817698185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3428,8 +3435,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
-  quizManager: {fileID: 0}
   boss: {fileID: 0}
+  oikeinCanvas: {fileID: 360682314}
+  vaarinCanvas: {fileID: 300236277}
 --- !u!114 &2029784119
 MonoBehaviour:
   m_ObjectHideFlags: 0

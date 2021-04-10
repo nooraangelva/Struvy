@@ -506,8 +506,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
-  quizManager: {fileID: 0}
   boss: {fileID: 0}
+  oikeinCanvas: {fileID: 227215541}
+  vaarinCanvas: {fileID: 1059910703}
 --- !u!114 &277183992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -632,12 +633,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   options:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  QuestionTxt: {fileID: 0}
-  currentQuestion: 0
+  - {fileID: 1130483817}
+  - {fileID: 1628466573}
+  - {fileID: 1755378859}
+  - {fileID: 277183989}
+  boss: {fileID: 0}
+  quizCanvas: {fileID: 1714953956}
+  QuestionTxt: {fileID: 1351902344}
 --- !u!4 &342878194
 Transform:
   m_ObjectHideFlags: 0
@@ -1067,8 +1069,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5c45f13f87aaf14dbd87a90e5a3674a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vaarinCanvas: {fileID: 0}
-  oikeinCanvas: {fileID: 0}
+  quizG: {fileID: 342878192}
+  qTausta: {fileID: 1714953956}
+  vaarinCanvas: {fileID: 1059910703}
+  oikeinCanvas: {fileID: 227215541}
   info: 0
   time: 0
   currentTime: 0
@@ -1186,7 +1190,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &967928260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1200,8 +1204,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
-  quizManager: {fileID: 0}
   boss: {fileID: 0}
+  oikeinCanvas: {fileID: 227215541}
+  vaarinCanvas: {fileID: 1059910703}
 --- !u!114 &967928261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1809,8 +1814,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
-  quizManager: {fileID: 0}
   boss: {fileID: 0}
+  oikeinCanvas: {fileID: 227215541}
+  vaarinCanvas: {fileID: 1059910703}
 --- !u!114 &1130483820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2066,7 +2072,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1350228373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2828,8 +2834,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
-  quizManager: {fileID: 0}
   boss: {fileID: 0}
+  oikeinCanvas: {fileID: 227215541}
+  vaarinCanvas: {fileID: 1059910703}
 --- !u!114 &1628466576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3056,9 +3063,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d9d6f52258c5d14ca1a5f0c31dcd87d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 0
-  quizManager: {fileID: 0}
+  isCorrect: 1
   boss: {fileID: 0}
+  oikeinCanvas: {fileID: 227215541}
+  vaarinCanvas: {fileID: 1059910703}
 --- !u!114 &1755378862
 MonoBehaviour:
   m_ObjectHideFlags: 0

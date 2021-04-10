@@ -16,10 +16,10 @@ public class QuizManager : MonoBehaviour
     public GameObject quizCanvas;
     PutHaku insertti;
     GetHaku haku;
-
+    public GameObject vaarinCanvas;
+    public GameObject oikeinCanvas;
     public Text QuestionTxt;
 
-    public int currentQuestion;
     int oikein;
     int moneskoK = 0;
     string[] vastaukset;
@@ -35,16 +35,22 @@ public class QuizManager : MonoBehaviour
         insertti = GameObject.Find("Lahettaja").GetComponent<PutHaku>();
         quisManager = GameObject.Find("QuizManager");
 
-        string[] value = {haku.r_id.ToString()};
-        haku.data = value;
-        haku.id = 5;
-        
-        //haku.StartCoroutine("GetServeri");
+
+        switch (SceneManager.GetActiveScene().name) 
+        {
+            case "Pelinakyma":
+                Debug.Log("Q");
+                break;
+
+            default:
+                KHaku();
+                break;
+        }
+
     }
 
     public void correct()//kyssarin poisto ja pelin jatkuminen
     {
-        boss.qTausta.SetActive(false);
         
     }
 
@@ -71,13 +77,20 @@ public class QuizManager : MonoBehaviour
         //SetAnswers();
     }
 
+    public void KHaku(){
+
+        string[] value = {haku.r_id.ToString()};
+        haku.data = value;
+        haku.id = 5;
+        //haku.StartCoroutine("GetServeri");
+    }
+
     public void Vaarinnappi()
     {
         switch (SceneManager.GetActiveScene().name) 
         {
             case "Pelinakyma":
-                boss.vaarinCanvas.SetActive(false);
-                quisManager.SetActive(false);
+                vaarinCanvas.SetActive(false);
                 quizCanvas.SetActive(false);
                 Time.timeScale = 1;
                 break;
@@ -94,8 +107,8 @@ public class QuizManager : MonoBehaviour
         switch (SceneManager.GetActiveScene().name) 
         {
             case "Pelinakyma":
-                boss.oikeinCanvas.SetActive(false);
-                quisManager.SetActive(false);
+                oikeinCanvas.SetActive(false);
+                //quisManager.SetActive(false);
                 quizCanvas.SetActive(false);
                 Time.timeScale = 1;
                 break;

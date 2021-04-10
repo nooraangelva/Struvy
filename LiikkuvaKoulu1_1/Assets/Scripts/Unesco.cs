@@ -91,21 +91,18 @@ public class Unesco : MonoBehaviour
                     {
                     case "Aavasaksa":
                         unescoInfo.SetActive(true);
-                        //infoText.text = "Aavasaksa";
                         info = 1;
                         Camera.main.transform.localEulerAngles = new Vector3(0,laAngle,0);
                         Time.timeScale = 0;//pause
                         break;
                     case "Pyhtaa":
                         unescoInfo.SetActive(true);
-                        //infoText.text = "Pyhtää";
                         info = 1;
                         Camera.main.transform.localEulerAngles = new Vector3(0,laAngle,0);
                         Time.timeScale = 0;//pause
                         break;
                     case "Enontekio":
                         unescoInfo.SetActive(true);
-                        //infoText.text = "Enontekio";
                         info = 1;
                         Camera.main.transform.localEulerAngles = new Vector3(0,laAngle,0);
                         Time.timeScale = 0;//pause

@@ -13,6 +13,8 @@ public class AnswerScript : MonoBehaviour
     PutHaku insertti;
     GetHaku haku;
     public Unesco boss;
+    public GameObject oikeinCanvas;
+    public GameObject vaarinCanvas;
 
     string[] value;
 
@@ -21,7 +23,7 @@ public class AnswerScript : MonoBehaviour
     {
         haku = GameObject.Find("Lahettaja").GetComponent<GetHaku>();
         insertti = GameObject.Find("Lahettaja").GetComponent<PutHaku>();
-        quizManager = GameObject.Find("Lahettaja").GetComponent<QuizManager>();
+        quizManager = GameObject.Find("QuizManager").GetComponent<QuizManager>();
     }
 
     public void Answer()//ilmoittaa meniko vastaus oikein vai vaarin
@@ -31,20 +33,18 @@ public class AnswerScript : MonoBehaviour
         {
             Debug.Log("Vastauksesi oli oikein.");
             
-            value = new string[1];
-            value[0] = haku.r_id.ToString();
-            value[1] = "5";
+            string[] value = {haku.r_id.ToString(), "5"};
             insertti.data = value;
             insertti.id = 4;
-            boss.oikeinCanvas.SetActive(true);
+            oikeinCanvas.SetActive(true);
             insertti.StartCoroutine("PutServeri");
-            quizManager.correct();
+            //quizManager.correct();
 
         }
         else
         {
-            quizManager.correct();
-            boss.vaarinCanvas.SetActive(true);
+            //quizManager.correct();
+            vaarinCanvas.SetActive(true);
             Debug.Log("Vastauksesi oli väärin.");
         }
     }
