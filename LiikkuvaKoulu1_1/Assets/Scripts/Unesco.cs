@@ -13,7 +13,7 @@ public class Unesco : MonoBehaviour
 {
     //QuizManager kyssari;
     GetHaku haku;
-    GameObject unescoInfo;
+    public GameObject unescoInfo;
     GameObject unescoPiste;
     public GameObject quizG;
     Text infoText;
@@ -35,7 +35,7 @@ public class Unesco : MonoBehaviour
     void Start() // hakee gameobjectit ja kutsuu videoplayeria
     {
 
-         switch (SceneManager.GetActiveScene().name) 
+        switch (SceneManager.GetActiveScene().name) 
         {
         case "Aavasaksa":
             loAngle = 25;
@@ -53,14 +53,14 @@ public class Unesco : MonoBehaviour
         
         vaarinCanvas = GameObject.Find("Vaarin");
         oikeinCanvas = GameObject.Find("Oikein");
-        unescoInfo = GameObject.Find("UnescoInfo");
+        //unescoInfo = GameObject.Find("UnescoInfo");
         //quizG = GameObject.Find("GuizManager");
         infoText = GameObject.Find("InfoText").GetComponent<Text>();
-        GameObject.Find("UnescoInfo").SetActive(false);
+        unescoInfo.SetActive(false);
         unescoPiste = GameObject.Find("UnescoPiste");
         oikeinCanvas.SetActive(false);
         vaarinCanvas.SetActive(false);
-        qTausta.SetActive(false);
+        //qTausta.SetActive(false);
         info = 0;
         VideoPlayer();   
     }
@@ -83,7 +83,7 @@ public class Unesco : MonoBehaviour
             Camera.main.transform.rotation = Quaternion.Slerp(Camera.main.transform.rotation, target,  Time.deltaTime * smooth);
             //Debug.Log (target + "---"+ Camera.main.transform.rotation);
 
-            if(Quaternion.Euler(Camera.main.transform.localEulerAngles) == target){
+            if(Camera.main.transform.rotation == target){
 
                 if(info == 0){
 
@@ -110,8 +110,10 @@ public class Unesco : MonoBehaviour
                     }
                 }
                 else if(info == 1){
+                    Debug.Log("quiz");
                     qTausta.SetActive(true);
                     quizG.GetComponent<QuizManager>().generateQuestion();
+                    Time.timeScale = 0;
                 }
             }
         }     

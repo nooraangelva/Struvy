@@ -53,7 +53,7 @@ public class KirjauduSisaan : MonoBehaviour
         
     }
 
-       IEnumerator Odotus()
+     /*  IEnumerator Odotus()
     {
         Debug.Log("Started Coroutine at timestamp : " + Time.time);
 
@@ -71,6 +71,6 @@ public class KirjauduSisaan : MonoBehaviour
         {
             info.SetActive(true);
         }
-    }
+    }*/
     
 }

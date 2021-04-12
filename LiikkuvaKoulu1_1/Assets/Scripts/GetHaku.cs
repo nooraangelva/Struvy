@@ -140,11 +140,6 @@ public class GetHaku : MonoBehaviour
                             vastausKysymys = JsonUtility.FromJson<QuestionResponse>(www.downloadHandler.text);
                             break;
 
-                        /*case 3;
-                            saavutukset = GameObject.Find("SaavutusValikko");
-                            //www.downloadHandler.text;
-                            Debug.Log(www.downloadHandler.text);
-                            break; */
                     }
                
                 }

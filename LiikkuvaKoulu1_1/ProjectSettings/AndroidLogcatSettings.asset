@@ -3,8 +3,8 @@
     "m_SelectedPackage": {
         "deviceId": "3df8f07c",
         "name": "com.DefaultCompany.LiikkuvaKoulu1_1",
-        "processId": 17993,
-        "exited": false
+        "processId": 21192,
+        "exited": true
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
@@ -103,6 +103,30 @@
             "name": "com.DefaultCompany.LiikkuvaKoulu1_1",
             "processId": 17993,
             "exited": false
+        },
+        {
+            "deviceId": "3df8f07c",
+            "name": "com.DefaultCompany.LiikkuvaKoulu1_1",
+            "processId": 9973,
+            "exited": false
+        },
+        {
+            "deviceId": "3df8f07c",
+            "name": "com.DefaultCompany.LiikkuvaKoulu1_1",
+            "processId": 11946,
+            "exited": false
+        },
+        {
+            "deviceId": "3df8f07c",
+            "name": "com.DefaultCompany.LiikkuvaKoulu1_1",
+            "processId": 17019,
+            "exited": false
+        },
+        {
+            "deviceId": "3df8f07c",
+            "name": "com.DefaultCompany.LiikkuvaKoulu1_1",
+            "processId": 21192,
+            "exited": true
         }
     ],
     "m_Tags": {

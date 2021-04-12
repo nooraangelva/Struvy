@@ -9,23 +9,25 @@ using UnityEngine.SceneManagement;
 public class LuoTunnus : MonoBehaviour
 {
     PutHaku p_haku;
+    GetHaku haku;
     GameObject info;
     GameObject u_info;
     GameObject u_info2;
 
-    Text u_kt;
-    Text u_ss;
-    Text u_ss2;
+    public Text u_kt;
+    public Text u_ss;
+    public Text u_ss2;
 
     private int response;
 
     
     void Start() //Määrittelee componentit
     {
-        u_kt = GameObject.Find("Kayttajatunnus").GetComponent<Text>();
-        u_ss = GameObject.Find("Salasana").GetComponent<Text>();
-        u_ss2 = GameObject.Find("VarmistaSalasana").GetComponent<Text>();
+        //u_kt = GameObject.Find("Kayttajatunnus").GetComponent<Text>();
+        //u_ss = GameObject.Find("Salasana").GetComponent<Text>();
+        //u_ss2 = GameObject.Find("VarmistaSalasana").GetComponent<Text>();
         p_haku = GameObject.Find("Lahettaja").GetComponent<PutHaku>();
+        haku = GameObject.Find("Lahettaja").GetComponent<GetHaku>();
         info = GameObject.Find("Lahettaja");
         u_info = GameObject.Find("TunnusVirhe");
         u_info2 = GameObject.Find("TunnusVarattu");
@@ -72,9 +74,19 @@ public class LuoTunnus : MonoBehaviour
  
         Debug.Log("Finished Coroutine at timestamp : " + Time.time);
 
-        if(!p_haku.vastaus.Contains(""))
+        Debug.Log(p_haku.vastaus);
+
+        if(p_haku.vastaus.Contains("200"))
         {
             Debug.Log("kirjautumine");
+            string[] value = {u_kt.text.ToString(), u_ss.text.ToString()};
+            haku.data = value;
+            haku.id = 1;
+            haku.siirtyma = "PaavalikkoMenu";
+            
+            haku.StartCoroutine("GetServeri");
+
+            Debug.Log("Tarkistus");
         }
 
         else

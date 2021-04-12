@@ -408,6 +408,7 @@ MonoBehaviour:
   boss: {fileID: 0}
   oikeinCanvas: {fileID: 1326499587}
   vaarinCanvas: {fileID: 1918818813}
+  qPisteet: {fileID: 1032616516}
 --- !u!114 &263455874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -763,6 +764,7 @@ MonoBehaviour:
   boss: {fileID: 1434573732}
   oikeinCanvas: {fileID: 1326499587}
   vaarinCanvas: {fileID: 1918818813}
+  qPisteet: {fileID: 0}
 --- !u!1 &481686585
 GameObject:
   m_ObjectHideFlags: 0
@@ -1648,6 +1650,7 @@ MonoBehaviour:
   boss: {fileID: 0}
   oikeinCanvas: {fileID: 1326499587}
   vaarinCanvas: {fileID: 1918818813}
+  qPisteet: {fileID: 1032616516}
 --- !u!114 &934196744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1820,6 +1823,85 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 934433332}
+  m_CullTransparentMesh: 1
+--- !u!1 &1032616514
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1032616515}
+  - component: {fileID: 1032616517}
+  - component: {fileID: 1032616516}
+  m_Layer: 5
+  m_Name: PisteetText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1032616515
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032616514}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.6, y: 1.6, z: 1.6}
+  m_Children: []
+  m_Father: {fileID: 2052941030}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -500}
+  m_SizeDelta: {x: 600, y: 200}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1032616516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032616514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 50
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 5
+    m_MaxSize: 50
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: New Text
+--- !u!222 &1032616517
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032616514}
   m_CullTransparentMesh: 1
 --- !u!1 &1048540109
 GameObject:
@@ -2360,6 +2442,7 @@ MonoBehaviour:
   boss: {fileID: 0}
   oikeinCanvas: {fileID: 1326499587}
   vaarinCanvas: {fileID: 1918818813}
+  qPisteet: {fileID: 1032616516}
 --- !u!114 &1341988667
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2562,6 +2645,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5c45f13f87aaf14dbd87a90e5a3674a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  unescoInfo: {fileID: 2022132360}
   quizG: {fileID: 1605172391}
   qTausta: {fileID: 1326075588}
   vaarinCanvas: {fileID: 1918818813}
@@ -2860,6 +2944,8 @@ MonoBehaviour:
   - {fileID: 1341988664}
   boss: {fileID: 0}
   quizCanvas: {fileID: 477427817}
+  vaarinCanvas: {fileID: 0}
+  oikeinCanvas: {fileID: 0}
   QuestionTxt: {fileID: 598921957}
 --- !u!4 &1605172393
 Transform:
@@ -2997,6 +3083,7 @@ MonoBehaviour:
   boss: {fileID: 0}
   oikeinCanvas: {fileID: 1326499587}
   vaarinCanvas: {fileID: 1918818813}
+  qPisteet: {fileID: 1032616516}
 --- !u!114 &1793467997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3537,6 +3624,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3edd0f5aa6e9d0e42b8488c5a91284c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  unescoInfo: {fileID: 2022132360}
 --- !u!1 &2052941029
 GameObject:
   m_ObjectHideFlags: 0
@@ -3572,6 +3660,7 @@ RectTransform:
   - {fileID: 1937779229}
   - {fileID: 934433333}
   - {fileID: 747743839}
+  - {fileID: 1032616515}
   m_Father: {fileID: 1326499588}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -15,8 +15,11 @@ public class AnswerScript : MonoBehaviour
     public Unesco boss;
     public GameObject oikeinCanvas;
     public GameObject vaarinCanvas;
+    
+    public Text qPisteet;
 
-    string[] value;
+    string pisteet;
+
 
 
     public void Start()
@@ -32,8 +35,19 @@ public class AnswerScript : MonoBehaviour
         if(isCorrect)
         {
             Debug.Log("Vastauksesi oli oikein.");
-            
-            string[] value = {haku.r_id.ToString(), "5"};
+            switch (SceneManager.GetActiveScene().name) 
+            {
+                case "Pelinakyma":
+                    pisteet = "5";
+                    qPisteet.text = "Sait lisäkilometrejä: "+pisteet+"!!";
+                    break;
+                default:
+                    pisteet = "10";
+                    qPisteet.text = "Sait lisäkilometrejä: "+pisteet+"!!";
+                    break;
+            }
+
+            string[] value = {haku.r_id.ToString(), pisteet};
             insertti.data = value;
             insertti.id = 4;
             oikeinCanvas.SetActive(true);

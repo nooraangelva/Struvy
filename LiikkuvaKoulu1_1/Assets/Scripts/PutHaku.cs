@@ -14,8 +14,9 @@ using UnityEngine.Android;
 
 public class LuokkatietoPut
 {
-    public string[] l_data;
-    public int l_id;
+    public string turvakoodi;
+    public string[] data;
+    public int id;
 }
 
 public class PutHaku : MonoBehaviour
@@ -39,12 +40,14 @@ public class PutHaku : MonoBehaviour
 
             //putin rakennus
             LuokkatietoPut serveri = new LuokkatietoPut();
-            serveri.l_data = data;
-            serveri.l_id = id;
+            serveri.turvakoodi = "Saani_159";
+            serveri.data = data;
+            serveri.id = id;
             string jsonMessage = JsonUtility.ToJson(serveri);
 
+            Debug.Log("http://52.91.146.156/LiikkuvaKoulu_Struvy/Post.php,"+ jsonMessage);
             //putin lähetys
-            using (UnityWebRequest www = UnityWebRequest.Put("http://52.91.146.156/LiikkuvaKoulu_Struvy/Put.php", jsonMessage))
+            using (UnityWebRequest www = UnityWebRequest.Put("http://52.91.146.156/LiikkuvaKoulu_Struvy/Post.php", jsonMessage))
             {
                 www.SetRequestHeader("Accept", "application/json");
                 yield return www.SendWebRequest();
@@ -56,23 +59,22 @@ public class PutHaku : MonoBehaviour
                 }
                 else //Onnistui
                 {
-                    
-                    if(id == 2) //Käyttäjä luotu
-                    {
-                        SceneManager.LoadScene(siirtyma);
-                    }
                     switch (id)
                     {
                         case 2: //tilin luonti
-                            SceneManager.LoadScene(siirtyma);
+                            Debug.Log(www.downloadHandler.text);
+                            vastaus = www.downloadHandler.text;
+                            Debug.Log("Luonti onnistui!");
                             break;
 
                         case 3: // kysymyksen merkkaus kysytyksi
                             Debug.Log(www.downloadHandler.text);
+                            vastaus = www.downloadHandler.text;
                             break;
 
                         case 4: // lisa pisteiden laitto
                             Debug.Log(www.downloadHandler.text);
+                            vastaus = www.downloadHandler.text;
                             break;
                     }
                 }

@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 
 public class UnescoNappi : MonoBehaviour
 {
-    GameObject unescoInfo;
+    public GameObject unescoInfo;
 
     void Start()
     {
@@ -23,7 +23,6 @@ public class UnescoNappi : MonoBehaviour
 
     public void Poistu() //Poistuu infosta
     {
-        unescoInfo = GameObject.Find("UnescoInfo");
         unescoInfo.SetActive(false);
         Debug.Log("poistu");
         Time.timeScale = 1;//unpause

@@ -75,6 +75,7 @@ public class QuizManager : MonoBehaviour
         oikein = System.Array.IndexOf(haku.vastausKysymys.oikein.Split(char.Parse("|")), "1");
         //QuestionTxt.text = haku.vastausKysymys.kysymys;
         //SetAnswers();
+        Debug.Log("generate Questin");
     }
 
     public void KHaku(){
