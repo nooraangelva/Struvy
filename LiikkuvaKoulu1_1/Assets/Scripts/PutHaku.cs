@@ -44,7 +44,7 @@ public class PutHaku : MonoBehaviour
             string jsonMessage = JsonUtility.ToJson(serveri);
 
             //putin lähetys
-            using (UnityWebRequest www = UnityWebRequest.Put("http://100.26.161.252/LiikkuvaKoulu_Struvy/Put.php", jsonMessage))
+            using (UnityWebRequest www = UnityWebRequest.Put("http://52.91.146.156/LiikkuvaKoulu_Struvy/Put.php", jsonMessage))
             {
                 www.SetRequestHeader("Accept", "application/json");
                 yield return www.SendWebRequest();
