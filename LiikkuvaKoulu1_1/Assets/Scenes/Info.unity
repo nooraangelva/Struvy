@@ -723,8 +723,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.3126, y: -53.1187}
-  m_SizeDelta: {x: 652.736, y: 1030.9792}
+  m_AnchoredPosition: {x: -1.3126, y: -3.6124}
+  m_SizeDelta: {x: 687.1808, y: 1225.9272}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1084766459
 MonoBehaviour:
@@ -739,7 +739,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -759,8 +759,45 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Tuote ei tule kaupalliseen k\xE4ytt\xF6\xF6n. Opiskelijoiden projekti
-    opintoja varten.\n\nMaskotti:\nTausta:\nMusiikki:\nButtons:\nFontti:\n\nYhteisty\xF6ss\xE4
+  m_Text: "Laadittu 30.3.2021\r\n\nHenkil\xF6tietolaki (523/1999) 10 \xA7\r\n\r\n1.
+    Toiminnasta vastaava rekisterinpit\xE4j\xE4\r\n\nNimi: EMOVE Oy\r\nKatuosoite:
+    Ylikorvantie 4\r\nPostitoimipaikka: 96300 Rovaniemi\r\n\n2.Yhteyshenkil\xF6 rekisteri\xE4
+    koskevissa asioissa ja rekisterist\xE4 vastaava henkil\xF6\r\n\nNimi: Noora Angelva\r\nPuhelin:
+    xxx yyy zzz\r\nS\xE4hk\xF6posti: nooraangelva@emove.fi\r\n\n3. Rekisterin nimi:
+    EMOVE k\xE4ytt\xF6tiedot\r\n\r\n4. Henkil\xF6tietojen k\xE4sittelyn tarkoitus\r\n\nHenkil\xF6tietoja
+    ja tietokantaa k\xE4ytet\xE4\xE4n Henkil\xF6tietolain (523/99) sallimissa rajoissa
+    ja rekister\xF6idyn\r\nsuostumuksella seuraaviin tarkoituksiin:\r\nEMOVE Oy:n
+    toteuttamat k\xE4ytett\xE4vyys- ja k\xE4ytt\xE4j\xE4tutkimukset ja tuotetestaukset.\r\n\n5.Rekisterin
+    tietosis\xE4lt\xF6\r\n\nRekisteriin talletetaan seuraavia tietoja:\r\nRekister\xF6idyn
+    Koulun nimi, luokka ja luokan oppilaiden m\xE4\xE4r\xE4 ja oppilaiden sijaintitietoja
+    laite kohtaisesti ilman k\xE4ytt\xE4j\xE4n henkil\xF6tietoja, internetin ja tietokoneen
+    k\xE4ytt\xF6mahdollisuus sek\xE4 yhteydenottohistoria.\r\n\n6. S\xE4\xE4nn\xF6nmukaiset
+    tietol\xE4hteet\r\n\nS\xE4\xE4nn\xF6nmukainen tietol\xE4hde on Struvy-sovelluksen
+    rekister\xF6itymissivu, jolle henkil\xF6 t\xE4ytt\xE4\xE4 rekister\xF6innin yhteydess\xE4
+    pyydetyt tiedot ja antaa suostumuksensa. Rekisteriin tallennetaan rekister\xF6idyn
+    ilmoittamat tiedot.\r\n\n7. Tietojen s\xE4\xE4nn\xF6mukaiset luovutukset\r\nRekisterin
+    tietoja ei luovuteta ulkopuolisille.\r\n\n8. Tietojen siirto EU:n ja ETA:n ulkopuolelle\r\nRekisterin
+    tietoja ei luovuteta ulkopuolisille. \r\n\r\nRekisteriseloste Page 2 (2)\r\n30.3.2021\r\nEMOVE
+    Oy Ylikorvantie 4 Tel. +358 (0)8 xxx yyy www.emove.fi Business ID 0209900-2 VAT
+    FI02099112\r\n FI-96300 Rovaniemi Fax +358 (0)8 xxxx yyy firstnamelastname@emove.fi
+    Domicile: Rovaniemi\r\n\r\n9. Rekisterin suojausperiaatteet\r\n\nA. Manuaalinen
+    aineisto\r\nRekisteriin ei sis\xE4lly manuaalista aineistoa.\r\nB. ATK:lla k\xE4sitelt\xE4v\xE4t
+    tiedot\r\nRekisteritiedot ovat salassa pidett\xE4vi\xE4 ja henkil\xF6kunnalla
+    on salassapitovelvollisuus.\r Ty\xF6ntekij\xF6ill\xE4 on k\xE4ytt\xF6oikeudet
+    rekisteritietoihin vain siin\xE4 laajuudessa kuin kunkin\r ty\xF6teht\xE4v\xE4t
+    sit\xE4 edellytt\xE4v\xE4t. Ty\xF6ntekij\xF6ille on annettu henkil\xF6tietojen
+    k\xE4sittely\xE4 koskevat\r ohjeet. Rekister\xF6ity\xE4 koskevat tiedot h\xE4vitet\xE4\xE4n
+    rekist\xF6r\xF6idyn toivoessa t\xE4t\xE4.\r\nRekisteritietojen suojaamisen ja
+    s\xE4ilytystavan kuvaus:\r\nA. Tiedot on suojattu ulkopuolisilta k\xE4ytt\xE4jilt\xE4\r\nB.
+    Tietokoneella olevia tietoja k\xE4ytet\xE4\xE4n k\xE4ytt\xE4j\xE4tunnuksilla
+    ja salasanoilla\r\n\n10. Tarkastusoikeus\r\n\nKullakin rekister\xF6idyll\xE4
+    on oikeus tarkastaa itse\xE4\xE4n koskevat tiedot. Tietojen tarkistamista koskeva
+    pyynt\xF6 on osoitettava seuraavaan osoitteeseen:\r\nEMOVE Oy\r\nNoora Angelva\r\nYlikorvantie
+    4\r\n96300 Rovaniemi \r\nFINLAND\r\nnooraangelva@emove.fi\r\n\r\nTietojen tarkistusta
+    koskevan pyynn\xF6n voi esitt\xE4\xE4 my\xF6s henkil\xF6kohtaisesti yll\xE4 mainitussa
+    osoitteessa.\r\n\nTuote ei tule kaupalliseen k\xE4ytt\xF6\xF6n. Opiskelijoiden
+    projekti opintoja varten.\n\nLisenssoidut aineistot:\nMaskotti: Dos Gatos Studio,
+    TwiggyT\nTausta:\nButtons: kvazi\r, Icons UI\nFontti: Jazz Create Games\r, BubbleFont\nYhteisty\xF6ss\xE4
     MML ja Lapin AMK"
 --- !u!222 &1084766460
 CanvasRenderer:
@@ -805,8 +842,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -138}
-  m_SizeDelta: {x: -79, y: -488.3902}
+  m_AnchoredPosition: {x: 0, y: -98.42175}
+  m_SizeDelta: {x: -79, y: -409.2338}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1233475083
 MonoBehaviour:
@@ -905,7 +942,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 58b647c5b2ec4184e9a07a561cdf0644, type: 3}
-    m_FontSize: 25
+    m_FontSize: 15
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -916,7 +953,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Infot
+  m_Text: "REKISTERISELOSTE\r"
 --- !u!222 &1767964682
 CanvasRenderer:
   m_ObjectHideFlags: 0
