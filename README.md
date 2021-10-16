@@ -4,6 +4,8 @@ It is an application designed to develop schoolchildren’s teamwork skills, tea
 
 [Youtube video of the project](https://youtu.be/Yyq7dKXV3mk)
 
+![image](https://user-images.githubusercontent.com/78410623/137589932-a733de9f-384a-4127-8b9f-b0ba0260cc22.png)
+
 
 Used script languages:
 C
